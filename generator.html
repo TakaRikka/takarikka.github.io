@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=480px, initial-scale=1.0">
+      <link rel="stylesheet" href="css/generator.css">
+
+      <script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+
+      <title>TP Cheatfile Generator</title>
+   </head>
+
+<body onload="updateChangelog()">
+
+<div id="header">
+<div id="header2">
+</div>
+<div id="header3">
+</div>
+</div>
+
+<!--<div class="nav">
+   <div class="toggle-item" style="border-top-right-radius:10px;border-bottom-right-radius:10px;"> <span class="span_toggle-item">»</span> </div>
+   <a href="tracker.html"><div class="item" style="border-top-right-radius:10px;"> <span class="span_item"> TP 100% Tracker </span> </div></a>
+   <a href="generator.html"><div class="item"> <span class="span_item"> TP GCT Generator </span> </div></a>
+   <a href="calculator.html"><div class="item" style="border-bottom-right-radius:10px;"> <span class="span_item"> Time Calculator </span> </div></a>
+</div>-->
+
+
+
+<div id="Frame">
+<h2> Twilight Princess Cheatfile Generator </h2>
+
+   <div id="options">
+      <select id="gameversion" class="optSel" onchange="updateCodelist()" autocomplete="off" style="visibility:hidden">
+         <option selected disabled>Choose Version</option>
+         <option value="GZ2E01">NTSC-U</option>
+         <option value="GZ2P01">PAL</option>
+      </select>
+
+      <select id="downloadformat" class="optSel">
+         <option selected value="gct">GCT</option>
+         <option value="ini">Dolphin INI</option>
+         <option value="gcm">Cheat Manager TXT</option>
+      </select>
+
+      <button onclick="downloadCodes()" class="optSel" id="downloadbutton">Download</button>
+   </div>
+   
+
+
+            <div id="codes" class="framed initialhidden">
+               <ul id="checklist"></ul>
+            </div>
+
+
+
+<div id="info-frame">
+<div id="infobox">
+   <p style="margin-top:0"><i id="lastupdate"></i></p>
+   <p>A GCT / TXT cheat generator for Twilight Princess.<br/> Choose the Version and file type you want, then select which codes to be included. </p>
+   <br />
+</div>
+</div>
+
+      </div>
+            <script language="javascript" src="js/gctGenerator.js"></script>
+            <script language="javascript" src="js/nav.js"></script>
+   </body>
+</html>

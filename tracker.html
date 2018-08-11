@@ -1,0 +1,155 @@
+<!doctype html>
+<head>
+
+<title> 100% Counter </title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/tracker.css">
+<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/counter.js"></script>
+<style> html{ overflow-x:hidden;
+} </style>
+</head>
+<body oncontextmenu="return false;">
+<div id="wrap"> </div>
+
+<div id="header">
+<div id="header2">
+</div>
+<div id="header3">
+</div>
+</div>
+
+
+<!-- UI -->
+<div id="ScreenFrame">
+<div id="Frame">
+
+<div id="LogoBox">
+	<img style="margin:25% 0 25% 0" src="images/Logo2.png"/>
+</div>
+
+<div id="UpperItems">
+<br>
+
+	<div class="ItemBox" id="OrdonSword">
+		<img class="item_icon" id="OSwordIcon" style="width:32px; margin-left:15px;" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+	<div class="ItemBox" id="MasterSword">
+		<img class="item_icon" id="MSwordIcon" style="width:32px; margin-left:15px;" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+<div class="HeartPieces">
+	<img style="float:right; margin-right:25px;" id="HPIcon" src="images/HeartPiece.png"/>
+		<p class="CounterText" id="HPText"> <span id="HPCounter">0</span>/42 </p> 
+</div>
+
+<br><br><br><br>
+
+	<div class="ItemBox" id="OrdonShield">
+		<img class="item_icon" id="OShieldIcon" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+	<div class="ItemBox" id="HylianShield">
+		<img class="item_icon" id="HShieldIcon" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+<br><br><br><br>
+
+	<div class="ItemBox" id="HeroTunic">
+		<img class="item_icon" id="HTunicIcon" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+	<div class="ItemBox" id="ZoraArmor">
+		<img class="item_icon" id="ZArmorIcon" style="width:42px; margin-left:10px;" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+	<div class="ItemBox" id="MagicArmor">
+		<img class="item_icon" id="MArmorIcon" style="width:41px; margin-left:10px;" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+<br><br><br><br><br><br><br>
+
+	<div class="ItemBox" id="HorseCall">
+		<img class="item_icon" id="HCIcon" style="width:30px; margin-left:15px;" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+	<div class="ItemBox" id="Hawkeye">
+		<img class="item_icon" id="HawkeyeIcon" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+	<div class="ItemBox" id="Earring">
+		<img class="item_icon" id="EarringIcon" style="width:39px; margin-left:12px;" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+	<div class="ItemBox" id="Skybook">
+		<img class="item_icon" id="BookIcon" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+
+</div>
+
+<div id="LowerItems">
+	<div class="ItemBox" id="Wallet">
+		<img class="item_icon" id="WalletIcon" src="images/Wallet.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+	<div class="ItemBox" id="Quiver">
+		<img class="item_icon" id="QuiverIcon" src="images/Quiver.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+	<div class="ItemBox" id="GoldenBugs">
+		<p class="CounterText"> <span id="BugCounter">0</span>/24 </p> 
+		<img class="item_icon" src="images/Bug.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+	<div class="ItemBox" id="Skills">
+		<p class="CounterText"> <span id="SkillCounter">0</span>/7 </p> 
+		<img class="item_icon" src="images/HiddenSkill.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+	<div class="ItemBox" id="Scent">
+		<img class="item_icon" id="ScentIcon" src="images/Blank.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+	<div class="ItemBox" id="PoeSouls">
+		<p class="CounterText"> <span id="soulsCounter">0</span>/60 </p> 
+		<img class="item_icon" src="images/PoeSoul.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+	<div class="ItemBox" id="Bottles">
+		<p class="CounterText"> <span id="BottleCounter">0</span>/4 </p> 
+		<img class="item_icon" style="width:35px; margin-left:12px;" src="images/Bottle.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+
+	<div class="ItemBox" id="BombBags">
+		<p class="CounterText"> <span id="BagCounter">0</span>/3 </p> 
+		<img class="item_icon" style="width:40px; margin-left:9px;" src="images/BombBag.png"/>
+		<img class="itembg" src="images/ItemBox.png"/>
+	</div>
+</div>
+
+<div id="TextBox">
+<p class="HoverText">  </p>
+<p class="HoverSubText">  </p>
+</div>
+
+</div>
+</div>
+</body>
+<script src="js/nav.js"></script>
+</html>
