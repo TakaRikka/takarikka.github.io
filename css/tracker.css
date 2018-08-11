@@ -1,0 +1,184 @@
+/* 100% Counter CSS */
+
+body{
+	background-image:url("Images/bg33.jpg");
+	background-color:#1D1D1D;
+	background-size:100% 100%;
+	background-attachment:fixed;
+}
+
+#Rikka{
+	height:100vh;
+    z-index: -20;
+    float:right;
+}
+
+#wrap{
+background-color:rgba(0,0,0,0.4);
+width:100%;
+height:100%;
+position:fixed; z-index:0;
+margin-left:-7px;
+}
+
+#Frame{
+	height:80vh;
+	width:750px;
+	position: absolute;
+}
+
+#ScreenFrame{
+	height:80vh;
+	width:90vw;
+	margin: 100px 0 0 0;
+	position: absolute;
+}
+
+.ItemCounter{
+	border: 2px solid blue; 
+	height:100px;
+}
+
+.cButton{
+	height:35px;
+	width:25px;
+	background-color: #333;
+	border: none;
+    text-align: center;
+    color:white;
+    margin-top: 30%;
+}
+
+.buttoncontainer{
+/*	border: 2px dashed green; */
+	height:100px;
+	width:80px;
+    display: inline-block;
+    float:left;
+
+}
+
+.ItemIcon{
+/*	border: 2px dashed orange; */
+	width:50px;
+	height:100px;
+    display: inline-block;
+    float:left;
+}
+
+.tempCount{
+	color: white;
+	font-family: segoe ui;
+	font-weight: 20;
+	font-size: 25px;
+	display: inline-block;
+}
+
+.NmCount{
+	border: 2px dashed yellow;
+	width: 100px;
+	height:40px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 100px;
+	float:left;
+}
+
+#LogoBox{
+/*	border: 2px dashed yellow; */
+	margin-left:50px;
+	width: 340px;
+	height:440px;
+	display: inline-block;
+	float:left;
+}
+
+#LowerItems{
+/*	border: 2px dashed blue; */
+	width: 340px;
+	height:125px;
+	display: inline-block;
+	margin-left:50px;
+	float:left;
+}
+
+#UpperItems{
+/*	border: 2px dashed green; */
+	width: 340px;
+	height:440px;
+	display: inline-block;
+	float:left;
+}
+
+.ItemBox{
+	margin-top:2px;
+	width:60px;
+	height:60px;
+    display: inline-block;
+    float:left;
+    margin-left: 20px;
+}
+
+.itembg{
+	width:60px;
+	height:60px;
+}
+
+.item_icon{
+	width:50px;
+	height:50px;
+	margin-left: 5px;
+	margin-top:5px;
+	position: absolute;
+	z-index: 10;
+}
+
+.CounterText{
+	color:white;
+	z-index: 20;
+	position: absolute;
+	text-align: right;
+	font-size: 23px;
+	width: 60px;
+	margin-top:36px;
+    text-shadow: 1px 1px #000;
+}
+
+.HeartPieces{
+	position: absolute;
+	width: 340px;
+}
+
+#HPText{
+	float:right;
+	text-align: right;
+	margin: 110px 0 0 -67px;
+	width:340px;
+	z-index: 8;
+}
+
+#TextBox{
+/*	border: 2px dashed cyan; */
+	width: 340px;
+	height:125px;
+	display: inline-block;
+	float:left;
+}
+
+.HoverText{
+	color:white;
+	font-size: 23px;
+    text-shadow: 1px 1px #000;	
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: segoe ui;
+}
+
+.HoverSubText{
+	color:white;
+	font-size: 18px;
+    text-shadow: 1px 1px #000;	
+    margin-left: 20px;
+    margin-top: -8px;
+    font-family: segoe ui;
+}
