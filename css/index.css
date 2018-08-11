@@ -1,0 +1,133 @@
+/* directory */
+
+body{
+	background-color:#1D1D1D;
+}
+
+
+
+#header{
+position:fixed;
+width:390px;
+height:70px;
+z-index:5000;
+background-color:rgba(175,102,52,1);
+margin-left:-41px;
+top:0px;
+transform: skewX(-45deg);
+}
+
+#header2{
+background-color:rgba(73,69,86,1);
+height:37px;
+width:390px;
+position:absolute;
+z-index:5001;
+margin-left: -80px;
+}
+
+#header3{
+background-color:rgba(73,69,86,1);
+height:17px;
+width:390vw;
+position:absolute;
+z-index:5002;
+margin-left: -7px;
+margin-top:0px;
+}
+
+#sideimg{
+	height:100vh;
+    z-index: -20;
+    float:right;
+}
+/* */
+
+
+a {
+	text-decoration: none;
+}
+
+h1{
+font-family:Segoe UI ; font-weight:400; text-align:left; color:#fff; font-size:35px;
+font-style: italic;
+text-shadow: 0px 0px 10px white;
+z-index:6000;
+
+}
+
+.nav{
+background-color:rgba(255,255,255,0);
+position:absolute;
+width:275px;
+margin-left: -8px;
+margin-top: 10vh;
+z-index:2000;
+}
+
+#wrapper{
+background-color:rgba(0,0,0,0.3);
+width:100%;
+height:100%;
+position:fixed; z-index:-10;
+margin-left:-7px;
+}
+
+.item{
+background:linear-gradient(to right, rgba(73,69,76,1) , rgba(102,64,44,1));;
+height:40px;
+width:100%;
+margin-top:3.5px;
+border-bottom:#333 solid 2px;
+transition:width 0.2s;
+}
+
+.item_sel{
+background-color:rgba(255,255,255,0.3);
+height:50px;
+width:110%;
+margin-top:2px;
+border-bottom:#333 solid 2px;
+}
+
+.item:hover{
+width:115%;
+}
+
+.toggle-item{
+background:linear-gradient(to right, rgba(73,69,76,1) , rgba(102,64,44,1));;
+height:40px;
+width:20%;
+margin-top:3.5px;
+border-bottom:#333 solid 2px;
+transition:width 0.2s;
+cursor:pointer;
+}
+.span_toggle-item{
+font-family:segoe ui; font-weight:200; color:#fff; font-size:26px;
+
+padding-left:25px;
+letter-spacing: 0px;
+position:relative;
+  transform: translateY(-50%);
+  transition: padding-left 0.2s;
+}
+
+.item:hover>.span_item{
+padding-left:97px;
+}
+.span_item{
+font-family:segoe ui; font-weight:200; color:#fff; font-size:26px;
+
+padding-left:50px;
+letter-spacing: 0px;
+position:relative;
+  top: 7%;
+  transform: translateY(-50%);
+  transition: padding-left 0.2s;
+}
+
+#profile{
+position: absolute;
+top:85px;
+}
