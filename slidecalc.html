@@ -1,0 +1,71 @@
+<!doctype html>
+<head>
+
+<title> Slide Speed Calculator </title>
+<link rel="stylesheet" type="text/css" href="speedcalc.css">
+<script language="javascript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="speedcalc.js"></script>
+<style> html{ overflow-x:hidden;} 
+</style>
+</head>
+
+
+<body>
+
+<div id="header">
+<div id="header2">
+</div>
+<div id="header3">
+</div>
+</div>
+
+
+<!-- UI -->
+<!--<div id="ScreenFrame">-->
+<div id="Frame">
+<h2> Low% Slide Speed Calculator </h2>
+
+
+
+<form name="clock">
+
+
+<div id="timeinput">                                  <!-- INPUT -->
+<div id="headertext"> <span>Position 1</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>Position 2</span> <span>Wait Duration</span> </div>
+<input class="inpField" type="text" name="position1" size="10" placeholder="Position 1">
+<input class="inpField" type="text" name="position2" size="10" placeholder="Position 2">
+<input class="inpField" type="text" name="waitDuration" size="10" placeholder="Wait Duration">
+</div>
+
+
+
+
+<div id="Options">
+  <input class="opButton" type="button" onClick="addValues();" value="Subtract">&nbsp;&nbsp;
+  <input class="opButton" type="button" onClick="clearEntryFields();" value="Clear Entry Fields"><br/><br/>
+
+  <input class="opButton" type="button" onClick="resetValues();" value="Clear All Fields">
+</div>
+
+
+
+<div id="Result">
+  <div id="headertext"> <span>Base Speed</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>Speed Per Minute</span> <span>Speed Per Hour</span> </div>
+  <input class="resultValue" type="text" name="baseSpeed" size="15" maxlength="15" value="" readonly>
+  <input class="resultValue" type="text" name="speedPerMinute" size="15" maxlength="15" value="" readonly>
+  <input class="resultValue" type="text" name="speedPerHour" size="15" maxlength="15" value="" readonly>
+
+</div>
+
+
+</form>
+
+
+
+</div>
+<!--</div>-->
+
+</body> 
+
+</html>
+
