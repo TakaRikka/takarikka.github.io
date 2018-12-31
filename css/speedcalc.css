@@ -1,0 +1,120 @@
+body{
+	background-color:#1D1D1D;
+	background-size:100% 100%;
+}
+
+#header{
+position:fixed;
+width:390px;
+height:70px;
+z-index:0;
+background-color:rgba(175,102,52,1);
+margin-left:-41px;
+top:0px;
+transform: skewX(-45deg);
+}
+
+#header2{
+background-color:rgba(73,69,86,1);
+height:37px;
+width:390px;
+position:absolute;
+z-index:5001;
+margin-left: -80px;
+}
+
+#header3{
+background-color:rgba(73,69,86,1);
+height:17px;
+width:390vw;
+position:absolute;
+z-index:5002;
+margin-left: -7px;
+margin-top:0px;
+}
+/* */
+
+#Frame{
+	height:80vh;
+	width:750px;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+
+#ScreenFrame{
+	height:80vh;
+	width:90vw;
+	margin: 100px 0 0 0;
+	position: absolute;
+	border: 2px dashed red; 
+}
+
+#timeinput{
+/*border: 2px dashed yellow; */
+text-align: center;
+padding:20px 0 30px 0;
+}
+
+.inpField{
+font-size:16px;
+}
+
+#Options{
+/*border: 2px dashed blue;*/ 
+text-align: center;
+padding:0 0 80px 0;
+}
+
+#Result{
+/*border: 2px dashed orange; */
+text-align: center;
+}
+
+#Result>#headertext>span{
+	padding-left: 38px;
+	margin-right: 20px;
+}
+
+.resultValue{
+font-size:18px;
+}
+
+span{
+	color: white;
+	font-family:segoe ui;
+}
+
+input { 
+    text-align: center; 
+}
+
+.opButton{
+width:130px;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	font-size:42px;
+	font-family:segoe ui light;
+}
+
+.titlepad{
+	padding-left: 30px;
+	padding-right: 20px;
+	text-align: center;
+}
+
+#headertext{
+	width:100%;
+	margin-bottom: 3px;
+}
+
+#headertext>span{
+
+	padding-left: 25px;
+	margin-right: 10px;
+
+}
