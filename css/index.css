@@ -36,11 +36,12 @@ margin-left: -7px;
 margin-top:0px;
 }
 
-#sideimg{
+/*#sideimg{
 	height:100vh;
     z-index: -20;
     float:right;
-}
+    opacity: 0.3;
+}*/
 /* */
 
 
@@ -130,4 +131,44 @@ position:relative;
 #profile{
 position: absolute;
 top:85px;
+}
+
+table{
+  font-size:1.2em;
+  color:white;
+  table-layout: fixed;
+  white-space: normal;
+  line-height: normal;
+  font-style: normal;
+  text-align: start;
+  font-variant: normal;
+}
+
+table.center{
+  width:70%;
+  margin: 15% 15% 15% 23%;
+  position: absolute;
+}
+
+td{
+  display: table-cell;
+  padding: 0 10px 0 10px;
+}
+
+td img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td>a>span{
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  font-size:1.1em;
+  color:white;
+  font-family: arial;
+}
+
+.p_box{
+  display: block;
 }
