@@ -97,10 +97,12 @@ var ary_CharacterData = [
    [0, "Ferry",         "",        [1,0,0,0,0,0,0,0,0,0], "Ferry.png"],
    [0, "Fif",           "",        [1,0,0,0,0,0,0,0,0,0], "Fif.png"],
    [0, "Forte",         "",        [1,0,0,0,0,0,0,0,0,0], "Forte.png"],
+   [0, "Fraux",         "",        [1,0,0,0,0,0,0,0,0,0], "Fraux_NPC.png"],
    [0, "Freesia",       "",        [1,0,0,0,0,0,0,0,0,0], "Freesia.png"],
    [0, "Gayne",         "",        [1,0,0,0,0,0,0,0,0,0], "Gayne.png"],
    [0, "Goblin Mage",   "",        [1,0,0,0,0,0,0,0,0,0], "GoblinMage.png"],
    [0, "Grea",          "",        [1,0,0,0,0,0,0,0,0,0], "Grea.png"],
+   [0, "Haaselia",      "",        [1,0,0,0,0,0,0,0,0,0], "Haaselia.png"],
    [0, "Hallessena",    "",        [1,0,0,0,0,0,0,0,0,0], "Hallessena.png"],
    [0, "Heles",         "",        [1,0,0,0,0,0,0,0,0,0], "Heles.png"],
    [0, "Herja",         "",        [1,0,0,0,0,0,0,0,0,0], "Herja.png"],
@@ -132,6 +134,7 @@ var ary_CharacterData = [
    [0, "Lyria",         "",        [1,0,0,0,0,0,0,0,0,0], "Lyria.png"],
    [0, "Magisa",        "",        [1,0,0,0,0,0,0,0,0,0], "Magisa.png"],
    [0, "Mahira",        "",        [1,0,0,0,0,0,0,0,0,0], "Mahira.png"],
+   [0, "Maria",         "",        [1,0,0,0,0,0,0,0,0,0], "Maria.png"],
    [0, "Mariah",        "",        [1,0,0,0,0,0,0,0,0,0], "Mariah.png"],
    [0, "Mary",          "",        [1,0,0,0,0,0,0,0,0,0], "Mary.png"],
    [0, "Medusa",        "",        [1,0,0,0,0,0,0,0,0,0], "Medusa.png"],
@@ -147,6 +150,7 @@ var ary_CharacterData = [
    [0, "Mona",          "",        [1,0,0,0,0,0,0,0,0,0], "Mona_NPC.png"],
    [0, "Monika",        "",        [1,0,0,0,0,0,0,0,0,0], "Monika.png"],
    [0, "Narumeia",      "",        [1,0,0,0,0,0,0,0,0,0], "Narumeia.png"],
+   [0, "Nier",          "",        [1,0,0,0,0,0,0,0,0,0], "Nier.png"],
    [0, "Nemone",        "",        [1,0,0,0,0,0,0,0,0,0], "Nemone.png"],
    [0, "Nene",          "",        [1,0,0,0,0,0,0,0,0,0], "Nene.png"],
    [0, "Nina Drango",   "",        [1,0,0,0,0,0,0,0,0,0], "NinaDrango.png"],
@@ -209,7 +213,6 @@ var ary_CharacterData = [
    [0, "Diola",         "",        [0,0,0,0,1,0,0,0,0,0], "Diola_NPC.png"], //NPC
    [0, "Echinda",       "",        [0,0,0,0,1,0,0,0,0,0], "Echidna_NPC.png"], //NPC
    [0, "Fenrir",        "",        [0,0,0,0,1,0,0,0,0,0], "Fenrir_NPC.png"], //NPC
-   [0, "Fraux",         "",        [0,0,0,0,1,0,0,0,0,0], "Fraux_NPC.png"], //NPC
    [0, "Gabriel",       "",        [0,0,0,0,1,0,0,0,0,0], "Gabriel_NPC.png"], //NPC
    [0, "Hanna",         "",        [0,0,0,0,1,0,0,0,0,0], "Hanna_NPC.png"], //NPC
    [0, "Harie",         "",        [0,0,0,0,1,0,0,0,0,0], "Harie_NPC.png"], //NPC
@@ -236,10 +239,10 @@ var ary_CharacterData = [
    [0, "Halluel & Malluel","",     [0,0,0,0,0,0,1,0,0,0], "HalluelMalluel_SMN.png"], //SMN
    [0, "Kaguya",        "",        [0,0,0,0,0,0,1,0,0,0], "Kaguya_SMN.png"], //SMN
    [0, "Luminiera",     "",        [0,0,0,0,0,0,1,0,0,0], "Lumi_SMN.png"], //SMN
-   [0, "Macula Marius", "",        [0,0,0,0,0,0,1,0,0,0], "Macula_SMN.png"], //SMN
+   [0, "Macula Marius", "",        [1,0,0,0,0,0,1,0,0,0], "Macula.png"], //SMN
    [0, "Mammon",        "",        [0,0,0,0,0,0,1,0,0,0], "Mammon_SMN.png"], //SMN
    [0, "Manawydan",     "",        [0,0,0,0,0,0,1,0,0,0], "Manawydan_SMN.png"], //SMN
-   [0, "Morrigna",      "",        [0,0,0,0,0,0,1,0,0,0], "Morrigna_SMN.png"], //SMN
+   [0, "Morrigna",      "",        [1,0,0,0,0,0,1,0,0,0], "Morrigna.png"], //SMN
    [0, "Nacht",         "",        [0,0,0,0,0,0,1,0,0,0], "Nacht_SMN.png"], //SMN
    [0, "Nephthys",      "",        [0,0,0,0,0,0,1,0,0,0], "Nephthys_SMN.png"], //SMN
    [0, "Neptune",       "",        [0,0,0,0,0,0,1,0,0,0], "Neptune_SMN.png"], //SMN
@@ -261,6 +264,7 @@ var ary_CharacterData = [
 
    [0, "Agielba",       "",        [0,1,0,0,0,0,0,0,0,0], "Agielba.png"],
    [0, "Aglovale",      "",        [0,1,0,0,0,0,0,0,0,0], "Aglovale.png"], 
+   [0, "Alanaan",       "",        [0,1,0,0,0,0,0,0,0,0], "Alanaan.png"],
    [0, "Albert",        "",        [0,1,0,0,0,0,0,0,0,0], "Albert.png"],
    [0, "Alec",          "",        [0,1,0,0,0,0,0,0,0,0], "Alec.png"],
    [0, "Aletheia",      "",        [0,1,0,0,0,0,0,0,0,0], "Aletheia.png"],
@@ -275,6 +279,7 @@ var ary_CharacterData = [
    [0, "Baotorda",      "",        [0,1,0,0,0,0,0,0,0,0], "Baotorda.png"],
    [0, "Barawa",        "",        [0,1,0,0,0,0,0,0,0,0], "Barawa.png"],
    [0, "Cain",          "",        [0,1,0,0,0,0,0,0,0,0], "Cain.png"],
+   [0, "Caim",          "",        [0,1,0,0,0,0,0,0,0,0], "Caim.png"],
    [0, "Ceylan",        "",        [0,1,0,0,0,0,0,0,0,0], "Ceylan.png"],
    [0, "Charioce XVII", "",        [0,1,0,0,0,0,0,0,0,0], "Charioce.png"], 
    [0, "Chat Noir",     "",        [0,1,0,0,0,0,0,0,0,0], "ChatNoir.png"],
@@ -285,6 +290,7 @@ var ary_CharacterData = [
    [0, "Elmott",        "",        [0,1,0,0,0,0,0,0,0,0], "Elmott.png"],
    [0, "Elta",          "",        [0,1,0,0,0,0,0,0,0,0], "Elta.png"],
    [0, "Eso",           "",        [0,1,0,0,0,0,0,0,0,0], "Eso.png"],
+   [0, "Estarriola",    "",        [0,1,0,0,0,0,0,0,0,0], "Estarriola.png"],
    [0, "Eugen",         "",        [0,1,0,0,0,0,0,0,0,0], "Eugen.png"],
    [0, "Eustace",       "",        [0,1,0,0,0,0,0,0,0,0], "Eustace.png"],
    [0, "Ezecrain",      "",        [0,1,0,0,0,0,0,0,0,0], "Ezecrain.png"],
@@ -294,6 +300,7 @@ var ary_CharacterData = [
    [0, "Galadar",       "",        [0,1,0,0,0,0,0,0,0,0], "Galadar.png"],
    [0, "Garma",         "",        [0,1,0,0,0,0,0,0,0,0], "Garma.png"],
    [0, "Gawain",        "",        [0,1,0,0,0,0,0,0,0,0], "Gawain.png"],
+   [0, "Geisenborger",  "",        [0,1,0,0,0,0,0,0,0,0], "Geisenborger.png"],
    [0, "Ghandagoza",    "",        [0,1,0,0,0,0,0,0,0,0], "Ghandagoza.png"],
    [0, "Haohmaru",      "",        [0,1,0,0,0,0,0,0,0,0], "Haohmaru.png"],
    [0, "Hazen",         "",        [0,1,0,0,0,0,0,0,0,0], "Hazen.png"],
@@ -305,9 +312,11 @@ var ary_CharacterData = [
    [0, "Joel",          "",        [0,1,0,0,0,0,0,0,0,0], "Joel.png"],
    [0, "Johann",        "",        [0,1,0,0,0,0,0,0,0,0], "Johann.png"],
    [0, "Juri",          "",        [0,1,0,0,0,0,0,0,0,0], "Juri.png"],
+   [0, "Katzelia",      "",        [0,1,0,0,0,0,0,0,0,0], "Katzelia.png"],
    [0, "Keehar",        "",        [0,1,0,0,0,0,0,0,0,0], "Keehar.png"],
    [0, "Krugne",        "",        [0,1,0,0,0,0,0,0,0,0], "Krugne.png"],
    [0, "Lancelot",      "",        [0,1,0,0,0,0,0,0,0,0], "Lancelot.png"],
+   [0, "Lobelia",       "",        [0,1,0,0,0,0,0,0,0,0], "Lobelia.png"],
    [0, "Lowain",        "",        [0,1,0,0,0,0,0,0,0,0], "Lowain.png"],
    [0, "Lucio",         "",        [0,1,0,0,0,0,0,0,0,0], "Lucio.png"],
    [0, "Lucius",        "",        [0,1,0,0,0,0,0,0,0,0], "Lucius.png"],
@@ -382,6 +391,7 @@ var ary_CharacterData = [
    [0, "Gemini Sunrise","",        [0,0,1,0,0,0,0,0,0,0], "GeminiSunrise.png"],
    [0, "Kanako Mimura", "",        [0,0,1,0,0,0,0,0,0,0], "KanakoMimura.png"],
    [0, "Karin",         "",        [0,0,1,0,0,0,0,0,0,0], "Karin.png"],
+   [0, "Karyl",         "",        [0,0,1,0,0,0,0,0,0,0], "Karyl.png"],
    [0, "Koume Shirasaka","",       [0,0,1,0,0,0,0,0,0,0], "KoumeShirasaka.png"],
    [0, "Lina Inverse",  "",        [0,0,1,0,0,0,0,0,0,0], "LinaInverse.png"],
    [0, "Mika Jougasaki","",        [0,0,1,0,0,0,0,0,0,0], "MikaJougasaki.png"],
