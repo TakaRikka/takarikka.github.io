@@ -1,0 +1,2845 @@
+{
+    "watchList": [
+        {
+            "address": "80000000",
+            "baseIndex": 0,
+            "label": "Start",
+            "length": 8,
+            "typeIndex": 5,
+            "unsigned": true
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803DC410",
+                    "baseIndex": 0,
+                    "label": "Time of Day",
+                    "typeIndex": 1,
+                    "unsigned": true
+                },
+                {
+                    "address": "803DD31A",
+                    "baseIndex": 1,
+                    "label": "Controller Inputs",
+                    "typeIndex": 1,
+                    "unsigned": true
+                },
+                {
+                    "address": "80A19889",
+                    "baseIndex": 0,
+                    "label": "Meteor Rendering",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804510E3",
+                    "baseIndex": 0,
+                    "label": "Low Value cuts off Links scream",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80378F5F",
+                    "baseIndex": 0,
+                    "label": "Major Readable Code in Mem",
+                    "length": 50,
+                    "typeIndex": 5,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Misc"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8040AFC0",
+                            "baseIndex": 0,
+                            "label": "Current Stage Name",
+                            "length": 8,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040AFCE",
+                            "baseIndex": 0,
+                            "label": "Next Stage Name",
+                            "length": 8,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Stage"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8040B36B",
+                            "baseIndex": 0,
+                            "label": "Last Loaded Room ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8042D3E0",
+                            "baseIndex": 0,
+                            "label": "Current Room ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040AFD8",
+                            "baseIndex": 0,
+                            "label": "Next Room ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Room"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803A66B3",
+                            "baseIndex": 0,
+                            "label": "Current State ID",
+                            "length": 8,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040AFD9",
+                            "baseIndex": 1,
+                            "label": "Next State ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "State"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80406F79",
+                            "baseIndex": 1,
+                            "label": "Next Spawn Point ID (Fade FX List)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040AFC9",
+                            "baseIndex": 1,
+                            "label": "Current Spawn Point ID (Spawn List)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040AFD7",
+                            "baseIndex": 1,
+                            "label": "Next Spawn Point ID (Preload)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Spawn Point"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80450CAF",
+                                    "baseIndex": 0,
+                                    "label": "Loading Enabled",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80A2ADD0",
+                                    "baseIndex": 0,
+                                    "label": "Start of Loading",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80450CE0",
+                                    "baseIndex": 0,
+                                    "label": "Is Loading1",
+                                    "typeIndex": 2,
+                                    "unsigned": true
+                                }
+                            ],
+                            "groupName": "Loading Status"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "804509D0",
+                                    "baseIndex": 0,
+                                    "label": "Force Void (with 228)",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80406F74",
+                                    "baseIndex": 0,
+                                    "label": "Respawn Room ID",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80406F7C",
+                                    "baseIndex": 0,
+                                    "label": "Respawn X Position",
+                                    "typeIndex": 3,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80406F80",
+                                    "baseIndex": 0,
+                                    "label": "Respawn Y Position",
+                                    "typeIndex": 3,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80406F84",
+                                    "baseIndex": 0,
+                                    "label": "Respawn Z Position",
+                                    "typeIndex": 3,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80406F7A",
+                                    "baseIndex": 0,
+                                    "label": "Respawn Angle",
+                                    "typeIndex": 1,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80406F93",
+                                    "baseIndex": 0,
+                                    "label": "Respawn Animation",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80406F91",
+                                    "baseIndex": 0,
+                                    "label": "Voided as Wolf",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80406F90",
+                                    "baseIndex": 0,
+                                    "label": "Last Item before Void",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                }
+                            ],
+                            "groupName": "Void"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "803A3A38",
+                                    "baseIndex": 1,
+                                    "label": "Title Screen Pointer",
+                                    "typeIndex": 2,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80450C78",
+                                    "baseIndex": 1,
+                                    "label": "Reset Flag Pointer",
+                                    "typeIndex": 2,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80379043",
+                                    "baseIndex": 0,
+                                    "label": "Title Screen Stage",
+                                    "length": 8,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80457BE0",
+                                    "baseIndex": 0,
+                                    "label": "Trigger Reset",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80457BE3",
+                                    "baseIndex": 0,
+                                    "label": "Reset Started",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80451501",
+                                    "baseIndex": 0,
+                                    "label": "Reset in Progress",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "803DC464",
+                                    "baseIndex": 0,
+                                    "label": "Reset Loading1 (Important for Sound)",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80450BB9",
+                                    "baseIndex": 0,
+                                    "label": "Reset Loading2 (Important for Sound)",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "803A3A38",
+                                    "baseIndex": 0,
+                                    "label": "Trigger on next Load (11=N; 12=TS; 13=FS)",
+                                    "pointerOffsets": [
+                                        "59"
+                                    ],
+                                    "typeIndex": 0,
+                                    "unsigned": false
+                                }
+                            ],
+                            "groupName": "Reset"
+                        },
+                        {
+                            "address": "8040AFDC",
+                            "baseIndex": 0,
+                            "label": "Trigger Loading",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040AFD6",
+                            "baseIndex": 0,
+                            "label": "Is Void/Warp",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406F88",
+                            "baseIndex": 0,
+                            "label": "Event/Cutscene to Play",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040B0A1",
+                            "baseIndex": 1,
+                            "label": "Next Event ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040B173",
+                            "baseIndex": 1,
+                            "label": "Current Event ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040B09C",
+                            "baseIndex": 0,
+                            "label": "Immediate Control/CS Start",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040B347",
+                            "baseIndex": 0,
+                            "label": "Lock Camera in Place",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8060C7C7",
+                            "baseIndex": 0,
+                            "label": "Is Rendering",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804505D6",
+                            "baseIndex": 0,
+                            "label": "Rendering Level",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80450CBD",
+                            "baseIndex": 0,
+                            "label": "Hide All Actors",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80450614",
+                            "baseIndex": 0,
+                            "label": "Freeze All Actors",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Loading, Void and Reset"
+                }
+            ],
+            "groupName": "Map Info"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804061C0",
+                            "baseIndex": 0,
+                            "label": "Start of File (Scratchpad)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B17",
+                            "baseIndex": 0,
+                            "label": "End of Scratchpad",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B18",
+                            "baseIndex": 0,
+                            "label": "Start of Temp Flags",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B37",
+                            "baseIndex": 0,
+                            "label": "End of Temp Flags",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B38",
+                            "baseIndex": 0,
+                            "label": "Start of Game RAM",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406C53",
+                            "baseIndex": 0,
+                            "label": "Intended End of File",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Range"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804069BA",
+                            "baseIndex": 0,
+                            "label": "Meteor Warp Enabled",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804069B8",
+                            "baseIndex": 0,
+                            "label": "Domain Melted",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406447",
+                            "baseIndex": 0,
+                            "label": "ZD Warp Midna CS",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804064A7",
+                            "baseIndex": 0,
+                            "label": "SG Warp",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Overworld"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804061EB",
+                            "baseIndex": 0,
+                            "label": "Save1",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804061EC",
+                            "baseIndex": 0,
+                            "label": "Save2",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804061ED",
+                            "baseIndex": 0,
+                            "label": "Save3",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804061EE",
+                            "baseIndex": 0,
+                            "label": "Save4",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804061EF",
+                            "baseIndex": 0,
+                            "label": "Save5",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040636C",
+                            "baseIndex": 0,
+                            "label": "Save6",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040636D",
+                            "baseIndex": 0,
+                            "label": "Save7",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040636E",
+                            "baseIndex": 0,
+                            "label": "Save8",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040636F",
+                            "baseIndex": 0,
+                            "label": "Save9",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040636B",
+                            "baseIndex": 0,
+                            "label": "Save10",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Changes every time on Save"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80406374",
+                            "baseIndex": 0,
+                            "label": "Name",
+                            "length": 8,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406232",
+                            "baseIndex": 0,
+                            "label": "Previous Stage",
+                            "length": 8,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406218",
+                            "baseIndex": 0,
+                            "label": "Current Stage",
+                            "length": 8,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406221",
+                            "baseIndex": 0,
+                            "label": "Room ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406220",
+                            "baseIndex": 1,
+                            "label": "Spawn Point ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Link"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80406385",
+                            "baseIndex": 0,
+                            "label": "Name",
+                            "length": 8,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040620E",
+                            "baseIndex": 0,
+                            "label": "Current Stage",
+                            "length": 8,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406217",
+                            "baseIndex": 0,
+                            "label": "Room ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406204",
+                            "baseIndex": 0,
+                            "label": "Y Position",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406200",
+                            "baseIndex": 0,
+                            "label": "X Position",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406208",
+                            "baseIndex": 0,
+                            "label": "Z Position",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040620C",
+                            "baseIndex": 0,
+                            "label": "Angle",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406216",
+                            "baseIndex": 1,
+                            "label": "(Unused Spawn Point ID Perhaps)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Epona"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8040624E",
+                            "baseIndex": 0,
+                            "label": "Stage",
+                            "length": 8,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406257",
+                            "baseIndex": 0,
+                            "label": "Room ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406240",
+                            "baseIndex": 0,
+                            "label": "X Position",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406244",
+                            "baseIndex": 0,
+                            "label": "Y Position",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406248",
+                            "baseIndex": 0,
+                            "label": "Z Position",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040624C",
+                            "baseIndex": 0,
+                            "label": "Angle",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Ooccoo"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "8040665C",
+                                    "baseIndex": 0,
+                                    "label": "Rooms Cleared",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                }
+                            ],
+                            "groupName": "ToT"
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80406682",
+                                    "baseIndex": 0,
+                                    "label": "City Events (e.g. Small Key chest opened)",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80406673",
+                                    "baseIndex": 0,
+                                    "label": "Chests Opened (Water Bomb ; Small Key)",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80406678",
+                                    "baseIndex": 0,
+                                    "label": "Agorok Bridge CS",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "8040667D",
+                                    "baseIndex": 0,
+                                    "label": "Second Bridge Activated CS",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80406430",
+                                    "baseIndex": 0,
+                                    "label": "(N/A)",
+                                    "typeIndex": 0,
+                                    "unsigned": true
+                                }
+                            ],
+                            "groupName": "City"
+                        }
+                    ],
+                    "groupName": "Dungeons"
+                }
+            ],
+            "groupName": "Savefile Info"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 1,
+                            "label": "Link Pointer",
+                            "typeIndex": 2,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 0,
+                            "label": "L - X Position",
+                            "pointerOffsets": [
+                                "0"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 0,
+                            "label": "L - Y Position",
+                            "pointerOffsets": [
+                                "4"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 0,
+                            "label": "L - Z Position",
+                            "pointerOffsets": [
+                                "8"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 0,
+                            "label": "L - Angle",
+                            "pointerOffsets": [
+                                "16"
+                            ],
+                            "typeIndex": 1,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 0,
+                            "label": "L - Speed",
+                            "pointerOffsets": [
+                                "5C"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 0,
+                            "label": "L - Last Position Y (Fall)",
+                            "pointerOffsets": [
+                                "2EF4"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 0,
+                            "label": "L - Last Ground Position Y (Void)",
+                            "pointerOffsets": [
+                                "2EF8"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 0,
+                            "label": "L - Over Void",
+                            "pointerOffsets": [
+                                "1592"
+                            ],
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 0,
+                            "label": "L - Status",
+                            "pointerOffsets": [
+                                "A2"
+                            ],
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 0,
+                            "label": "L - Sand Height Loss",
+                            "pointerOffsets": [
+                                "26D8"
+                            ],
+                            "typeIndex": 3,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8040C077",
+                            "baseIndex": 0,
+                            "label": "Air Timer Depleted",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "803DCE54",
+                            "baseIndex": 0,
+                            "label": "Air Timer Value",
+                            "pointerOffsets": [
+                                "2AEE"
+                            ],
+                            "typeIndex": 0,
+                            "unsigned": false
+                        },
+                        {
+                            "address": "8040BFA2",
+                            "baseIndex": 0,
+                            "label": "Air Meter",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Dynamic Stats"
+                },
+                {
+                    "address": "804061C3",
+                    "baseIndex": 0,
+                    "label": "Health",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804061D4",
+                    "baseIndex": 0,
+                    "label": "Sword (40,41,63,255)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804061D5",
+                    "baseIndex": 0,
+                    "label": "Shield (42,43,44,255)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804061D3",
+                    "baseIndex": 0,
+                    "label": "Clothing (46,47,48,49)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804069BC",
+                    "baseIndex": 0,
+                    "label": "Midna on Z",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804069F3",
+                    "baseIndex": 0,
+                    "label": "Have Sense",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804069BD",
+                    "baseIndex": 0,
+                    "label": "Transform/Warp",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804061DE",
+                    "baseIndex": 0,
+                    "label": "Form",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Link"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804069CE",
+                    "baseIndex": 0,
+                    "label": "Midna State (8)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804069B5",
+                    "baseIndex": 0,
+                    "label": "Midna Charge",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804061F0",
+                    "baseIndex": 0,
+                    "label": "Midna on Back (8)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Midna"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804061C4",
+                    "baseIndex": 0,
+                    "label": "Rupees",
+                    "typeIndex": 1,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040BFE4",
+                    "baseIndex": 0,
+                    "label": "A Button",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804061D4",
+                    "baseIndex": 0,
+                    "label": "B Button",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804061CB",
+                    "baseIndex": 0,
+                    "label": "X Button",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804061CC",
+                    "baseIndex": 0,
+                    "label": "Y Button",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804069BC",
+                    "baseIndex": 0,
+                    "label": "Z Button",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80BB5891",
+                    "baseIndex": 0,
+                    "label": "Door Prompt",
+                    "length": 20,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "80BB7B01",
+                    "baseIndex": 0,
+                    "label": "Midna Text 1",
+                    "length": 20,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "80BB7B1B",
+                    "baseIndex": 0,
+                    "label": "Midna Text 2",
+                    "length": 20,
+                    "typeIndex": 5,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "HUD"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804064FE",
+                            "baseIndex": 0,
+                            "label": "Mirror Chamber (1)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804064F9",
+                            "baseIndex": 0,
+                            "label": "Gerudo Mesa (32)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804064B9",
+                            "baseIndex": 0,
+                            "label": "Snowpeak Top (32)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804064A7",
+                            "baseIndex": 0,
+                            "label": "Sacred Grove (16)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406487",
+                            "baseIndex": 0,
+                            "label": "Bridge of Eldin (8)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040647B",
+                            "baseIndex": 0,
+                            "label": "Castle Town (8)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406479",
+                            "baseIndex": 0,
+                            "label": "Kakariko Gorge (32)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040643B",
+                            "baseIndex": 0,
+                            "label": "Zora's Domain (4)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040643A",
+                            "baseIndex": 0,
+                            "label": "Lake Hylia (4)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406439",
+                            "baseIndex": 0,
+                            "label": "Upper Zora's River (32)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406419",
+                            "baseIndex": 0,
+                            "label": "Death Mountain (32)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406418",
+                            "baseIndex": 0,
+                            "label": "Kakariko Village (128)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406403",
+                            "baseIndex": 0,
+                            "label": "South Faron Woods (128)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804063FB",
+                            "baseIndex": 0,
+                            "label": "North Faron Woods (4)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804063BD",
+                            "baseIndex": 0,
+                            "label": "Ordon Spring (16)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Warps"
+                },
+                {
+                    "address": "804069B6",
+                    "baseIndex": 0,
+                    "label": "Map Warping (4,32)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040623D",
+                    "baseIndex": 0,
+                    "label": "Map Region Unlocked",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Minimap"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80406296",
+                            "baseIndex": 0,
+                            "label": "Light Sword",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406292",
+                            "baseIndex": 0,
+                            "label": "Swords/Shields/Hero's Clothes",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406291",
+                            "baseIndex": 0,
+                            "label": "Zora Armor/Magic Armor",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406290",
+                            "baseIndex": 0,
+                            "label": "Wooden Sword (128)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Equipment"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80406351",
+                            "baseIndex": 0,
+                            "label": "Greengill - Largest",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406350",
+                            "baseIndex": 0,
+                            "label": "Reekfish - Largest",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040634F",
+                            "baseIndex": 0,
+                            "label": "Ordon Catfish - Largest",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040634E",
+                            "baseIndex": 0,
+                            "label": "Hylian Pike - Largest",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040634D",
+                            "baseIndex": 0,
+                            "label": "Hylian Loach - Largest",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040634C",
+                            "baseIndex": 0,
+                            "label": "Hyrule Bass - Largest",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406336",
+                            "baseIndex": 0,
+                            "label": "Greengill - No. Caught",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406334",
+                            "baseIndex": 0,
+                            "label": "Reekfish - No. Caught",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406332",
+                            "baseIndex": 0,
+                            "label": "Ordon Catfish - No. Caught",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406330",
+                            "baseIndex": 0,
+                            "label": "Hylian Pike - No. Caught",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040632E",
+                            "baseIndex": 0,
+                            "label": "Hylian Loach - No. Caught",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8040632C",
+                            "baseIndex": 0,
+                            "label": "Hyrule Bass - No. Caught",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Fishing Journal"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804069E4",
+                            "baseIndex": 0,
+                            "label": "Bugs Turn In 4",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804069E3",
+                            "baseIndex": 0,
+                            "label": "Bugs Turn In 3",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804069E2",
+                            "baseIndex": 0,
+                            "label": "Bugs Turn In 2",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804069E1",
+                            "baseIndex": 0,
+                            "label": "Bugs Turn In 1",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804062A7",
+                            "baseIndex": 0,
+                            "label": "Beetle/Butterfly/Stag/Grasshopper",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804062A6",
+                            "baseIndex": 0,
+                            "label": "Phasmid/Pill Bug/Mantis/Ladybug",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804062A5",
+                            "baseIndex": 0,
+                            "label": "Snail/Dragonfly/Ant/Dayfly",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Golden Bugs"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804062DE",
+                            "baseIndex": 0,
+                            "label": "Letters",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Letters"
+                },
+                {
+                    "address": "804069D9",
+                    "baseIndex": 1,
+                    "label": "Hidden Skills",
+                    "typeIndex": 1,
+                    "unsigned": true
+                },
+                {
+                    "address": "804062CC",
+                    "baseIndex": 0,
+                    "label": "Poe Count",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804061D9",
+                    "baseIndex": 0,
+                    "label": "Wallet Size",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804061D6",
+                    "baseIndex": 0,
+                    "label": "Scent (176,178,179,180,181,255)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Pause Menu"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "8040625C",
+                    "baseIndex": 0,
+                    "label": "Gale Boomerang",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040625D",
+                    "baseIndex": 0,
+                    "label": "Lantern",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040625E",
+                    "baseIndex": 0,
+                    "label": "Spinner",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040625F",
+                    "baseIndex": 0,
+                    "label": "Iron Boots",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406260",
+                    "baseIndex": 0,
+                    "label": "Hero's Bow",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406261",
+                    "baseIndex": 0,
+                    "label": "Hawkeye",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406262",
+                    "baseIndex": 0,
+                    "label": "Ball and Chain",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406263",
+                    "baseIndex": 0,
+                    "label": "Item Slot",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406264",
+                    "baseIndex": 0,
+                    "label": "Dominion Rod",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406265",
+                    "baseIndex": 0,
+                    "label": "Clawshot",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406266",
+                    "baseIndex": 0,
+                    "label": "Double Clawshot",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406267",
+                    "baseIndex": 0,
+                    "label": "Bottle #1",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406268",
+                    "baseIndex": 0,
+                    "label": "Bottle #2",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406269",
+                    "baseIndex": 0,
+                    "label": "Bottle #3",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040626A",
+                    "baseIndex": 0,
+                    "label": "Bottle #4",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040626B",
+                    "baseIndex": 0,
+                    "label": "Bomb Bag #1",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040626C",
+                    "baseIndex": 0,
+                    "label": "Bomb Bag #2",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040626D",
+                    "baseIndex": 0,
+                    "label": "Bomb Bag #3",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040626E",
+                    "baseIndex": 0,
+                    "label": "Ooccoo",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040626F",
+                    "baseIndex": 0,
+                    "label": "Auru's Memo/Ashei's Sketch",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406270",
+                    "baseIndex": 0,
+                    "label": "Fishing Rod (Earring)",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406271",
+                    "baseIndex": 0,
+                    "label": "Horse Call",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406272",
+                    "baseIndex": 0,
+                    "label": "Ancient Sky Book",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406273",
+                    "baseIndex": 0,
+                    "label": "Slingshot",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406263",
+                    "baseIndex": 0,
+                    "label": "Unused??",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406274",
+                    "baseIndex": 0,
+                    "label": "Item Slot 1",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406275",
+                    "baseIndex": 0,
+                    "label": "Item Slot 2",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406276",
+                    "baseIndex": 0,
+                    "label": "Item Slot 3",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406277",
+                    "baseIndex": 0,
+                    "label": "Item Slot 4",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406278",
+                    "baseIndex": 0,
+                    "label": "Item Slot 5",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406279",
+                    "baseIndex": 0,
+                    "label": "Item Slot 6",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040627A",
+                    "baseIndex": 0,
+                    "label": "Item Slot 7",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040627B",
+                    "baseIndex": 0,
+                    "label": "Item Slot 8",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040627C",
+                    "baseIndex": 0,
+                    "label": "Item Slot 9",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040627D",
+                    "baseIndex": 0,
+                    "label": "Item Slot 10",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040627E",
+                    "baseIndex": 0,
+                    "label": "Item Slot 11",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040627F",
+                    "baseIndex": 0,
+                    "label": "Item Slot 12",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406280",
+                    "baseIndex": 0,
+                    "label": "Item Slot 13",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406281",
+                    "baseIndex": 0,
+                    "label": "Item Slot 14",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406282",
+                    "baseIndex": 0,
+                    "label": "Item Slot 15",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406283",
+                    "baseIndex": 0,
+                    "label": "Item Slot 16",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406284",
+                    "baseIndex": 0,
+                    "label": "Item Slot 17",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406285",
+                    "baseIndex": 0,
+                    "label": "Item Slot 18",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406286",
+                    "baseIndex": 0,
+                    "label": "Item Slot 19",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406287",
+                    "baseIndex": 0,
+                    "label": "Item Slot 20",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406288",
+                    "baseIndex": 0,
+                    "label": "Item Slot 21",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406289",
+                    "baseIndex": 0,
+                    "label": "Item Slot 22",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040628A",
+                    "baseIndex": 0,
+                    "label": "Item Slot 23",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040628B",
+                    "baseIndex": 0,
+                    "label": "Item Slot 24",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Item Wheel"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "804061C8",
+                    "baseIndex": 0,
+                    "label": "Lantern Oil",
+                    "typeIndex": 1,
+                    "unsigned": true
+                },
+                {
+                    "address": "804062B4",
+                    "baseIndex": 0,
+                    "label": "Slingshot Ammo",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804062AC",
+                    "baseIndex": 0,
+                    "label": "Bow Ammo",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804062AD",
+                    "baseIndex": 0,
+                    "label": "Bomb Bag 1 Ammo",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804062AE",
+                    "baseIndex": 0,
+                    "label": "Bomb Bag 2 Ammo",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "804062AF",
+                    "baseIndex": 0,
+                    "label": "Bomb Bag 3 Ammo",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Item Ammo"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "809EE0AD",
+                    "baseIndex": 0,
+                    "label": "Skull Kid Timer",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Timers"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803DC3FD",
+                    "baseIndex": 0,
+                    "label": "Key Region",
+                    "typeIndex": 0,
+                    "unsigned": true
+                },
+                {
+                    "address": "80406B34",
+                    "baseIndex": 0,
+                    "label": "Local Area Keys",
+                    "typeIndex": 0,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Keys"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80450C98",
+                            "baseIndex": 0,
+                            "label": "Boss Flag",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80450C9C",
+                            "baseIndex": 0,
+                            "label": "Mad Fishing Lady Flag",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Persistent Flags"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80406B2C",
+                            "baseIndex": 0,
+                            "label": "Ook Flag",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804069C4",
+                            "baseIndex": 0,
+                            "label": "Goron Flag",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804069F5",
+                            "baseIndex": 0,
+                            "label": "Wolf Flag",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B7B",
+                            "baseIndex": 0,
+                            "label": "Lost Woods Doors",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804069D5",
+                            "baseIndex": 0,
+                            "label": "Dominion Rod State (128)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "General"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "804069B5",
+                            "baseIndex": 0,
+                            "label": "Epona Stolen",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804069B6",
+                            "baseIndex": 0,
+                            "label": "Epona Tamed",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "804069C5",
+                            "baseIndex": 0,
+                            "label": "Epona Visible Flag",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Epona"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80406B29",
+                            "baseIndex": 0,
+                            "label": "Stallord Gate Temp",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406621",
+                            "baseIndex": 0,
+                            "label": "Stallord Gate Save",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Arbiters"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80406B24",
+                            "baseIndex": 0,
+                            "label": "Rooms Cleared",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B97",
+                            "baseIndex": 0,
+                            "label": "BK Room Armos",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80A24EA4",
+                            "baseIndex": 0,
+                            "label": "ToT BK Door Lock",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Temple of Time"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80406B2A",
+                            "baseIndex": 0,
+                            "label": "City Events (e.g. Small Key chest opened)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B1B",
+                            "baseIndex": 0,
+                            "label": "Small Key chest opened (Physically)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B1B",
+                            "baseIndex": 0,
+                            "label": "Water Bomb Chest",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B20",
+                            "baseIndex": 0,
+                            "label": "Agorok Bridge CS",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B41",
+                            "baseIndex": 0,
+                            "label": "Agorok Door CS Trigger",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "City in the Sky"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80406B3C",
+                            "baseIndex": 0,
+                            "label": "CoO Door 27-34",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B3D",
+                            "baseIndex": 0,
+                            "label": "CoO Door 18-26",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B3E",
+                            "baseIndex": 0,
+                            "label": "CoO Door 9-17",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80406B3F",
+                            "baseIndex": 0,
+                            "label": "CoO Door 1-8",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Cave of Ordeals"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8040B190",
+                            "baseIndex": 0,
+                            "label": "Was cs skipped",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80450BE6",
+                            "baseIndex": 0,
+                            "label": "Fadeout started after cs skip",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "CS Skipping"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8040B16D",
+                            "baseIndex": 0,
+                            "label": "Event Flag",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Storage"
+                }
+            ],
+            "groupName": "Flags"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 1,
+                    "label": "Zelda Pointer",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Attack X Pos",
+                    "pointerOffsets": [
+                        "4E0"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Attack Y Pos",
+                    "pointerOffsets": [
+                        "4E4"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Attack Z Pos",
+                    "pointerOffsets": [
+                        "4E8"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Health",
+                    "pointerOffsets": [
+                        "48B"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Ball Cycle Delay",
+                    "pointerOffsets": [
+                        "133B"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Timer",
+                    "pointerOffsets": [
+                        "5D4"
+                    ],
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Status",
+                    "pointerOffsets": [
+                        "5BF"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Animation",
+                    "pointerOffsets": [
+                        "5C1"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Fight Length",
+                    "pointerOffsets": [
+                        "5BC"
+                    ],
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Cycle Counter",
+                    "pointerOffsets": [
+                        "1343"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Ball Position",
+                    "pointerOffsets": [
+                        "1041"
+                    ],
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Ball Status",
+                    "pointerOffsets": [
+                        "60C"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Ball in Game",
+                    "pointerOffsets": [
+                        "1323"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F24B8",
+                    "baseIndex": 0,
+                    "label": "Zelda Amount of Balls Thrown",
+                    "pointerOffsets": [
+                        "1338"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Zelda"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "8040B094",
+                    "baseIndex": 1,
+                    "label": "Bo Pointer",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8040B094",
+                    "baseIndex": 0,
+                    "label": "Bo Attack",
+                    "pointerOffsets": [
+                        "E77"
+                    ],
+                    "typeIndex": 0,
+                    "unsigned": false
+                }
+            ],
+            "groupName": "Bo"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803F4D24",
+                    "baseIndex": 1,
+                    "label": "Spinner Pointer",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "803F4D24",
+                    "baseIndex": 0,
+                    "label": "Spinner Speed",
+                    "pointerOffsets": [
+                        "4F8"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F4D24",
+                    "baseIndex": 0,
+                    "label": "Spinner Y Velocity",
+                    "pointerOffsets": [
+                        "4C8"
+                    ],
+                    "typeIndex": 3,
+                    "unsigned": false
+                },
+                {
+                    "address": "803F4D24",
+                    "baseIndex": 0,
+                    "label": "Spinner Rotation",
+                    "pointerOffsets": [
+                        "4B0"
+                    ],
+                    "typeIndex": 1,
+                    "unsigned": false
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "809D9CC0",
+                            "baseIndex": 0,
+                            "label": "X Pos",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "809D9CC4",
+                            "baseIndex": 0,
+                            "label": "Y Pos",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "809D9CC8",
+                            "baseIndex": 0,
+                            "label": "Z Pos",
+                            "typeIndex": 3,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "809D9CCC",
+                            "baseIndex": 0,
+                            "label": "Angle",
+                            "typeIndex": 1,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "809D98A3",
+                            "baseIndex": 0,
+                            "label": "Eject when speed reaches 0",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80A1DF49",
+                            "baseIndex": 0,
+                            "label": "Spinner In Movement",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Savestate Specific"
+                }
+            ],
+            "groupName": "Spinner"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "803A599C",
+                    "baseIndex": 0,
+                    "label": "Loading Zone",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A58F4",
+                    "baseIndex": 0,
+                    "label": "SwAreaS (Flag Trigger)",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A4DA8",
+                    "baseIndex": 0,
+                    "label": "Bublin",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A5744",
+                    "baseIndex": 0,
+                    "label": "Epona",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A4F88",
+                    "baseIndex": 0,
+                    "label": "DK_tag",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A58DC",
+                    "baseIndex": 0,
+                    "label": "Occlusion",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A5AB0",
+                    "baseIndex": 0,
+                    "label": "Cam Area",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A5ABC",
+                    "baseIndex": 0,
+                    "label": "Cam Area 2",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A5CF0",
+                    "baseIndex": 0,
+                    "label": "Torch",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A3D7C",
+                    "baseIndex": 0,
+                    "label": "Rocks & Big Area Meshes (Rivers etc)",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A4214",
+                    "baseIndex": 0,
+                    "label": "AND_SW2",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A4718",
+                    "baseIndex": 0,
+                    "label": "Zora",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                },
+                {
+                    "address": "803A500C",
+                    "baseIndex": 0,
+                    "label": "Save Location",
+                    "length": 8,
+                    "typeIndex": 5,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "Script Actors Identifier Table"
+        },
+        {
+            "groupEntries": [
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8121BB9C",
+                            "baseIndex": 1,
+                            "label": "Event ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121BB9F",
+                            "baseIndex": 1,
+                            "label": "Event Parameter (Normal Exit)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121BBA0",
+                            "baseIndex": 1,
+                            "label": "Event Parameter (Is Skippable)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121BBA1",
+                            "baseIndex": 1,
+                            "label": "Event Parameter (Skipped Exit)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121BBA5",
+                            "baseIndex": 0,
+                            "label": "Event Identifier",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121E2D0",
+                            "baseIndex": 0,
+                            "label": "Event List Identifier (Resolved)",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121F4E4",
+                            "baseIndex": 0,
+                            "label": "Event List Sequence File",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121EC20",
+                            "baseIndex": 0,
+                            "label": "Event List Play Function",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Domain CS Inside 1"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8120E931",
+                            "baseIndex": 0,
+                            "label": "Event Identifier",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "81213C00",
+                            "baseIndex": 0,
+                            "label": "Event List Identifier (Resolved)",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "81215350",
+                            "baseIndex": 0,
+                            "label": "Event List Sequence File",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "81214700",
+                            "baseIndex": 0,
+                            "label": "Event List Play Function",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Domain CS Outside"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "8121BBB8",
+                            "baseIndex": 1,
+                            "label": "Event ID",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121BBBB",
+                            "baseIndex": 1,
+                            "label": "Event Parameter (Normal Exit)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121BBBC",
+                            "baseIndex": 1,
+                            "label": "Event Parameter (Is Skippable)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121BBBD",
+                            "baseIndex": 1,
+                            "label": "Event Parameter (Skipped Exit)",
+                            "typeIndex": 0,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121BBC1",
+                            "baseIndex": 0,
+                            "label": "Event Identifier",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121E380",
+                            "baseIndex": 0,
+                            "label": "Event List Identifier (Resolved)",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121F4F4",
+                            "baseIndex": 0,
+                            "label": "Event List Sequence File",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "8121EDB0",
+                            "baseIndex": 0,
+                            "label": "Event List Play Function",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        }
+                    ],
+                    "groupName": "Domain CS Inside 2"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80CF0D05",
+                            "baseIndex": 0,
+                            "label": "Archive Start (demo_34.arc)",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80CF10C6",
+                            "baseIndex": 0,
+                            "label": "File Identifier (Inside CS)",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80CF10D1",
+                            "baseIndex": 0,
+                            "label": "File Identifier (Outside CS)",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80CF10DF",
+                            "baseIndex": 0,
+                            "label": "File Identifier (Inside CS 2)",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80D7F9A4",
+                                    "baseIndex": 0,
+                                    "label": "Meteor",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D7F6C8",
+                                    "baseIndex": 0,
+                                    "label": "Link",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D7F6F0",
+                                    "baseIndex": 0,
+                                    "label": "Midna",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D7F618",
+                                    "baseIndex": 0,
+                                    "label": "Cutscene Layer",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D7F5D4",
+                                    "baseIndex": 0,
+                                    "label": "Cutscene Layer",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D7F558",
+                                    "baseIndex": 0,
+                                    "label": "Cutscene Layer",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D7F4AC",
+                                    "baseIndex": 0,
+                                    "label": "Cutscene Layer",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                }
+                            ],
+                            "groupName": "Directly Added by CS"
+                        }
+                    ],
+                    "groupName": "CS Objects (either here)"
+                },
+                {
+                    "groupEntries": [
+                        {
+                            "address": "80CE0A45",
+                            "baseIndex": 0,
+                            "label": "Archive Start (demo_34.arc)",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80CE0E06",
+                            "baseIndex": 0,
+                            "label": "File Identifier (Inside CS)",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80CE0E11",
+                            "baseIndex": 0,
+                            "label": "File Identifier (Outside CS)",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "address": "80CE0E1F",
+                            "baseIndex": 0,
+                            "label": "File Identifier (Inside CS 2)",
+                            "length": 40,
+                            "typeIndex": 5,
+                            "unsigned": true
+                        },
+                        {
+                            "groupEntries": [
+                                {
+                                    "address": "80D6F6E4",
+                                    "baseIndex": 0,
+                                    "label": "Meteor",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D6F408",
+                                    "baseIndex": 0,
+                                    "label": "Link",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D6F430",
+                                    "baseIndex": 0,
+                                    "label": "Midna",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D6F1EC",
+                                    "baseIndex": 0,
+                                    "label": "Cutscene Layer",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D6F298",
+                                    "baseIndex": 0,
+                                    "label": "Cutscene Layer",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D6F314",
+                                    "baseIndex": 0,
+                                    "label": "Cutscene Layer",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                },
+                                {
+                                    "address": "80D6F358",
+                                    "baseIndex": 0,
+                                    "label": "Cutscene Layer",
+                                    "length": 40,
+                                    "typeIndex": 5,
+                                    "unsigned": true
+                                }
+                            ],
+                            "groupName": "Directly Added by CS"
+                        }
+                    ],
+                    "groupName": "CS Objects (or here)"
+                }
+            ],
+            "groupName": "Zoras Domain Meteor CS"
+        },
+        {
+            "groupEntries": [
+                {
+                    "address": "80451168",
+                    "baseIndex": 0,
+                    "label": "RNG1",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "8045116C",
+                    "baseIndex": 0,
+                    "label": "RNG2",
+                    "typeIndex": 2,
+                    "unsigned": true
+                },
+                {
+                    "address": "80451170",
+                    "baseIndex": 0,
+                    "label": "RNG3",
+                    "typeIndex": 2,
+                    "unsigned": true
+                }
+            ],
+            "groupName": "RNG"
+        }
+    ]
+}
