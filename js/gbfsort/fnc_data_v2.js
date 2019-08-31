@@ -120,6 +120,7 @@ var ary_CharacterData = [
    [0, "Korwa",         "",        [1,0,0,0,0,0,0,0,0,0], "Korwa.png"],
    [0, "Kuvira",        "",        [1,0,0,0,0,0,0,0,0,0], "Kuvira.png"],
    [0, "LaCoiffe",      "",        [1,0,0,0,0,0,0,0,0,0], "LaCoiffe.png"],
+   [0, "Ladiva",        "",        [1,0,0,0,0,0,0,0,0,0], "Ladiva.png"],
    [0, "Lady Grey",     "",        [1,0,0,0,0,0,0,0,0,0], "LadyGrey.png"],
    [0, "Laguna",        "",        [1,0,0,0,0,0,0,0,0,0], "Laguna.png"],
    [0, "Lamretta",      "",        [1,0,0,0,0,0,0,0,0,0], "Lamretta.png"],
