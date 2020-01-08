@@ -105,6 +105,7 @@ var ary_CharacterData = [
    [0, "Grea",          "",        [1,0,0,0,0,0,0,0,0,0], "Grea.png"],
    [0, "Haaselia",      "",        [1,0,0,0,0,0,0,0,0,0], "Haaselia.png"],
    [0, "Hallessena",    "",        [1,0,0,0,0,0,0,0,0,0], "Hallessena.png"],
+   [0, "Helel ben Shalem","",      [1,0,0,0,0,0,0,0,0,0], "Shalem.png"],
    [0, "Heles",         "",        [1,0,0,0,0,0,0,0,0,0], "Heles.png"],
    [0, "Herja",         "",        [1,0,0,0,0,0,0,0,0,0], "Herja.png"],
    [0, "Ilsa",          "",        [1,0,0,0,0,0,0,0,0,0], "Ilsa.png"],
@@ -120,7 +121,6 @@ var ary_CharacterData = [
    [0, "Korwa",         "",        [1,0,0,0,0,0,0,0,0,0], "Korwa.png"],
    [0, "Kuvira",        "",        [1,0,0,0,0,0,0,0,0,0], "Kuvira.png"],
    [0, "LaCoiffe",      "",        [1,0,0,0,0,0,0,0,0,0], "LaCoiffe.png"],
-   [0, "Ladiva",        "",        [1,0,0,0,0,0,0,0,0,0], "Ladiva.png"],
    [0, "Lady Grey",     "",        [1,0,0,0,0,0,0,0,0,0], "LadyGrey.png"],
    [0, "Laguna",        "",        [1,0,0,0,0,0,0,0,0,0], "Laguna.png"],
    [0, "Lamretta",      "",        [1,0,0,0,0,0,0,0,0,0], "Lamretta.png"],
@@ -178,6 +178,7 @@ var ary_CharacterData = [
    [0, "Scathacha",     "",        [1,0,0,0,0,0,0,0,0,0], "Scathacha.png"],
    [0, "Selfira",       "",        [1,0,0,0,0,0,0,0,0,0], "Selfira.png"],
    [0, "Sen",           "",        [1,0,0,0,0,0,0,0,0,0], "Sen.png"],
+   [0, "Shitori",       "",        [1,0,0,0,0,0,0,0,0,0], "Shitori_NPC.png"],
    [0, "Sig",           "",        [1,0,0,0,0,0,0,0,0,0], "Sig.png"],
    [0, "Silva",         "",        [1,0,0,0,0,0,0,0,0,0], "Silva.png"],
    [0, "Societte",      "",        [1,0,0,0,0,0,0,0,0,0], "Societte.png"],
@@ -195,10 +196,12 @@ var ary_CharacterData = [
    [0, "Tweyen",        "",        [1,0,0,0,0,0,0,0,0,0], "Tweyen.png"],
    [0, "Vajra",         "",        [1,0,0,0,0,0,0,0,0,0], "Vajra.png"],
    [0, "Vania",         "",        [1,0,0,0,0,0,0,0,0,0], "Vania.png"],
+   [0, "Vikala",        "",        [1,0,0,0,0,0,0,0,0,0], "Vikala.png"],
    [0, "Vira",          "",        [1,0,0,0,0,0,0,0,0,0], "Vira.png"],
    [0, "Volenna",       "",        [1,0,0,0,0,0,0,0,0,0], "Volenna.png"],
    [0, "Yaia",          "",        [1,0,0,0,0,0,0,0,0,0], "Yaia.png"],
    [0, "Yggdrasil",     "",        [1,0,0,0,0,0,1,0,0,0], "Yggdrasil.png"],
+   [0, "You",           "",        [1,0,0,0,0,0,0,0,0,0], "You.png"],
    [0, "Yuel",          "",        [1,0,0,0,0,0,0,0,0,0], "Yuel.png"],
    [0, "Yuisis",        "",        [1,0,0,0,0,0,0,0,0,0], "Yuisis.png"],
    [0, "Zahlhamelina",  "",        [1,0,0,0,0,0,0,0,0,0], "Zahlhamelina.png"],
@@ -227,7 +230,6 @@ var ary_CharacterData = [
    [0, "Mika",          "",        [0,0,0,0,1,0,0,0,0,0], "Mika_NPC.png"], //NPC
    [0, "Oneiros",       "",        [0,0,0,0,1,0,0,0,0,0], "Oneiros_NPC.png"], //NPC
    [0, "Promethia",     "",        [0,0,0,0,1,0,0,0,0,0], "Promethia_NPC.png"], //NPC
-   [0, "Shitori",       "",        [0,0,0,0,1,0,0,0,0,0], "Shitori_NPC.png"], //NPC
    [0, "Unar",          "",        [0,0,0,0,1,0,0,0,0,0], "Unar_NPC.png"], //NPC
 
    //Female Summons
@@ -291,6 +293,7 @@ var ary_CharacterData = [
    [0, "Ceylan",        "",        [0,1,0,0,0,0,0,0,0,0], "Ceylan.png"],
    [0, "Charioce XVII", "",        [0,1,0,0,0,0,0,0,0,0], "Charioce.png"], 
    [0, "Chat Noir",     "",        [0,1,0,0,0,0,0,0,0,0], "ChatNoir.png"],
+   [0, "Colossus",      "",        [0,1,0,0,0,0,0,1,0,0], "Colossus.png"],
    [0, "Dante",         "",        [0,1,0,0,0,0,0,0,0,0], "Dante.png"],
    [0, "Deliford",      "",        [0,1,0,0,0,0,0,0,0,0], "Deliford_.png"],
    [0, "Drang",         "",        [0,1,0,0,0,0,0,0,0,0], "Drang.png"],
@@ -322,6 +325,7 @@ var ary_CharacterData = [
    [0, "Juri",          "",        [0,1,0,0,0,0,0,0,0,0], "Juri.png"],
    [0, "Katzelia",      "",        [0,1,0,0,0,0,0,0,0,0], "Katzelia.png"],
    [0, "Keehar",        "",        [0,1,0,0,0,0,0,0,0,0], "Keehar.png"],
+   [0, "Kou",           "",        [0,1,0,0,0,0,0,0,0,0], "Kou.png"],
    [0, "Krugne",        "",        [0,1,0,0,0,0,0,0,0,0], "Krugne.png"],
    [0, "Lancelot",      "",        [0,1,0,0,0,0,0,0,0,0], "Lancelot.png"],
    [0, "Lobelia",       "",        [0,1,0,0,0,0,0,0,0,0], "Lobelia.png"],
