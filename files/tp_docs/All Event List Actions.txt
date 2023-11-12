@@ -1,7 +1,162 @@
 ALL:
   DUMMY:
   dummy:
+AllMato:
+  FOCUS_BOUMATO:
+  FOCUS_ITAMATO:
+  FOCUS_ITAMATO_ON_ROOF:
+  HIT_BOUMATO1:
+  HIT_BOUMATO2:
+  HIT_BOUMATO3:
+  NEARPIN_BOUMATO:
+Aru:
+  APPEARANCE_EPONA:
+    prm
+    timer
+    vec
+  END_BULLRUNNING:
+    prm
+    timer
+  GOTO_BULLRUNNING_STAGE:
+    prm
+  GOTO_SKIPFENCE_STAGE:
+    prm
+  NO_ENTRANCE:
+    prm
+  RIDEON_HORSE:
+    prm
+  SPEAKTO:
+    prm
+Ash:
+  0001_TALK:
+  0001_WAIT:
+  0002_LOOK:
+  RESIST_WIRETAP_RAFREL:
+    prm
+  RESIST_WIRETAP_SHAD:
+    prm
+  THE_INTRODUCTION:
+    prm
+AshB:
+  0001_WAIT:
+  0002_LOOK:
+  0003_TURN:
+  0004_TALK:
+  0005_MASK:
+  0006_TALK:
+  0007_TALK:
+  0008_GET:
+  0009_TALK:
+Bans:
+  ANGER:
+    prm
+    timer
+  PURCHASE:
+    prm
+Besu:
+  CACARICO_CONVERSATION:
+    prm
+  CLOTH_TRY:
+    prm
+  CONVERSATION_ABOUT_DEATHMT:
+    prm
+  CONVERSATION_ABOUT_GORON:
+    prm
+  CONVERSATION_ABOUT_PACHINKO:
+    msgNo
+    msgNo2
+    prm
+  CONVERSATION_ABOUT_SARU:
+    prm
+  CONVERSATION_ABOUT_WOODSWD:
+    prm
+    timer
+  CONVERSATION_IN_HOTEL:
+    prm
+    timer
+    timer1
+    timer2
+  FIND_MONKEY:
+    prm
+    timer
+  GATHER_IN_CACARICO:
+    prm
+  NURSE:
+    prm
+  SURPRISE:
+    prm
+  SWDTUTORIAL:
+    prm
+  TAG_PUSH6:
+    prm
+  THANK_YOU:
+    prm
+Besu:0:
+  GET_WOODSWD:
+    prm
+Besu:1:
+  GET_WOODSWD:
+    prm
+BigVolc:
+  BEAM:
+  FLY:
+  WAIT:
+Blue_NS:1:
+  CHG_YAMI_CHIBI:
+    cutId
+  CHG_YAMI_CHIBI_STOPPER:
+    cutId
+  CHG_YAMI_DEBU:
+    cutId
+  CHG_YAMI_DEBU_STOPPER:
+    cutId
+  CHG_YAMI_NOPPO:
+    cutId
+  CHG_YAMI_NOPPO_STOPPER:
+    cutId
+Bou:
+  CONFIDENTIAL_CONVERSATION:
+    prm
+  CONVERSATION_WITH_BOU:
+    prm
+  FIND_WOLF:
+    prm
+  MEETING_AGAIN:
+    prm
+    timer
+  SPEAKTO:
+    prm
+  WILDGOAT:
+    msgNo
+    msgNo2
+    prm
+  WILDGOAT_FAILURE:
+    prm
+  WILDGOAT_SUCCESS:
+    prm
+BouS:
+  0001_TALK:
+  0001_WAIT:
+  0002_TALK:
+  0003_TALK:
+  0003_WALK:
+    pos
+  0004_FACIAL:
+  0005_TALK:
+  0006_TALK:
+  0007_TALK:
+  0008_TALK:
+  0009_TALK:
 CAMERA:
+  BSPLINE:
+    BGCheck
+    Centers
+    Eyes
+    Fovys
+    PlayerHide
+    RelActor
+    Timer
+    Trim
   BSPTRANS:
     BGCheck
     Base
@@ -9,64 +164,561 @@ CAMERA:
     Eye
     Fovy
     RelActor
+    RelUseMask
     Set1
     Set2
     Timer
+    TransType
+    Trim
     Use1
     Use2
     WaitAnyKey
+  CURRENT:
+    Continue
+    Timer
+    Trim
+  DIGHOLE:
+    Type
   FIXEDFRM:
     BGCheck
+    BSpCurve
+    Bank
     Center
     Eye
     Fovy
+    PlayerHide
     RelActor
+    RelUseMask
+    SavePos
     Timer
+    TransType
+    Trim
+    WaitAnyKey
+    WideMode
+  FIXEDFRMS:
+    BGCheck
+    Centers
+    Choice
+    Eyes
+    Fovys
+    RelActor
+    RelUseMask
+    Timer
+    Trim
+  FIXEDPOS:
+    BGCheck
+    Bank
+    Center
+    CtrCus
+    CtrGap
+    Eye
+    Fovy
+    PlayerHide
+    Radius
+    RelActor
+    RelUseMask
+    SavePos
+    StartRadius
+    Target
+    Timer
+    Trim
+  GETITEM:
+    BGCheck
+    Eye
+    Trim
+    Type
+  HINTTALK:
+  LOAD:
+    BGCheck
+    SavePos
+    Slot
+    Timer
+    Trim
+    Type
     WaitAnyKey
   MAPTOOL:
     BGCheck
-  STBWAIT:
+    WaitAnyKey
+  PAUSE:
     BGCheck
-  UNIACCELE:
+    PlayerHide
+    SavePos
+    Stay
+    Timer
+    Trim
+    WaitAnyKey
+  PEEPHOLE:
+  RESTOREPOS:
+    Timer
+    Trim
+  ROLLING:
     Center
     Eye
     Fovy
     RelActor
+    RelUseMask
+    Roll
     Timer
-  UNITRANS:
+    Trim
+  SAVE:
+    Slot
+    Trim
+  STBWAIT:
     BGCheck
+  STOKER:
+    BGCheck
+    CtrCus
+    CtrGap
+    EyeGap
+    Fovy
+    PlayerHide
+    Stoker
+    Target
+    Timer
+    Trim
+  STYLE:
+    Name
+    Target
+    Trim
+  TALK:
+    BGCheck
+    Latitude
+    Listener
+    LoadPos
+    Longitude
+    LongitudeType
+    Mode
+    SavePos
+    Smoothless
+    Speaker
+    Trim
+  TWOACTOR0:
+    Actor1
+    Actor2
+    BGCheck
+    CtrCus
+    CtrGap
+    EyeCus
+    LatitudeMax
+    LatitudeMin
+    LongitudeMax
+    LongitudeMin
+    LongitudeType
+    RadiusMax
+    Trim
+  UNIACCELE:
+    AcceleType
+    BSpCurve
     Center
     Eye
     Fovy
     RelActor
     Timer
     TransType
+  UNIBRAKE:
+    BGCheck
+    BSpCurve
+    Bank
+    BrakeType
+    Center
+    Eye
+    Fovy
+    RelActor
+    Timer
+    TransType
+    Trim
+  UNITRANS:
+    BGCheck
+    BSpCurve
+    BSpPoints
+    Bank
+    Center
+    Cushion
+    Eye
+    Fovy
+    KeepDist
+    PlayerHide
+    RelActor
+    RelUseMask
+    SavePos
+    StartBank
+    StartCenter
+    StartEye
+    StartFovy
+    Timer
+    TransType
+    Trim
+    WaitAnyKey
+    WideMode
   WAIT:
     BGCheck
     PlayerHide
+    Timer
+    Trim
+    WaitAnyKey
+  WATCHACTOR:
+    CtrGap
+    Target
 DIRECTOR:
   FADE:
     Color
     Rate
   MAPTOOL:
     ID
+  NEXT:
+    Hour
+    ID
+    Layer
+    RoomNo
+    Stage
+    StartCode
+    Wipe
+  NEXTSTAGE:
+    ID
+    Wipe
+  PLAYER_DRAW:
+  PLAYER_NODRAW:
   SPECIAL:
     Type
   WAIT:
     EventFlag
     SwitchOff
     SwitchTable
+    TmpBit
+  WIPE:
+    Rate
+DOUBLE_DOOR:
+  ADJUSTMENT:
+    Timer
+  END:
+  OPEN:
+  SET_GOAL:
+  SET_GOAL2:
+EFFECT:
+  QUAKE:
+    Power
+    Timer
+    Type
+  SHOCK:
+    Power
+    Type
+  WAIT:
+EvtMsg:
+  TALK:
+Fairy:
+  APPEAR_10F_01:
+    cutId
+  APPEAR_10F_02:
+    cutId
+  APPEAR_20F_01:
+    cutId
+  APPEAR_20F_02:
+    cutId
+  APPEAR_30F_01:
+    cutId
+  APPEAR_30F_02:
+    cutId
+  APPEAR_40F_01:
+    cutId
+  APPEAR_40F_02:
+    cutId
+  APPEAR_50F_01:
+    cutId
+    msgNo
+  APPEAR_50F_02:
+    cutId
+    msgNo
+  APPEAR_50F_03:
+    cutId
+  APPEAR_50F_04:
+    cutId
+    msgNo
+  APPEAR_50F_05:
+    cutId
+    msgNo
+  RETURN_CANCEL:
+    cutId
+  SELECT_RETURN1:
+    cutId
+  SELECT_RETURN2:
+    cutId
+  SELECT_RETURN3:
+    cutId
+GIVEMAN:
+  SETITEM:
+  WAIT:
+GWolf:
+  ATTACK_WARP:
+    prm
+  ATTACK_WARP_HORSE:
+    prm
+  HOWLING_SESSIONA:
+    prm
+  MEET_GWOLFA:
+    prm
+Gate:
+  0001_LOAD:
+  0001_WAIT:
+  0002_TALK:
+  0002_WAIT:
+  0003_PULL:
+  0003_WAIT:
+Hanjo:
+  APPEAR_HAWKER:
+    prm
+    timer
+  CONVERSATION:
+    msgNo
+    prm0
+    prm1
+  CONVERSATION_ABOUT_SARU:
+    prm
+  DIVE:
+    prm
+    timer
+  PURSUIT_BEE:
+    prm
+Horse:
+  001_wait:
+  001wait:
+  002walk:
+    pos
+    ride
+  003dash:
+    prm0
+  004ldash:
+    pos
+  005iwait:
+    angle
+    pos
+    ride
+  007jump:
+  008stop:
+  009stand:
+  010swalk:
+    pos
+    ride
+  011sdash:
+    pos
+  016spstop:
+Hoz:
+  AFTER_BATTLE:
+    prm
+  AFTER_BLAST:
+    prm
+  BEFORE_BATTLE:
+    prm
+  BEFORE_BLAST:
+    prm
+  BOAT_RACE:
+    prm
+  TALK_BREAK:
+    prm
+  Y_MUSHI:
+    prm
+JAIL_DOOR:
+  ADJUSTMENT:
+  OPEN:
+  PLY_DISP:
+  PLY_NODISP:
+  UNLOCK:
+  WAIT:
+    Timer
+Jagar:
+  ANGER:
+    prm
+  CLIMBUP:
+    prm
+  CONFIDENTIAL_CONVERSATION:
+    prm
+  CONVERSATION_WITH_BOU:
+    prm
+  FIND_WOLF:
+    prm
+    timer
+  NEED_YOUR_HELP:
+    msgNo
+    msgNo2
+    prm
+    send
+Jockey:
+  0001_READY_GO:
+K_GATE:
+  ADJUSTMENT:
+  OPEN:
+  UNLOCK:
+  WAIT:
+Kakashi:
+  GET_WOODSWD:
+    prm
+  MAROS_WHISPER:
+  SWDTUTORIAL:
+    prm
+  SWD_TUTORIAL:
+Kkri:
+  CONVERSATION_ABOUT_SOUP:
+    prm
+  YM_LOOK:
+    prm
+    timer
+Kn:
+  ATTACK_FAILED:
+    prm
+  FIFTH_SKILL_EXPLAIN:
+    prm
+  FIFTH_SKILL_GET:
+    prm
+  FIRST_ENCOUNT:
+    prm
+  FIRST_SKILL_GET:
+    prm
+  FOURTH_SKILL_EXPLAIN:
+    prm
+  FOURTH_SKILL_GET:
+    prm
+  LARGE_DAMAGE_TALK:
+    prm
+  NONE_EQUIP_CHANGE_TALK:
+    prm
+  NO_EQ_CHNGE_TLK_STD:
+    prm
+  REFLECT_EXPLAIN:
+    prm
+  SECOND_ENCOUNT:
+    prm
+  SECOND_SKILL_EXPLAIN:
+    prm
+  SECOND_SKILL_GET:
+    prm
+  SEVENTH_SKILL_EXPLAIN:
+    prm
+  SEVENTH_SKILL_GET:
+    prm
+  SIXTH_SKILL_EXPLAIN:
+    prm
+  SIXTH_SKILL_GET:
+    prm
+  THIRD_SKILL_EXPLAIN:
+    prm
+  THIRD_SKILL_GET:
+    prm
+Kolin:
+  CACARICO_CONVERSATION:
+    prm
+  CLOTH_TRY:
+    prm
+  CONVERSATION_ABOUT_DEATHMT:
+    prm
+  CONVERSATION_ABOUT_GORON:
+    prm
+  CONVERSATION_ABOUT_LOOPHOLE:
+    msgNo
+    prm
+    timer
+  GATHER_IN_CACARICO:
+    prm
+  GET_WOODSWD:
+    msgNo
+    prm
+    timer
+  GIVEME_WOODSWD:
+    prm
+  HAIL:
+    msgNo
+    prm
+  NOT_GONNA_LET:
+    prm
+  NO_RIDE:
+    prm
+  THANK_YOU:
+    prm
+Kolinb:
+  CLOTH_TRY:
+    prm
+  CONVERSATION_ABOUT_DEATHMT:
+    prm
+  CONVERSATION_ABOUT_GORON:
+    prm
+  CONVERSATION_IN_HOTEL:
+  NURSE:
+    prm
+  THANK_YOU:
+    prm
+Kyury:
+  CONVERSATION:
+    msgNo
+    msgNo2
+    prm
+Len:
+  CONVERSATION_IN_HOTEL:
+    msgNo
+    prm
+    timer
+  HURRY:
+    prm
+  TAKE_WOODSTATUE:
+    prm
 Link:
+  0014keep:
   001n_wait:
     prm0
   002n_walk:
     pos
+    prm0
+    prm1
+  003n_dash:
+    pos
+    prm0
+    stick
   004init_wait:
     angle
     pos
-  012unequip:
+    prm0
+  005wait_turn:
+    angle
+  006n_talk:
     prm1
+  007n_horse:
+  008e_talk:
+    prm
+    prm1
+  009ldam:
+    prm0
+  010open_treasure:
+    prm0
+  011get_item:
+    prm0
+    prm1
+  012unequip:
+    prm0
+    prm1
+  013put:
+  014keep:
+    prm1
+  016bjump:
+  020l_around2:
+  020laround:
+  023a_wait:
+    prm0
+    prm1
+  025tabck:
+  025tback:
+  029hawk:
+  030sunequip:
+    prm0
   031lwait:
+    prm0
+  032pwait:
+  033push:
+  033pushMove:
+    prm0
+  035door:
+    prm0
+  036cut:
+    prm0
+  037present:
+    prm0
+  044wlie_wait:
     prm0
   045warp:
     prm0
@@ -75,13 +727,138 @@ Link:
     prm0
   048lupend:
     prm0
+  050mride:
   055sget:
     prm0
+  057wchange:
+  058lchange:
+  060nod:
+  061glare:
+  062eaway:
+  063gsready:
+  064grsit:
+  066twgate:
+  068wsnow:
+  069zmove:
+  072laturn:
+    prm0
+  074qwait:
+  075sattack:
+  076sready:
+  077dwarp:
+  079msstick:
+  080mspull:
+  081cdown:
+  082cback:
+  083chead:
+  084cfast:
+  086cljump:
+  087cfready:
+  088crrevive:
+    prm0
+  092cljcharge:
+Lud:
+  CLOTH_TRY:
+    prm
+  CONVERSATION_ABOUT_DEATHMT:
+    prm
+  CONVERSATION_ABOUT_GORON:
+    prm
+  CONVERSATION_IN_HOTEL:
+    prm
+    timer
+    timer1
+    timer2
+  HURRY:
+    prm
+  NURSE:
+    prm
+  THANK_YOU:
+    prm
+Lv6Gate:
+  0001_WAIT:
+  0002_SHOCK:
+  0003_APPEAR:
+  0004_TKS:
+  0005WAIT:
+  0005_WAIT:
+  0006_APPEAR:
+Lv7Gate:
+  0001_WAIT:
+  0002_FLY:
+  0003_WAIT:
+Lv8Gate:
+  0001_INIT:
+  0002_WARP:
+  DUMMY:
 MESSAGE:
+  CREATE:
+    No
+  FINISH:
+  PUSHBUTTON:
   SAVE:
+    Type
   SHOW:
     No
+  TELOP:
+    ForStart
   WAIT:
+MSGNPC:
+  NEXT:
+  TALK:
+  WAIT:
+Maro:
+  ARROWTUTORIAL:
+    msgNo
+    msgNo2
+    prm
+    send
+    timer
+  BOKIN_TALK:
+    prm
+  CACARICO_CONVERSATION:
+    prm
+  CONTINUE_ARROW_TUTORIAL:
+    prm
+  CONVERSATION_ABOUT_PACHINKO:
+    prm
+  CONVERSATION_ABOUT_WOODSWD:
+    prm
+  FIND_MONKEY:
+    prm
+    timer
+  GATHER_IN_CACARICO:
+    prm
+  HAIL:
+    prm
+  MAROS_WHISPER:
+    prm
+    timer
+  NOT_GONNA_LET:
+    prm
+  SURPRISE:
+    prm
+  SWDTUTORIAL:
+    prm
+  SWD_TUTORIAL:
+    prm
+  TAG_PUSH1:
+    prm
+  TAG_PUSH5:
+    prm
+  TALK_TO_KAKASHI:
+    prm
+Maro:0:
+  GET_WOODSWD:
+    prm
+    timer
+  GIVEME_WOODSWD:
+    prm
+Maro:1:
+  CONVERSATION_WITH_MARO:
+    prm
+  GET_WOODSWD:
+    prm
 Midna:
   01wait:
   02shadow:
@@ -89,33 +866,986 @@ Midna:
   03fly:
     npos
     pos
+    speed
   04fturn:
     angle
+  05sreturn:
+    fprm0
   06swait:
   07scatch:
   08warphole:
+  09pwout:
+  11wpin_wait:
+  12wpin_fall:
+  13wride:
   14putawy:
   16winit:
+    angle
     pos
+  17sdoor:
+  18udoor:
+  19wgready:
+  20wgwait:
+  21wgup:
+Moi:
+  APPEARANCE_MOI:
+    msgNo
+    prm
+    timer
+  CONVERSATION_WITH_URI:
+    prm
+  DELIVERED_SW:
+    prm
+    timer
+  FIND_WOLF:
+    prm
+    timer
+MoiR:
+  0001_TALK:
+  0001_WAIT:
+  0002_CALL:
+  0002_TALK:
+  0003_TALK:
+  0003_WAIT:
+  0004_STAY:
+  0004_TALK:
+  0005_TALK:
+  THE_INTRODUCTION:
+    prm
+NPC_TK:
+  Circle:
+  Land:
+  Nearly:
+ObjTks:
+  0001_TALK:
+  0001_WAIT:
+  0002_CHILD:
+  0002_FALL:
+  0003_TALK:
+  0004_TALK:
+  0005_TALK:
+  0006_TALK:
+Obj_ava:
+  COLLAPSE:
+  WAIT:
+    Timer
+Obj_grA:
+  FIND:
+    Step
 PACKAGE:
   PLAY:
     FileName
   WAIT:
-SHUTTER_DOOR:
+PARTNER_DOOR:
+  CLOSE:
+  END_CHECK:
+  INIT_EXIT:
+  L_SET:
+  RUN:
+  SETGOAL_EXIT:
+  SMOKE:
+  SMOKE_END:
+  SPIRAL_EXIT:
+    Timer
+  STOP_CLOSE:
   STOP_OPEN:
+  WAIT:
+PA_Besu:
+  HIT_KAKASI_BODY:
+    cutId
+  TUTRIAL_BEGIN:
+    cutId
+  TUTRIAL_BEGIN_SKIP:
+    cutId
+  TUTRIAL_CAUTION:
+    cutId
+  TUTRIAL_CLEAR:
+    cutId
+  TUTRIAL_CONTINUE:
+    cutId
+  TUTRIAL_GIVEUP:
+    cutId
+  TUTRIAL_SELECT_GIVEUP:
+    cutId
+  TUTRIAL_TALK:
+    cutId
+  TUTRIAL_TALK2:
+    cutId
+PA_Maro:
+  HIT_KAKASI_BODY:
+    cutId
+  TUTRIAL_BEGIN:
+    cutId
+  TUTRIAL_BEGIN_SKIP:
+    cutId
+  TUTRIAL_CAUTION:
+    cutId
+  TUTRIAL_CLEAR:
+    cutId
+  TUTRIAL_CONTINUE:
+    cutId
+  TUTRIAL_GIVEUP:
+    cutId
+  TUTRIAL_SELECT_GIVEUP:
+    cutId
+  TUTRIAL_TALK:
+    cutId
+  TUTRIAL_TALK2:
+    cutId
+PA_Taro:
+  HIT_KAKASI_BODY:
+    cutId
+  TUTRIAL_BEGIN:
+    cutId
+  TUTRIAL_BEGIN_SKIP:
+    cutId
+  TUTRIAL_CAUTION:
+    cutId
+  TUTRIAL_CLEAR:
+    cutId
+  TUTRIAL_CONTINUE:
+    cutId
+  TUTRIAL_GIVEUP:
+    cutId
+  TUTRIAL_SELECT_GIVEUP:
+    cutId
+  TUTRIAL_TALK:
+    MesNo0
+    MesNo1
+    MesNo2
+    MesNo3
+    MesNo4
+    cutId
+  TUTRIAL_TALK2:
+    MesNo0
+    MesNo1
+    MesNo2
+    MesNo3
+    MesNo4
+    cutId
+Peru:
+  PERU_APPEAR:
+    cut_id
+  PERU_APPEAR_SKIP:
+    cut_id
+Post:
+  DELIVER:
+    prm
+    timer
+Pouya:
+  HAVE_FAVORTO_ASK:
+    prm
+  RETURN_FAVOR:
+    msgNo
+    prm
+Pouya:0:
+  HAVE_FAVORTO_ASK:
+    msgNo
+    prm
+    rate
+    timer
+Pouya:1:
+  HAVE_FAVORTO_ASK:
+    msgNo
+    prm
+  RETURN_FAVOR:
+    prm
+Prayer:
+  GET_HEART:
+    cutId
+Push:
+  PUSHBACK_TALK:
+    prm
+Rafrel:
+  0001_TALK:
+  0002_TURN:
+  0003_TALK:
+  0004_HOOD:
+  0005_TALK:
+  0006_TALK:
+  0007_TALK:
+  0008_TALK:
+  0009_TALK:
+  0010_GET:
+  0011_TALK:
+  RESIST_MEETING:
+    prm
+  RESIST_WIRETAP_ASH:
+    prm
+  RESIST_WIRETAP_SHAD:
+    prm
+  THE_INTRODUCTION:
+    prm
+RiderBoss:
+  0002_ACTION:
+    action
+SCanCrs:
+  BEAM_HIT:
+  READY:
+  UP:
+  WAIT:
+SCanTen:
+  FINISH:
+    Timer
+  FIRE:
+  FIRE_END:
+  LINK_IN:
+  MOVE:
+  SET:
+SCannon:
+  FINISH:
+    Timer
+  FIRE:
+  LINK_IN:
+  MOVE:
+    Timer
+  SET:
+    Timer
+  WAIT:
+    Timer
+SHOKUDAI:
+  FIRE:
+  WAIT:
+SHUTTER_DOOR:
+  ADJUSTMENT:
+  ADJUSTMENT2:
+  CHG_SCENE:
+  CLOSE:
+  END_CHECK:
+  END_ENTRANCE:
+  INIT:
+  KEYDELETE:
+  LIGHT_ANM:
+  LIGHT_ANM2:
+  MESSAGE:
+  NOT_OPEN:
+  OPEN:
+  OPEN_PULL:
+  OPEN_PULL2:
+  OPEN_PULL_STOP:
+  OPEN_PUSH:
+  OPEN_PUSH2:
+  OPEN_PUSH_STOP:
+  PLY_DISP:
+  PLY_NODISP:
+  SETANGLE:
+  SETGOAL:
+  SETGOAL2:
+  SETGOALIN:
+  SETGOALOUT:
+  SETGOAL_ENTRANCE:
+  SETPLYPOS:
+  SETPOS:
+  SETROOM:
+  SETROOM2:
+  SETSTART_PULL:
+  SETSTART_PUSH:
+  SMOKE:
+  SMOKE_END:
+  SPIRAL_ENTRANCE:
+    Timer
+  START:
+  STOP_CLOSE:
+  STOP_OPEN:
+  TALK:
+  TALK_END:
+  UNLOCK:
+  WAIT:
+    Timer
+SOUND:
+  RIDDLE:
+  WAIT:
+SWITCH:
+  CHANGE:
+  WAIT:
+Saru:
+  FIND_MONKEY:
+    prm
+    timer
+  HELP_ME:
+    prm
+  YM_LOOK:
+    prm
+    timer
+Seira:
+  CONVERSATION_ABOUT_SARU:
+    msgNo
+    prm
+Seirei:
+  CONVERSATION:
+    prm
+    timer
+Sekizoa:0:
+  EXIT:
+    prm
+  FREE:
+    prm
+    timer
+  GOAL:
+    prm
+    timer
+  JUMP:
+    prm
+  START:
+    msgNo
+    prm
+    timer
+  TURN:
+    prm
+Sekizoa:2:
+  EXTINCTION:
+    prm
+    timer
+Sekizob:0:
+  EXIT:
+    prm
+  FREE:
+    prm
+  GOAL:
+    prm
+    timer
+  JUMP:
+    prm
+  START:
+    prm
+    timer
+  TURN:
+    prm
+Sha:
+  PERFORM_AUGURY:
+    msgNo
+    msgNo2
+    prm
+    timer
+Shad:
+  0001_TALK:
+  0001_TURN:
+  0001_WAIT:
+  0002_NODRAW:
+  0002_SET:
+    ANGLE
+    POS
+  0002_TALK:
+  0002_TURN:
+  0002_WARP:
+  0003_APPEAR:
+    ANGLE
+    POS
+  0003_DELETE:
+  0003_RUN:
+    POS
+  0003_TALK:
+  0004_TALK:
+  0005_RUN:
+    POS
+  0005_TALK:
+  0005_WALK:
+    POS
+  0006_DELETE:
+  0006_TALK:
+  0006_WALK:
+  0007_TALK:
+  0007_WALK:
+  0007_WARP:
+  0008_GET:
+  0008_WALK:
+    POS
+  0008_WARP:
+  0009_TALK:
+  0010_SET:
+  0010_TALK:
+  RESIST_MEETING:
+    prm
+  RESIST_WIRETAP_ASH:
+    prm
+  RESIST_WIRETAP_RAFREL:
+    prm
+  THE_INTRODUCTION:
+    prm
+TALKMAN:
+  TALK:
+  TALK0:
+  TALK1:
   WAIT:
 TIMEKEEPER:
   COUNTDOWN:
     Timer
   WAIT:
+TREASURE:
+  APPEAR:
+  OPEN:
+  OPEN_SHORT:
+  WAIT:
+Table:
+  DUMMY:
+TagEvt:
+  NEXT:
+  WAIT:
+TagStat:
+  ITEM:
+  ST_MOVE:
+  WAIT:
+Tag_ms:
+  SPEAK:
+Taro:
+  APPEARANCE_MOI:
+    prm
+    timer
+  ARROWTUTORIAL:
+    prm
+    timer
+  CACARICO_CONVERSATION:
+    msgNo
+    prm
+    timer
+  CAUTION:
+    prm
+    timer
+  CONVERSATION_ABOUT_PACHINKO:
+    prm
+  CONVERSATION_ABOUT_WOODSWD:
+    prm
+  FIND_MONKEY:
+    prm
+    timer
+  GATHER_IN_CACARICO:
+    msgNo
+    prm
+  HAIL:
+    prm
+  HELP_ME:
+    prm
+    timer
+  NOT_GONNA_LET:
+    msgNo
+    prm
+  SWDTUTORIAL:
+    msgNo
+    prm
+    timer
+  SWD_TUTORIAL:
+    prm
+    timer
+  TAG_PUSH1:
+    prm
+  TAG_PUSH4:
+    prm
+Taro:0:
+  GET_WOODSWD:
+    msgNo
+    prm
+    timer
+  GIVEME_WOODSWD:
+    msgNo
+    msgNo2
+    prm
+    timer
+Taro:1:
+  CONVERSATION_WITH_MARO:
+    msgNo
+    msgNo2
+    prm
+  GET_WOODSWD:
+    prm
+The:
+  0001_TALK:
+  0002_TALK:
+  0003_TALK:
+  0004_TALK:
+  0005_TALK:
+  TW_RESISTANCE:
+    prm
+TheB:
+  0001_GO_RUN:
+    angle
+    pos
+  0001_READY_GO:
+  0001_WAIT:
+  0002_ENTRUST:
+  0002_MOVE:
+  0002_TALK:
+  0003_METER:
+  0003_SET:
+  0003_WAIT:
+  0004_OVER:
+Tkc:
+  TKC_WARP:
+    prm
+  TKS_SECRET:
+    prm
+  TKS_WARP:
+    prm
+Tkj:
+  0001_WAIT:
+  0002_WALK:
+  0003_TALK:
+  0004_WAIT:
+  0005_SHOP:
+  0006_DELETE:
+Tks:
+  0001_TALK:
+  0001_WAIT:
+  0002_FALL:
+  0002_RUN:
+  0002_SHAKE:
+  0002_TALK:
+  0002_TURN:
+    pos
+  0003_APPEAR:
+  0003_FLOAT:
+  0003_JUMP:
+  0003_WALK:
+    pos
+  0004_JUMP:
+    pos
+  0004_TALK:
+  0004_TURN:
+  0005_LOOK:
+  0005_TALK:
+  0006_TALK:
+  0007_TALK:
+  0008_TALK:
+  0009_TALK:
+  0009_TURN:
+  0010_JUMP:
+  0010_WAIT:
+  0011_SHOP:
+  0011_SKIP:
+  0012_DELETE:
+Toby:0:
+  CONVERSATION_ABOUT_SCANNON:
+    msgNo
+    prm
+    send
+    timer
+  CONVERSATION_ABOUT_ZRA:
+    msgNo
+    prm
+  REPAIR_SCANNON:
+    prm
+    timer
+  TALKTO_ONESELF:
+    msgNo
+    prm
+    timer
+  TOBY_HOUSE_FIRE:
+    prm
+    timer
+Toby:1:
+  REPAIR_SCANNON:
+    prm
+Toby:2:
+  SCANNON:
+    prm
+    timer
+Uri:
+  CONVERSATION:
+    msgNo
+    prm
+  CONVERSATION_WITH_MOI:
+    msgNo
+    prm
+  END_CARRY_TUTORIAL:
+    prm
+  FIND_WOLF:
+    prm
+    timer
+  MEETING_AGAIN:
+    prm
+  START_CARRY_TUTORIAL:
+    prm
 WARPHOLE:
   APPEAR:
   APPEAR_END:
   HEART_MOVE:
+  SCALING:
+  SCENE_CHG:
+  SETPOS:
   STONE_FALL:
   STONE_MIDNA:
   STONE_PUTAWAY:
   WAIT:
-grZ:
-  REBIRTH:
+  WALK_TARGET1:
+  WCHECK:
+WarpBrg:
+  BEAM:
+  B_APP:
+  DOWN:
+  FLY:
+  P_APP:
+  P_DIS:
   WAIT:
+WarpOB1:
+  BEAM:
+  OBJ_DISAPP:
+  WAIT:
+WarpOB2:
+  OBJ_APP:
+  WAIT:
+Warpnt:
+  Dummy:
+Warpt:
+  Dummy:
+  WAIT:
+  WARP:
+Wrestler:
+  0001_TALK:
+  0001_WAIT:
+  0002_SUMO:
+  0002_TALK:
+  0002_WAIT:
+    angle
+    pos
+  0003_TALK:
+  0003_WALK:
+    pos
+  0004_TALK:
+  0004_WALK:
+    angle
+    pos
+  0005_TALK:
+  0006_TALK:
+  0007_FACE:
+  0008_TALK:
+  0009_TALK:
+Yelia:
+  CLOTH_TRY:
+    prm
+  CONVERSATION_ABOUT_LOOPHOLE:
+    prm
+  TAKE_WOODSTATUE:
+    msgNo
+    prm
+    send
+    timer
+  THANK_YOU:
+    msgNo
+    msgNo2
+    prm
+  TW_RESISTANCE:
+    prm
+chin:
+  CHIN_APPEAR:
+    cutId
+  GAME_FAILED:
+    cutId
+  GAME_GIVEUP:
+    cutId
+  GAME_START:
+    cutId
+  Present:
+    cutId
+  SELECT_GAME_GIVEUP:
+    cutId
+  SPOTLIGHT_OFF:
+    cutId
+  Talk_01:
+    cutId
+  Talk_02:
+    cutId
+  Turn:
+    cutId
+  WAIT:
+chtSolA:1:
+  TALK_LAKE:
+    prm
+chtSolA:2:
+  LISTEN_LAKE:
+    prm
+chtSolA:3:
+  LISTEN_LAKE:
+    prm
+chtSolB:
+  LISTEN_LAKE:
+    prm
+dmele:
+  MOVE:
+  WAIT:
+    Timer
+dstop:
+  STOP_CLOSE:
+  STOP_OPEN:
+  WAIT:
+grA:
+  CARRY_SPA_WATER:
+    prm
+  CARRY_SPA_WATER_FAILURE:
+    prm
+  KICK_OUT:
+    prm
+  NONE_LOOK:
+    prm
+  RESCUE_ROCK:
+    prm
+  ROLL_ROCK_CRASH:
+    prm
+  TALK_SPA_WATER:
+    prm
+grA:1:
+  GRDS_GATE:
+    prm
+grA:2:
+  GRDS_GATE:
+    prm
+grA:3:
+  GRDS_ROLL:
+    prm
+grA:4:
+  GRDS_ROLL:
+    prm
+grA:5:
+  GRDS_ROLL:
+    prm
+grA:6:
+  GRDS_ROLL:
+    prm
+grA:7:
+  GRDS_ROLL:
+    prm
+grA:8:
+  GRDS_ROLL:
+    prm
+grA_Elv:
+  TEACH_ELV:
+    prm
+grA_spa:
+  TALK_SPA:
+    prm
+grD:
+  NOD_TO_GRZ:
+    prm
+grM:
+  TALK_SPA:
+    prm
+grO:
+  BOKIN_FINISH:
+    prm
+  PUSHOUT:
+    prm
+grS:
+  PUSHOUT:
+    prm
+grZ:
+  GO_OUT:
+    prm
+    timer
+  REBIRTH:
+  STONE_SMASH:
+    prm
+  STONE_SMASH_SKIP:
+    prm
+  TALK_STAND:
+    prm
+  WAIT:
+impal:
+  0001_TALK:
+  0001_WAIT:
+  0002_APPEAR:
+  0002_TALK:
+  0003_BGM:
+  0003_GET:
+  0003_TALK:
+  0004_MEET:
+  0004_RESET:
+  0004_TALK:
+  0005_TALK:
+  0006_TALK:
+  0007_TALK:
+  0008_TALK:
+  0009_TALK:
+  0010_TALK:
+  0011_TALK:
+  0012_TALK:
+  0013_APPEAR:
+  0014_SET:
+kasi_hana:
+  KASIMASI_APPEAR:
+    cutId
+  KASIMASI_CHEER:
+    cutId
+    mesNo1
+    mesNo2
+    mesNo3
+  KASIMASI_CHEER2:
+    cutId
+    mesNo1
+  KASIMASI_HEART:
+    cutId
+  KASIMASI_TALK:
+    cutId
+    mesNo1
+    mesNo2
+kdoor:
+  DEMO_CLOSE:
+  DEMO_OPEN:
+  WAIT:
+lbsw:
+  DEL_BALL:
+  EQUIP_SWD:
+  INIT:
+  LINK_INIT:
+  MESSAGE:
+  ON:
+  ON_ALL_B:
+  SCALING:
+  SOUND:
+  ST_CUT2:
+myna2:
+  FIRST_TALK:
+    prm
+  GAME_FAILURE:
+    prm
+  GAME_GOAL:
+    prm
+  GAME_GOAL_SUCCESS:
+    prm
+pdoor:
+  OPEN:
+  SCENE_CHG:
+  WAIT:
+pofire:
+  MOVE_END:
+rvback:
+  SCENE_CHG:
+  WAIT:
+scnChg2:
+  SCENE_CHG:
+  START:
+  WAIT:
+smgdoor:
+  COLOR_CHG:
+  OPEN:
+  SCENE_CHG:
+  SETGOAL:
+  WAIT:
+thdoor:
+  CLOSE:
+  MSG:
+  WAIT:
+    Timer
+thouse:
+  CHANGE:
+  CLOSE:
+  HLIGHT:
+  ROTATE:
+  WAIT:
+    Timer
+wimage:
+  MOVE:
+  NOTEND:
+  SETPOS:
+  WAIT:
+    Timer
+yamiD:1:
+  STOPPER:
+    cutId
+yamiS:1:
+  STOPPER:
+    cutId
+yamiT:1:
+  STOPPER:
+    cutId
+ykM:
+  GET_TASTE:
+    msgNo
+    prm
+    timer
+  GET_TOMATOPUREE:
+    msgNo
+    prm
+    timer
+  HUG:
+    prm
+  LV5DUNGEON_CLEAR:
+    prm
+    timer
+  MEETING_AGAIN:
+    prm
+    timer
+ykM:0:
+  END_SNOWBOARDRACE:
+    prm
+    timer
+  FIND_WOLF:
+    prm
+  SLIDEDOWN:
+    prm
+    timer
+  START_SNOWBOARDRACE:
+    prm
+    timer
+ykW:
+  GO_INTO_BOSSROOM:
+    prm
+    skip
+    timer
+  HUG:
+    prm
+    timer
+  LV5DUNGEON_CLEAR:
+    msgNo
+    prm
+    send
+    timer
+  SHOW_DOOR:
+    msgNo
+    prm
+    timer
+ykW:0:
+  END_SNOWBOARDRACE:
+    prm
+    timer
+  FIND_WOLF:
+    prm
+    timer
+  START_SNOWBOARDRACE:
+    prm
+    timer
+zrA:1:
+  SEARCH_PRINCE1:
+    prm
+  TALK_MULTI:
+    prm
+zrA:2:
+  SEARCH_PRINCE2:
+    prm
+  TALK_MULTI:
+    prm
+zrA_talk:
+  TALK_SWIM:
+    prm
+zrC:
+  EARRING_GET:
+    prm
+  GETUP_TALK:
+    prm
+zrR:
+  AFTER_BLAST_ZRR:
+    prm
+  BEFORE_BLAST_ZRR:
+    prm
+  RESULT_ANNOUNCE:
+    prm
+  THANKS_BLAST:
+    prm
+zrWF:
+  CARRY_WATERFALL:
+    prm
+  CARRY_WATERFALL_SKIP:
+    prm
+zrZ:
+  CLOTHES_GET:
+    prm
+  COME_HERE:
+    prm
+  GET_AFTER:
+    prm
+  HELP_PRINCE:
+    prm
+    timer
+  RESTORE_LINK:
+    prm
+  SEAL_RELEASE:
+    prm
+  SR_SKIP:
+    prm
