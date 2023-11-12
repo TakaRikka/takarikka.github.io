@@ -1,0 +1,121 @@
+ALL:
+  DUMMY:
+  dummy:
+CAMERA:
+  BSPTRANS:
+    BGCheck
+    Base
+    Center
+    Eye
+    Fovy
+    RelActor
+    Set1
+    Set2
+    Timer
+    Use1
+    Use2
+    WaitAnyKey
+  FIXEDFRM:
+    BGCheck
+    Center
+    Eye
+    Fovy
+    RelActor
+    Timer
+    WaitAnyKey
+  MAPTOOL:
+    BGCheck
+  STBWAIT:
+    BGCheck
+  UNIACCELE:
+    Center
+    Eye
+    Fovy
+    RelActor
+    Timer
+  UNITRANS:
+    BGCheck
+    Center
+    Eye
+    Fovy
+    RelActor
+    Timer
+    TransType
+  WAIT:
+    BGCheck
+    PlayerHide
+DIRECTOR:
+  FADE:
+    Color
+    Rate
+  MAPTOOL:
+    ID
+  SPECIAL:
+    Type
+  WAIT:
+    EventFlag
+    SwitchOff
+    SwitchTable
+Link:
+  001n_wait:
+    prm0
+  002n_walk:
+    pos
+  004init_wait:
+    angle
+    pos
+  012unequip:
+    prm1
+  031lwait:
+    prm0
+  045warp:
+    prm0
+    prm1
+  047lookup:
+    prm0
+  048lupend:
+    prm0
+  055sget:
+    prm0
+MESSAGE:
+  SAVE:
+  SHOW:
+    No
+  WAIT:
+Midna:
+  01wait:
+  02shadow:
+    fprm0
+  03fly:
+    npos
+    pos
+  04fturn:
+    angle
+  06swait:
+  07scatch:
+  08warphole:
+  14putawy:
+  16winit:
+    pos
+PACKAGE:
+  PLAY:
+    FileName
+  WAIT:
+SHUTTER_DOOR:
+  STOP_OPEN:
+  WAIT:
+TIMEKEEPER:
+  COUNTDOWN:
+    Timer
+  WAIT:
+WARPHOLE:
+  APPEAR:
+  APPEAR_END:
+  HEART_MOVE:
+  STONE_FALL:
+  STONE_MIDNA:
+  STONE_PUTAWAY:
+  WAIT:
+grZ:
+  REBIRTH:
+  WAIT:

@@ -1,0 +1,394 @@
+ALL:
+  DUMMY:
+    [none]: # Appears in: D_MN05:MapToolCamera56, F_SP104:MapToolCamera13, F_SP108:yami_mog, F_SP108:light_look, F_SP108:fog_look, F_SP108:fog_walk, F_SP108:kekkai_01, F_SP108:kekkai_b01, F_SP108:demo31_28, F_SP108:sekizo108, F_SP115:MapToolCamera6, F_SP121:iria_nioi, F_SP121 ...
+  dummy:
+    [none]: # Appears in: F_SP108:B_W_START
+CAMERA:
+  BSPTRANS:
+    BGCheck:
+      3 # Appears in: D_MN07A:BOSSCLEAR07, F_SP108:B_W_START
+    Base:
+      [0.0, 0.0, 0.0, 1.0, 1.0]                                          # Appears in: D_MN07A:BOSSCLEAR07
+      [0.0, 0.0, 0.10000000149011612, 0.25, 0.550000011920929, 1.0, 1.0] # Appears in: D_MN07A:BOSSCLEAR07
+    Center:
+      (0.0, 28.0, 48.0)                              # Appears in: D_MN01A:BOSSCLEAR03
+      (0.0, 28.0, 4.0)                               # Appears in: D_MN04A:BOSSCLEAR02
+      (125.0, -70.0, 155.0)                          # Appears in: D_MN04A:BOSSCLEAR02
+      (0.0, 22.0, 0.0)                               # Appears in: D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN11A:BOSSCLEAR05
+      (0.0, 120.0, 0.0)                              # Appears in: D_MN06A:BOSSCLEAR06
+      (61.479000091552734, 120.0, 798.2890014648438) # Appears in: D_MN07A:BOSSCLEAR07
+      (-310.0, 60.0, 270.0)                          # Appears in: D_MN07A:BOSSCLEAR07
+      (-305.0, 50.0, 280.0)                          # Appears in: D_MN07A:BOSSCLEAR07
+      (0.0, -65.0, 0.0)                              # Appears in: F_SP108:B_W_START
+    Eye:
+      (-165.0, 10.0, 0.0)                                         # Appears in: D_MN01A:BOSSCLEAR03
+      (-35.0, -48.0, 155.0)                                       # Appears in: D_MN04A:BOSSCLEAR02
+      (290.0, 80.0, -245.0)                                       # Appears in: D_MN04A:BOSSCLEAR02
+      (-125.0, -30.0, 105.0)                                      # Appears in: D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN11A:BOSSCLEAR05
+      (500.0, 170.0, 30.0)                                        # Appears in: D_MN06A:BOSSCLEAR06
+      (-104.70800018310547, 67.93900299072266, 708.1859741210938) # Appears in: D_MN07A:BOSSCLEAR07
+      (-455.0, 315.0, 0.0)                                        # Appears in: D_MN07A:BOSSCLEAR07
+      (-530.0, 120.0, -45.0)                                      # Appears in: D_MN07A:BOSSCLEAR07
+      (0.0, -60.0, -300.0)                                        # Appears in: F_SP108:B_W_START
+    Fovy:
+      65.0 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      55.0 # Appears in: D_MN04A:BOSSCLEAR02, D_MN07A:BOSSCLEAR07, F_SP108:B_W_START
+      50.0 # Appears in: D_MN06A:BOSSCLEAR06
+    RelActor:
+      'Midna'   # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN11A:BOSSCLEAR05
+      '@PLAYER' # Appears in: D_MN04A:BOSSCLEAR02, F_SP108:B_W_START
+    Set1:
+      [0.0, 0.0, 1.0, 1.0, 1.0]                # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN11A:BOSSCLEAR05
+      [0.0, 0.0, 0.0, 1.0, 1.0]                # Appears in: D_MN04A:BOSSCLEAR02
+      [0.0, 0.0, 0.0, 0.0, 1.0, 1.0]           # Appears in: D_MN07A:BOSSCLEAR07
+      [0.0, 0.0, 0.8500000238418579, 1.0, 1.0] # Appears in: F_SP108:B_W_START
+    Set2:
+      [0.0, 0.0, 0.0, 1.0, 1.0]                # Appears in: D_MN04A:BOSSCLEAR02
+      [0.0, 0.0, 0.6000000238418579, 1.0, 1.0] # Appears in: D_MN07A:BOSSCLEAR07
+    Timer:
+      120 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      50  # Appears in: D_MN04A:BOSSCLEAR02
+      200 # Appears in: D_MN06A:BOSSCLEAR06
+      130 # Appears in: D_MN07A:BOSSCLEAR07
+      60  # Appears in: D_MN07A:BOSSCLEAR07
+      100 # Appears in: F_SP108:B_W_START
+    Use1:
+      'xxxoxx' # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      'xxxxox' # Appears in: D_MN04A:BOSSCLEAR02
+      'oxxoxx' # Appears in: F_SP108:B_W_START
+    Use2:
+      'xxxxxo' # Appears in: D_MN04A:BOSSCLEAR02
+      'ooxxxx' # Appears in: D_MN07A:BOSSCLEAR07
+    WaitAnyKey:
+      1 # Appears in: D_MN07A:BOSSCLEAR07
+  FIXEDFRM:
+    BGCheck:
+      3 # Appears in: D_MN07A:BOSSCLEAR07, F_SP108:B_W_START
+    Center:
+      (0.0, -10.0, 40.0)                                         # Appears in: D_MN01A:BOSSCLEAR03
+      (0.0, -10.0, 62.0)                                         # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN11A:BOSSCLEAR05
+      (45.0, 10.0, -25.0)                                        # Appears in: D_MN01A:BOSSCLEAR03
+      (0.0, -40.0, 50.0)                                         # Appears in: D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      (0.0, -155.0, 0.0)                                         # Appears in: D_MN04A:BOSSCLEAR02
+      (125.0, -70.0, 155.0)                                      # Appears in: D_MN04A:BOSSCLEAR02
+      (0.0, 110.0, 0.0)                                          # Appears in: D_MN06A:BOSSCLEAR06
+      (70.52300262451172, 157.69200134277344, 794.7579956054688) # Appears in: D_MN07A:BOSSCLEAR07
+      (-16980.0, 100.0, -5010.0)                                 # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      (0.0, 100.0, 0.0)                                          # Appears in: F_SP108:B_W_START
+      (0.0, -40.0, 0.0)                                          # Appears in: F_SP121:SMELL_1st
+    Eye:
+      (85.0, -110.0, 130.0)                                      # Appears in: D_MN01A:BOSSCLEAR03
+      (180.0, 128.0, -100.0)                                     # Appears in: D_MN01A:BOSSCLEAR03
+      (0.0, 40.0, 220.0)                                         # Appears in: D_MN01A:BOSSCLEAR03
+      (-110.0, -50.0, 240.0)                                     # Appears in: D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      (-180.0, 128.0, -100.0)                                    # Appears in: D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN11A:BOSSCLEAR05
+      (0.0, -215.0, 550.0)                                       # Appears in: D_MN04A:BOSSCLEAR02
+      (290.0, 80.0, -245.0)                                      # Appears in: D_MN04A:BOSSCLEAR02
+      (-350.0, 700.0, -140.0)                                    # Appears in: D_MN06A:BOSSCLEAR06
+      (-43.0369987487793, 131.40899658203125, 954.9219970703125) # Appears in: D_MN07A:BOSSCLEAR07
+      (-16640.0, 30.0, -4740.0)                                  # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      (0.0, -50.0, 100.0)                                        # Appears in: F_SP108:B_W_START
+      (-140.0, -40.0, 150.0)                                     # Appears in: F_SP121:SMELL_1st
+    Fovy:
+      65.0  # Appears in: D_MN01A:BOSSCLEAR03, F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      62.0  # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      55.0  # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02
+      45.0  # Appears in: D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      60.0  # Appears in: D_MN06A:BOSSCLEAR06, F_SP121:SMELL_1st
+      100.0 # Appears in: F_SP108:B_W_START
+    RelActor:
+      '@PLAYER' # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05, F_SP108:B_W_START, F_SP121:SMELL_1st
+      'Midna'   # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN11A:BOSSCLEAR05
+      'grZ'     # Appears in: D_MN04A:BOSSCLEAR02
+    Timer:
+      10 # Appears in: D_MN04A:BOSSCLEAR02, F_SP108:B_W_START
+      50 # Appears in: D_MN06A:BOSSCLEAR06
+      5  # Appears in: D_MN07A:BOSSCLEAR07
+    WaitAnyKey:
+      1 # Appears in: D_MN04A:BOSSCLEAR02
+  MAPTOOL:
+    BGCheck:
+      3 # Appears in: D_MN05:MapToolCamera56, D_MN11:MapToolCamera1, D_MN11:MapToolCamera2, F_SP104:MapToolCamera13, F_SP115:MapToolCamera6
+  STBWAIT:
+    BGCheck:
+      3 # Appears in: F_SP108:yami_mog, F_SP108:light_look, F_SP108:fog_look, F_SP108:fog_walk, F_SP108:kekkai_01, F_SP108:kekkai_b01, F_SP108:demo31_28, F_SP108:sekizo108, F_SP121:SMELL_1st, F_SP121:iria_nioi, F_SP121:iria_pouch01
+  UNIACCELE:
+    Center:
+      (155.0, -95.0, 160.0) # Appears in: D_MN05A:BOSSCLEAR01, D_MN11A:BOSSCLEAR05
+    Eye:
+      (55.0, 105.0, -240.0) # Appears in: D_MN05A:BOSSCLEAR01, D_MN11A:BOSSCLEAR05
+    Fovy:
+      55.0 # Appears in: D_MN05A:BOSSCLEAR01, D_MN11A:BOSSCLEAR05
+    RelActor:
+      '@PLAYER' # Appears in: D_MN05A:BOSSCLEAR01, D_MN11A:BOSSCLEAR05
+    Timer:
+      50 # Appears in: D_MN05A:BOSSCLEAR01, D_MN11A:BOSSCLEAR05
+  UNITRANS:
+    BGCheck:
+      3 # Appears in: D_MN07A:BOSSCLEAR07
+    Center:
+      (0.0, -30.0, 55.0)          # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      (-1125.0, -23800.0, 8635.0) # Appears in: D_MN01A:BOSSCLEAR03
+      (-60.0, 0.0, 0.0)           # Appears in: D_MN01A:BOSSCLEAR03
+      (0.0, 60.0, 0.0)            # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+    Eye:
+      (-135.0, 5.0, -80.0)        # Appears in: D_MN01A:BOSSCLEAR03
+      (-1005.0, -23655.0, 9040.0) # Appears in: D_MN01A:BOSSCLEAR03
+      (60.0, 100.0, 800.0)        # Appears in: D_MN01A:BOSSCLEAR03
+      (135.0, 5.0, -80.0)         # Appears in: D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      (0.0, -100.0, -167.0)       # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+    Fovy:
+      55.0 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      45.0 # Appears in: D_MN01A:BOSSCLEAR03
+      40.0 # Appears in: D_MN01A:BOSSCLEAR03, F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      60.0 # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+    RelActor:
+      '@PLAYER' # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05, F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      'Midna'   # Appears in: D_MN01A:BOSSCLEAR03
+    Timer:
+      120 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      50  # Appears in: D_MN01A:BOSSCLEAR03
+      130 # Appears in: D_MN01A:BOSSCLEAR03
+      100 # Appears in: D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      600 # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+    TransType:
+      1 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  WAIT:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN06A:BOSSCLEAR06, D_MN11A:BOSSCLEAR05, F_SP121:SMELL_1st
+    BGCheck:
+      3 # Appears in: D_MN07A:BOSSCLEAR07
+    PlayerHide:
+      1 # Appears in: F_SP108:SAVEREQ
+DIRECTOR:
+  FADE:
+    Color:
+      [160, 160, 160] # Appears in: F_SP108:B_W_START, F_SP108:SAVEREQ
+    Rate:
+      -0.05000000074505806 # Appears in: F_SP108:B_W_START
+      1.0                  # Appears in: F_SP108:SAVEREQ
+  MAPTOOL:
+    ID:
+      56 # Appears in: D_MN05:MapToolCamera56
+      1  # Appears in: D_MN11:MapToolCamera1, F_SP121:iria_pouch01
+      2  # Appears in: D_MN11:MapToolCamera2
+      13 # Appears in: F_SP104:MapToolCamera13, F_SP108:fog_walk
+      4  # Appears in: F_SP108:yami_mog
+      6  # Appears in: F_SP108:light_look, F_SP115:MapToolCamera6
+      7  # Appears in: F_SP108:fog_look
+      14 # Appears in: F_SP108:kekkai_01
+      15 # Appears in: F_SP108:kekkai_b01
+      31 # Appears in: F_SP108:demo31_28
+      32 # Appears in: F_SP108:sekizo108
+      0  # Appears in: F_SP121:iria_nioi
+  SPECIAL:
+    Type:
+      8 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN11A:BOSSCLEAR05
+  WAIT:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN11A:BOSSCLEAR05, F_SP108:B_W_START
+    EventFlag:
+      98 # Appears in: F_SP108:B_W_START, F_SP108:B_W_START$0
+    SwitchOff:
+      95 # Appears in: D_MN06A:BOSSCLEAR06
+      85 # Appears in: D_MN07A:BOSSCLEAR07
+    SwitchTable:
+      2 # Appears in: D_MN06A:BOSSCLEAR06
+      3 # Appears in: D_MN07A:BOSSCLEAR07
+Link:
+  001n_wait:
+    [none]: # Appears in: D_MN06A:BOSSCLEAR06, D_MN06A:BOSSCLEAR06, D_MN11:MapToolCamera1, D_MN11:MapToolCamera2, F_SP108:BC_SEIREI1ST
+    prm0:
+      3 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02
+      4 # Appears in: D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  002n_walk:
+    pos:
+      (300.0, 0.0, 80.0) # Appears in: D_MN06A:BOSSCLEAR06
+  004init_wait:
+    angle:
+      -31556 # Appears in: D_MN01A:BOSSCLEAR03
+      -28295 # Appears in: D_MN07A:BOSSCLEAR07
+      -22027 # Appears in: F_SP108:B_W_START$0
+    pos:
+      (-1224.9691162109375, -23974.021484375, 8677.9296875) # Appears in: D_MN01A:BOSSCLEAR03
+      (0.0, 0.0, 700.0)                                     # Appears in: D_MN04A:BOSSCLEAR02
+      (121.0, 0.0, 2486.0)                                  # Appears in: D_MN05A:BOSSCLEAR01
+      (900.0, 0.0, 160.0)                                   # Appears in: D_MN06A:BOSSCLEAR06
+      (-3.7593460083007812, 0.0, 839.4214477539062)         # Appears in: D_MN07A:BOSSCLEAR07
+      (0.0, 0.0, 0.0)                                       # Appears in: D_MN11A:BOSSCLEAR05
+      (-16981.625, -28.28617286682129, -5025.1162109375)    # Appears in: F_SP108:B_W_START$0
+  012unequip:
+    prm1:
+      0 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  031lwait:
+    prm0:
+      1 # Appears in: D_MN11:MapToolCamera1, D_MN11:MapToolCamera2
+  045warp:
+    prm0:
+      1 # Appears in: F_SP108:B_W_START
+    prm1:
+      0 # Appears in: F_SP108:B_W_START
+  047lookup:
+    prm0:
+      3 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  048lupend:
+    prm0:
+      3 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      4 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  055sget:
+    [none]: # Appears in: F_SP121:SMELL_1st, F_SP121:SMELL_1st
+    prm0:
+      1 # Appears in: F_SP121:SMELL_1st
+MESSAGE:
+  SAVE:
+    [none]: # Appears in: F_SP108:SAVEREQ
+  SHOW:
+    No:
+      7001                           # Appears in: D_MN01A:BOSSCLEAR03
+      [7002, 7003]                   # Appears in: D_MN01A:BOSSCLEAR03
+      [7004, 7005, 7006]             # Appears in: D_MN01A:BOSSCLEAR03
+      [7007, 7008]                   # Appears in: D_MN01A:BOSSCLEAR03
+      7009                           # Appears in: D_MN01A:BOSSCLEAR03
+      6011                           # Appears in: D_MN04A:BOSSCLEAR02
+      [6012, 6013]                   # Appears in: D_MN04A:BOSSCLEAR02
+      [6014, 6015, 6016, 6017, 6018] # Appears in: D_MN04A:BOSSCLEAR02
+      [6019, 6020]                   # Appears in: D_MN04A:BOSSCLEAR02
+      6021                           # Appears in: D_MN04A:BOSSCLEAR02
+      [5001, 5002]                   # Appears in: D_MN05A:BOSSCLEAR01
+      [5003, 5004]                   # Appears in: D_MN05A:BOSSCLEAR01
+      [5005, 5006, 5007, 5008, 5009] # Appears in: D_MN05A:BOSSCLEAR01
+      5010                           # Appears in: D_MN05A:BOSSCLEAR01
+      5011                           # Appears in: D_MN05A:BOSSCLEAR01
+      9401                           # Appears in: D_MN06A:BOSSCLEAR06
+      9402                           # Appears in: D_MN06A:BOSSCLEAR06
+      [9403, 9404, 9405]             # Appears in: D_MN06A:BOSSCLEAR06
+      [9406, 9407]                   # Appears in: D_MN06A:BOSSCLEAR06
+      9408                           # Appears in: D_MN06A:BOSSCLEAR06
+      9409                           # Appears in: D_MN06A:BOSSCLEAR06
+      11001                          # Appears in: D_MN07A:BOSSCLEAR07
+      11002                          # Appears in: D_MN07A:BOSSCLEAR07
+      [11003, 11004, 11005]          # Appears in: D_MN07A:BOSSCLEAR07
+      [11006, 11007]                 # Appears in: D_MN07A:BOSSCLEAR07
+      [11008, 11009]                 # Appears in: D_MN07A:BOSSCLEAR07
+      9301                           # Appears in: D_MN11A:BOSSCLEAR05
+      9302                           # Appears in: D_MN11A:BOSSCLEAR05
+      [9303, 9304, 9305]             # Appears in: D_MN11A:BOSSCLEAR05
+      [9306, 9307]                   # Appears in: D_MN11A:BOSSCLEAR05
+      9308                           # Appears in: D_MN11A:BOSSCLEAR05
+      5078                           # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      5079                           # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      5080                           # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      5081                           # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      5082                           # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      5083                           # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      5084                           # Appears in: F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+  WAIT:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05, F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+Midna:
+  01wait:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  02shadow:
+    fprm0:
+      80.0 # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  03fly:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+    npos:
+      (-1520.0, -23960.0, 7100.0) # Appears in: D_MN01A:BOSSCLEAR03
+      (-360.0, 0.0, -315.0)       # Appears in: D_MN04A:BOSSCLEAR02
+      (-235.0, 0.0, 2200.0)       # Appears in: D_MN05A:BOSSCLEAR01
+      (-325.0, 0.0, 215.0)        # Appears in: D_MN07A:BOSSCLEAR07
+      (-550.0, 0.0, -250.0)       # Appears in: D_MN11A:BOSSCLEAR05
+    pos:
+      (-1125.0, -23960.0, 8380.0) # Appears in: D_MN01A:BOSSCLEAR03
+      (-1470.0, -23960.0, 7280.0) # Appears in: D_MN01A:BOSSCLEAR03
+      (-1520.0, -23960.0, 7100.0) # Appears in: D_MN01A:BOSSCLEAR03
+      (-100.0, 0.0, 465.0)        # Appears in: D_MN04A:BOSSCLEAR02
+      (-360.0, 0.0, 290.0)        # Appears in: D_MN04A:BOSSCLEAR02
+      (-30.0, 0.0, 2320.0)        # Appears in: D_MN05A:BOSSCLEAR01
+      (-234.0, 0.0, 2191.0)       # Appears in: D_MN05A:BOSSCLEAR01
+      (200.0, 0.0, 0.0)           # Appears in: D_MN06A:BOSSCLEAR06
+      (0.0, 0.0, 0.0)             # Appears in: D_MN06A:BOSSCLEAR06
+      (-275.0, 0.0, 300.0)        # Appears in: D_MN07A:BOSSCLEAR07
+      (-325.0, 0.0, 215.0)        # Appears in: D_MN07A:BOSSCLEAR07
+      (-300.0, 0.0, -250.0)       # Appears in: D_MN11A:BOSSCLEAR05
+      (-550.0, 0.0, -250.0)       # Appears in: D_MN11A:BOSSCLEAR05
+  04fturn:
+    [none]: # Appears in: D_MN06A:BOSSCLEAR06
+    angle:
+      -30103 # Appears in: D_MN01A:BOSSCLEAR03
+      7280   # Appears in: D_MN01A:BOSSCLEAR03, D_MN05A:BOSSCLEAR01
+      -14210 # Appears in: D_MN01A:BOSSCLEAR03, D_MN05A:BOSSCLEAR01
+      1267   # Appears in: D_MN01A:BOSSCLEAR03
+      -23000 # Appears in: D_MN04A:BOSSCLEAR02
+      6255   # Appears in: D_MN04A:BOSSCLEAR02
+      -26513 # Appears in: D_MN04A:BOSSCLEAR02
+      15763  # Appears in: D_MN06A:BOSSCLEAR06
+      -16537 # Appears in: D_MN06A:BOSSCLEAR06
+      -26116 # Appears in: D_MN07A:BOSSCLEAR07
+      5876   # Appears in: D_MN07A:BOSSCLEAR07
+      -27619 # Appears in: D_MN07A:BOSSCLEAR07
+      -24395 # Appears in: D_MN11A:BOSSCLEAR05
+      8363   # Appears in: D_MN11A:BOSSCLEAR05
+  06swait:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  07scatch:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  08warphole:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  14putawy:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  16winit:
+    pos:
+      (-1345.0, -23960.0, 7740.0) # Appears in: D_MN01A:BOSSCLEAR03
+      (500.0, 0.0, 0.0)           # Appears in: D_MN06A:BOSSCLEAR06
+PACKAGE:
+  PLAY:
+    FileName:
+      'yami_mog.stb'     # Appears in: F_SP108:yami_mog
+      'light_look.stb'   # Appears in: F_SP108:light_look
+      'fog_look.stb'     # Appears in: F_SP108:fog_look
+      'fog_walk.stb'     # Appears in: F_SP108:fog_walk
+      'kekkai_01.stb'    # Appears in: F_SP108:kekkai_01
+      'kekkai_b01.stb'   # Appears in: F_SP108:kekkai_b01
+      'demo31_28.stb'    # Appears in: F_SP108:demo31_28
+      'sekizo108.stb'    # Appears in: F_SP108:sekizo108
+      'iria_nioi.stb'    # Appears in: F_SP121:SMELL_1st, F_SP121:iria_nioi
+      'iria_pouch01.stb' # Appears in: F_SP121:iria_pouch01
+  WAIT:
+    [none]: # Appears in: F_SP108:yami_mog, F_SP108:light_look, F_SP108:fog_look, F_SP108:fog_walk, F_SP108:kekkai_01, F_SP108:kekkai_b01, F_SP108:demo31_28, F_SP108:sekizo108, F_SP121:SMELL_1st, F_SP121:SMELL_1st, F_SP121:iria_nioi, F_SP121:iria_pouch01
+SHUTTER_DOOR:
+  STOP_OPEN:
+    [none]: # Appears in: D_MN11:MapToolCamera1, D_MN11:MapToolCamera2
+  WAIT:
+    [none]: # Appears in: D_MN11:MapToolCamera1, D_MN11:MapToolCamera1, D_MN11:MapToolCamera2, D_MN11:MapToolCamera2
+TIMEKEEPER:
+  COUNTDOWN:
+    Timer:
+      10  # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05, F_SP108:B_W_START
+      30  # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      45  # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      20  # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, F_SP108:BC_SEIREI1ST, F_SP108:B_W_START
+      50  # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+      90  # Appears in: D_MN04A:BOSSCLEAR02, F_SP121:SMELL_1st
+      5   # Appears in: D_MN11:MapToolCamera1, D_MN11:MapToolCamera2
+      140 # Appears in: F_SP108:B_W_START
+  WAIT:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05, F_SP108:BC_SEIREI1ST, F_SP121:SMELL_1st, F_SP121:SMELL_1st
+WARPHOLE:
+  APPEAR:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  APPEAR_END:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  HEART_MOVE:
+    [none]: # Appears in: D_MN06A:BOSSCLEAR06
+  STONE_FALL:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  STONE_MIDNA:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  STONE_PUTAWAY:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+  WAIT:
+    [none]: # Appears in: D_MN01A:BOSSCLEAR03, D_MN04A:BOSSCLEAR02, D_MN05A:BOSSCLEAR01, D_MN06A:BOSSCLEAR06, D_MN07A:BOSSCLEAR07, D_MN11A:BOSSCLEAR05
+grZ:
+  REBIRTH:
+    [none]: # Appears in: D_MN04A:BOSSCLEAR02
+  WAIT:
+    [none]: # Appears in: D_MN04A:BOSSCLEAR02
