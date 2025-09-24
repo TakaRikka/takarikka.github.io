@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="STOP_CLOSE">
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">34</data>
+            </cut>
+        </staff>
+        <staff name="dstop">
+            <cut name="WAIT">
+            </cut>
+            <cut name="STOP_CLOSE">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRMS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Centers" type="XYZ">
+                    0.000 -20.000 120.000
+                    50.000 -20.000 240.000
+                    -50.000 -20.000 240.000
+                    0.000 30.000 280.000
+                    0.000 20.000 240.000
+                    0.000 0.000 280.000
+                    0.000 0.000 280.000
+                    0.000 50.000 280.000
+                </data>
+                <data name="Eyes" type="XYZ">
+                    80.000 420.000 600.000
+                    -600.000 300.000 500.000
+                    600.000 300.000 500.000
+                    0.000 300.000 600.000
+                    -100.000 420.000 700.000
+                    520.000 360.000 800.000
+                    -520.000 360.000 800.000
+                    0.000 700.000 1200.000
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    65.000
+                    65.000
+                    65.000
+                    60.000
+                    60.000
+                    55.000
+                    55.000
+                    50.000
+                </data>
+                <data name="Choice" type="INTEGER">1</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="031lwait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="STOP_CLOSE2">
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">34</data>
+            </cut>
+        </staff>
+        <staff name="dstop">
+            <cut name="WAIT">
+            </cut>
+            <cut name="STOP_CLOSE">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="031lwait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="STOP_OPEN">
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">34</data>
+            </cut>
+        </staff>
+        <staff name="dstop">
+            <cut name="WAIT">
+            </cut>
+            <cut name="STOP_OPEN">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRMS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Centers" type="XYZ">
+                    0.000 -20.000 120.000
+                    50.000 -20.000 240.000
+                    -50.000 -20.000 240.000
+                    0.000 30.000 280.000
+                    0.000 20.000 240.000
+                    0.000 0.000 280.000
+                    0.000 0.000 280.000
+                    0.000 50.000 280.000
+                </data>
+                <data name="Eyes" type="XYZ">
+                    80.000 420.000 600.000
+                    -600.000 300.000 500.000
+                    600.000 300.000 500.000
+                    0.000 300.000 600.000
+                    -100.000 420.000 700.000
+                    520.000 360.000 800.000
+                    -520.000 360.000 800.000
+                    0.000 700.000 1200.000
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    65.000
+                    65.000
+                    65.000
+                    60.000
+                    60.000
+                    55.000
+                    55.000
+                    50.000
+                </data>
+                <data name="Choice" type="INTEGER">1</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="031lwait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="STOP_OPEN2">
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">34</data>
+            </cut>
+        </staff>
+        <staff name="dstop">
+            <cut name="WAIT">
+            </cut>
+            <cut name="STOP_OPEN">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="031lwait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="GRDS_ENTRY">
+        <staff name="Link">
+            <cut name="003n_dash">
+                <data name="pos" type="XYZ">0.000 -172.100 3900.000</data>
+                <data name="prm0" type="INTEGER">1</data>
+                <data name="stick" type="FLOAT">1.000</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">0.000 -172.100 3900.000</data>
+                <data name="angle" type="INTEGER">25856</data>
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+            <cut name="063gsready">
+            </cut>
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">0.000 -172.100 875.648</data>
+                <data name="angle" type="INTEGER">32768</data>
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+            <cut name="002n_walk">
+                <data name="pos" type="XYZ">0.000 -172.100 575.648</data>
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="061glare">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="Wrestler">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_TALK">
+            </cut>
+            <cut name="0003_WALK">
+                <data name="pos" type="XYZ">0.000 0.000 -400.000</data>
+            </cut>
+            <cut name="0004_WALK">
+                <data name="pos" type="XYZ">0.000 -24.540 100.000</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+            <cut name="0005_TALK">
+            </cut>
+            <cut name="0006_TALK">
+            </cut>
+            <cut name="0007_FACE">
+            </cut>
+            <cut name="0008_TALK">
+            </cut>
+            <cut name="0009_TALK">
+            </cut>
+        </staff>
+        <staff name="grA:1">
+            <cut name="GRDS_GATE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_GATE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="grA:2">
+            <cut name="GRDS_GATE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_GATE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="grA:3">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">45</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">60</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">70</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:4">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">45</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">60</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">70</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:5">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">45</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">60</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">70</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:6">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">45</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">60</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">70</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:7">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">45</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">60</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">70</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:8">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">45</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">60</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">70</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNIBRAKE">
+                <data name="BrakeType" type="INTEGER">1</data>
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">0.000 37.811 3816.940</data>
+                <data name="Eye" type="XYZ">0.000 18.162 4117.979</data>
+                <data name="Fovy" type="FLOAT">57.416</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">0.000 19.051 3783.882</data>
+                <data name="Eye" type="XYZ">0.000 52.474 4083.703</data>
+                <data name="Fovy" type="FLOAT">52.603</data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="StartCenter" type="XYZ">-270.661 5.502 3299.345</data>
+                <data name="StartEye" type="XYZ">-169.935 18.527 3583.410</data>
+                <data name="StartFovy" type="FLOAT">40.000</data>
+                <data name="StartBank" type="FLOAT">0.000</data>
+                <data name="Center" type="XYZ">-295.034 -30.669 3375.603</data>
+                <data name="Eye" type="XYZ">-141.741 -0.142 3633.629</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="StartCenter" type="XYZ">215.695 6.313 3252.093</data>
+                <data name="StartEye" type="XYZ">85.374 19.087 3523.865</data>
+                <data name="StartFovy" type="FLOAT">40.000</data>
+                <data name="StartBank" type="FLOAT">0.000</data>
+                <data name="Center" type="XYZ">216.181 -31.448 3432.184</data>
+                <data name="Eye" type="XYZ">57.589 -0.421 3686.928</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">83.461 -48.849 3787.323</data>
+                <data name="Eye" type="XYZ">-82.556 18.095 4030.151</data>
+                <data name="Fovy" type="FLOAT">57.031</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">-30.643 58.631 3583.612</data>
+                <data name="Eye" type="XYZ">-28.850 55.362 3885.265</data>
+                <data name="Fovy" type="FLOAT">57.530</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">0.000 107.930 139.650</data>
+                <data name="Eye" type="XYZ">0.000 107.930 826.471</data>
+                <data name="Fovy" type="FLOAT">42.633</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">50</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">0.000 0.000 311.592</data>
+                <data name="Eye" type="XYZ">-533.119 533.926 935.387</data>
+                <data name="Fovy" type="FLOAT">57.826</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">xxoo</data>
+                <data name="Center" type="XYZ">0.000 -85.865 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -98.215 223.010</data>
+                <data name="Fovy" type="FLOAT">57.826</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">-12.011 7.659 10.976</data>
+                <data name="Eye" type="XYZ">79.176 -27.084 100.339</data>
+                <data name="Fovy" type="FLOAT">57.826</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">xxoo</data>
+                <data name="Center" type="XYZ">-12.011 7.659 10.976</data>
+                <data name="Eye" type="XYZ">52.156 -22.439 68.468</data>
+                <data name="Fovy" type="FLOAT">57.826</data>
+                <data name="Timer" type="INTEGER">15</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">0.000 -60.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -60.000 175.288</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">-0.720 -10.916 377.182</data>
+                <data name="Eye" type="XYZ">-478.021 -88.470 935.683</data>
+                <data name="Fovy" type="FLOAT">44.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">xxoo</data>
+                <data name="Center" type="XYZ">0.000 30.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 398.127 -1116.734</data>
+                <data name="Fovy" type="FLOAT">55.216</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">7</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">4</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">3</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">8</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">25</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">35</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">50</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+        </staff>
+        <staff name="EFFECT">
+            <cut name="WAIT">
+            </cut>
+            <cut name="QUAKE">
+                <data name="Power" type="INTEGER">7</data>
+                <data name="Type" type="INTEGER">15</data>
+                <data name="Timer" type="INTEGER">120</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GRDS_ENTRY2">
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="060nod">
+            </cut>
+        </staff>
+        <staff name="Wrestler">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_SUMO">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">-12.011 7.659 10.976</data>
+                <data name="Eye" type="XYZ">79.176 -27.084 100.339</data>
+                <data name="Fovy" type="FLOAT">57.826</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GRDS_ENTRY3">
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Wrestler">
+            <cut name="0001_TALK">
+            </cut>
+        </staff>
+        <staff name="grA:3">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:4">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:5">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:6">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:7">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:8">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">-22.756 -70.849 2513.312</data>
+                <data name="Eye" type="XYZ">-22.756 189.906 3106.625</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GRDS_ENTRY4">
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Wrestler">
+            <cut name="0001_TALK">
+            </cut>
+        </staff>
+        <staff name="grA:3">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:4">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:5">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:6">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:7">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="grA:8">
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_ROLL">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">0.000 9.935 574.980</data>
+                <data name="Eye" type="XYZ">0.000 375.563 1692.534</data>
+                <data name="Fovy" type="FLOAT">55.216</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GRDS_ENTRY5">
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="060nod">
+            </cut>
+        </staff>
+        <staff name="Wrestler">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_TALK">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GRDS_LOSE">
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">-38.053 -172.100 896.825</data>
+                <data name="angle" type="INTEGER">-21293</data>
+            </cut>
+        </staff>
+        <staff name="Wrestler">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_WAIT">
+                <data name="pos" type="XYZ">-216.248 -172.100 806.013</data>
+                <data name="angle" type="INTEGER">11468</data>
+            </cut>
+            <cut name="0003_TALK">
+            </cut>
+            <cut name="0004_TALK">
+            </cut>
+        </staff>
+        <staff name="grA:1">
+            <cut name="GRDS_GATE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_GATE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="grA:2">
+            <cut name="GRDS_GATE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GRDS_GATE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-124.847 -51.703 852.865</data>
+                <data name="Eye" type="XYZ">-133.614 -77.875 1278.134</data>
+                <data name="Fovy" type="FLOAT">42.633</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-221.417 -28.654 799.219</data>
+                <data name="Eye" type="XYZ">-11.286 -28.654 905.723</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">0.000 107.930 139.650</data>
+                <data name="Eye" type="XYZ">0.000 107.930 826.471</data>
+                <data name="Fovy" type="FLOAT">42.633</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="PLAYER_NODRAW">
+            </cut>
+            <cut name="PLAYER_DRAW">
+            </cut>
+        </staff>
+    </sequence>
+</event>

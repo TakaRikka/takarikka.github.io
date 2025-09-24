@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="CHASE_AWAY_WOLF">
+        <staff name="thdoor">
+            <cut name="WAIT">
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="MSG">
+            </cut>
+            <cut name="CLOSE">
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="005wait_turn">
+                <data name="angle" type="INTEGER">-24576</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="009ldam">
+                <data name="prm0" type="INTEGER">16383</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                    0
+                </data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                    255
+                </data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">154.000 84.000 0.000</data>
+                <data name="Eye" type="XYZ">140.000 115.000 411.000</data>
+                <data name="Fovy" type="FLOAT">65.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Timer" type="INTEGER">120</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

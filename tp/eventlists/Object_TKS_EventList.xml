@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="TKS_ENCOUNTER">
+        <staff name="Link">
+            <cut name="014keep">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Tks">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_SHAKE">
+            </cut>
+            <cut name="0003_APPEAR">
+            </cut>
+            <cut name="0004_TURN">
+            </cut>
+            <cut name="0005_TALK">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">xxox</data>
+                <data name="Center" type="XYZ">0.000 55.000 0.000</data>
+                <data name="Fovy" type="FLOAT">35.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">45</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">STANDARD</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">0.000 30.000 0.000</data>
+                <data name="Eye" type="XYZ">-128.498 3.568 141.509</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">DEMO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">0.000 -116.191 165.282</data>
+                <data name="Eye" type="XYZ">-114.156 -98.121 70.145</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">DEMO</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Tks</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">58</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">75</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TKS_FAREWELL">
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">4</data>
+            </cut>
+        </staff>
+        <staff name="Midna">
+            <cut name="01wait">
+            </cut>
+            <cut name="02shadow">
+            </cut>
+            <cut name="03fly">
+                <data name="pos" type="XYZ">105.389 1712.824 7577.207</data>
+                <data name="speed" type="FLOAT">13.000</data>
+                <data name="npos" type="XYZ">482.177 2225.000 8990.161</data>
+            </cut>
+            <cut name="03fly">
+                <data name="pos" type="XYZ">39.031 1724.557 7436.486</data>
+                <data name="speed" type="FLOAT">5.000</data>
+                <data name="npos" type="XYZ">0.000 1895.000 7300.000</data>
+            </cut>
+            <cut name="05sreturn">
+            </cut>
+        </staff>
+        <staff name="Tks">
+            <cut name="0001_TALK">
+            </cut>
+            <cut name="0002_TURN">
+                <data name="pos" type="XYZ">233.488 1725.000 8218.431</data>
+            </cut>
+            <cut name="0003_WALK">
+                <data name="pos" type="XYZ">233.488 1725.000 8218.431</data>
+            </cut>
+            <cut name="0004_JUMP">
+                <data name="pos" type="XYZ">233.488 1725.000 8218.431</data>
+            </cut>
+            <cut name="0006_TALK">
+            </cut>
+            <cut name="0007_TALK">
+            </cut>
+            <cut name="0008_TALK">
+            </cut>
+            <cut name="0009_TALK">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Tks</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">120.991 1822.452 7475.657</data>
+                <data name="Eye" type="XYZ">47.630 1873.345 7065.256</data>
+                <data name="Fovy" type="FLOAT">44.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">6.463 1840.924 7391.504</data>
+                <data name="Eye" type="XYZ">217.581 1923.307 7119.586</data>
+                <data name="Fovy" type="FLOAT">44.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">90</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TKS_WARPBACK">
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Tks">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_TALK">
+            </cut>
+            <cut name="0003_JUMP">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRMS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Centers" type="XYZ">
+                    1.623 -41.045 110.606
+                    1.623 -41.045 110.606
+                    1.623 -66.881 110.632
+                    0.000 30.991 108.657
+                    0.000 30.991 108.657
+                    -0.307 -44.684 52.468
+                </data>
+                <data name="Eyes" type="XYZ">
+                    288.106 166.083 110.532
+                    -313.717 118.589 110.590
+                    1.590 92.798 -204.768
+                    -226.437 225.513 298.026
+                    233.882 218.485 296.047
+                    -0.289 -44.679 -301.004
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    42.674
+                    42.674
+                    42.674
+                    42.674
+                    42.674
+                    42.674
+                </data>
+                <data name="Choice" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Tks</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="ASHB_APPEAR">
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">31661.553 -13330.000 -11933.734</data>
+                <data name="angle" type="INTEGER">-22796</data>
+            </cut>
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="011get_item">
+                <data name="prm0" type="INTEGER">256</data>
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="011get_item">
+                <data name="prm0" type="INTEGER">256</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+        <staff name="AshB">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_LOOK">
+            </cut>
+            <cut name="0003_TURN">
+            </cut>
+            <cut name="0004_TALK">
+            </cut>
+            <cut name="0005_MASK">
+            </cut>
+            <cut name="0006_TALK">
+            </cut>
+            <cut name="0007_TALK">
+            </cut>
+            <cut name="0008_GET">
+            </cut>
+            <cut name="0009_TALK">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">AshB</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">25.179 -41.336 -20.299</data>
+                <data name="Eye" type="XYZ">5.533 -75.733 152.609</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">AshB</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">-7.000 -47.000 0.000</data>
+                <data name="Eye" type="XYZ">-7.000 -47.000 130.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">AshB</data>
+                <data name="RelUseMask" type="STRING">xxoo</data>
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">-7.009 -35.000 -0.000</data>
+                <data name="Eye" type="XYZ">-7.000 -35.000 105.840</data>
+                <data name="Fovy" type="FLOAT">53.000</data>
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">AshB</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+            </cut>
+            <cut name="GETITEM">
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">AshB</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">3</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+                <data name="Color" type="INTEGER">
+                    255
+                    255
+                    255
+                    255
+                </data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+                <data name="Color" type="INTEGER">
+                    255
+                    255
+                    255
+                    255
+                </data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="GET_HEART">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    255
+                    255
+                    255
+                    255
+                </data>
+                <data name="Rate" type="FLOAT">0.025</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    255
+                    255
+                    255
+                    255
+                </data>
+                <data name="Rate" type="FLOAT">-0.025</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-4142.703 0.000 -569.375</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+            <cut name="011get_item">
+                <data name="prm0" type="INTEGER">33</data>
+                <data name="prm1" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Prayer">
+            <cut name="GET_HEART">
+            </cut>
+            <cut name="GET_HEART">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="GET_HEART">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

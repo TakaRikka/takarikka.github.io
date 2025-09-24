@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="CONVERSATION_ABOUT_HONEYCOMB1">
+        <staff name="Hanjo">
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">5903</data>
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">5904</data>
+            </cut>
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Hanjo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">37.976 -255.385 5.749</data>
+                <data name="Eye" type="XYZ">554.960 -924.154 119.767</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Speaker" type="STRING">Hanjo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CONVERSATION_ABOUT_HONEYCOMB2">
+        <staff name="Hanjo">
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">5917</data>
+            </cut>
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">3</data>
+                <data name="msgNo" type="INTEGER">5919</data>
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">3</data>
+                <data name="msgNo" type="INTEGER">5920</data>
+            </cut>
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Hanjo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">37.976 -255.385 5.749</data>
+                <data name="Eye" type="XYZ">554.960 -924.154 119.767</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Speaker" type="STRING">Hanjo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CONVERSATION_ABOUT_HONEYCOMB3">
+        <staff name="Hanjo">
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">5929</data>
+            </cut>
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Hanjo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CONVERSATION_ABOUT_HONEYCOMB4">
+        <staff name="Hanjo">
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">5970</data>
+            </cut>
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">3</data>
+                <data name="msgNo" type="INTEGER">5919</data>
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">3</data>
+                <data name="msgNo" type="INTEGER">5920</data>
+            </cut>
+            <cut name="CONVERSATION">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Hanjo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">37.976 -255.385 5.749</data>
+                <data name="Eye" type="XYZ">554.960 -924.154 119.767</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Speaker" type="STRING">Hanjo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="PURSUIT_BEE">
+        <staff name="Hanjo">
+            <cut name="PURSUIT_BEE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="PURSUIT_BEE">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="PURSUIT_BEE">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="PURSUIT_BEE">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="PURSUIT_BEE">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="PURSUIT_BEE">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Hanjo</data>
+                <data name="Center" type="XYZ">-12.748 -65.281 2.217</data>
+                <data name="Eye" type="XYZ">261.363 147.216 100.963</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">37.976 -255.385 5.749</data>
+                <data name="Eye" type="XYZ">554.960 -924.154 119.767</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Hanjo</data>
+                <data name="Center" type="XYZ">-12.748 -65.281 2.217</data>
+                <data name="Eye" type="XYZ">261.363 147.216 100.963</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDPOS">
+                <data name="Target" type="STRING">Hanjo</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="RESTOREPOS">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="PURSUIT_BEE@">
+        <staff name="Hanjo">
+            <cut name="PURSUIT_BEE">
+                <data name="prm" type="INTEGER">99</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="RESTOREPOS">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

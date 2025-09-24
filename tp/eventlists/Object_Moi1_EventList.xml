@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="DELIVERED_SW">
+        <staff name="Moi">
+            <cut name="DELIVERED_SW">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="DELIVERED_SW">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="DELIVERED_SW">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="DELIVERED_SW">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="DELIVERED_SW">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">100</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+            <cut name="060nod">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

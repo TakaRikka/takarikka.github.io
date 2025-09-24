@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="TALK_LAKE">
+        <staff name="chtSolA:1">
+            <cut name="TALK_LAKE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TALK_LAKE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="TALK_LAKE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="chtSolA:2">
+            <cut name="LISTEN_LAKE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="LISTEN_LAKE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="LISTEN_LAKE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="chtSolA:3">
+            <cut name="LISTEN_LAKE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="LISTEN_LAKE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="LISTEN_LAKE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="chtSolB">
+            <cut name="LISTEN_LAKE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="LISTEN_LAKE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="LISTEN_LAKE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">3135.775 -965.766 2608.152</data>
+                <data name="Eye" type="XYZ">2955.909 -857.945 2780.651</data>
+                <data name="Fovy" type="FLOAT">71.978</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

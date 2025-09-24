@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="ANGER">
+        <staff name="Bans">
+            <cut name="ANGER">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="ANGER">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="ANGER">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="ANGER">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Bans</data>
+                <data name="Center" type="XYZ">0.000 -60.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -60.000 200.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRMS">
+                <data name="Centers" type="XYZ">
+                    0.000 0.000 0.000
+                    0.000 0.000 0.000
+                    0.000 0.000 0.000
+                    0.000 0.000 0.000
+                    0.000 0.000 0.000
+                    0.000 0.000 0.000
+                    0.000 0.000 0.000
+                    0.000 0.000 0.000
+                </data>
+                <data name="Eyes" type="XYZ">
+                    0.000 0.000 300.000
+                    212.000 0.000 212.000
+                    300.000 0.000 0.000
+                    212.000 0.000 -212.000
+                    0.000 0.000 -300.000
+                    -212.000 0.000 -212.000
+                    -300.000 0.000 0.000
+                    -212.000 0.000 212.000
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    55.000
+                    55.000
+                    55.000
+                    55.000
+                    55.000
+                    55.000
+                    55.000
+                    55.000
+                </data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+                <data name="prm0" type="INTEGER">1</data>
+                <data name="prm1" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="ANGER_NEAR">
+        <staff name="Bans">
+            <cut name="ANGER">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="ANGER">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="012unequip">
+                <data name="prm0" type="INTEGER">1</data>
+                <data name="prm1" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GOBACK">
+        <staff name="Bans">
+            <cut name="PURCHASE">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="PURCHASE">
+        <staff name="Bans">
+            <cut name="PURCHASE">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

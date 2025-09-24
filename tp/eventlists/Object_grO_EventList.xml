@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="PUSHOUT">
+        <staff name="grO">
+            <cut name="PUSHOUT">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="PUSHOUT">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

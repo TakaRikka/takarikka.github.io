@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="DEFAULT_BS_SHUTTER_L3_F">
+        <staff name="JAIL_DOOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="PLY_NODISP">
+            </cut>
+            <cut name="ADJUSTMENT">
+            </cut>
+            <cut name="UNLOCK">
+            </cut>
+            <cut name="PLY_DISP">
+            </cut>
+            <cut name="OPEN">
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">87.800 -15.000 144.000</data>
+                <data name="Eye" type="XYZ">92.000 -14.500 149.000</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 25.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 180.000 700.000</data>
+                <data name="Fovy" type="FLOAT">52.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

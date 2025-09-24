@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="RESCUE_ROCK">
+        <staff name="grA">
+            <cut name="RESCUE_ROCK">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="RESCUE_ROCK">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="RESCUE_ROCK">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDPOS">
+                <data name="CtrGap" type="XYZ">0.000 -150.000 0.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">o</data>
+                <data name="Eye" type="XYZ">450.000 450.000 700.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Target" type="STRING">@STARTER</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="CONFIDENTIAL_CONVERSATION">
+        <staff name="Jagar">
+            <cut name="CONFIDENTIAL_CONVERSATION">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONFIDENTIAL_CONVERSATION">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+        </staff>
+        <staff name="Bou">
+            <cut name="CONFIDENTIAL_CONVERSATION">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="044wlie_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CONVERSATION_WITH_BOU">
+        <staff name="Jagar">
+            <cut name="CONVERSATION_WITH_BOU">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Bou">
+            <cut name="CONVERSATION_WITH_BOU">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="FIND_WOLF">
+        <staff name="Jagar">
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Bou">
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Bou</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TWOACTOR0">
+                <data name="Actor1" type="STRING">Jagar</data>
+                <data name="Actor2" type="STRING">Bou</data>
+                <data name="CtrGap" type="XYZ">0.000 -60.000 0.000</data>
+                <data name="LongitudeType" type="INTEGER">2</data>
+                <data name="RadiusMax" type="FLOAT">200.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="FIND_WOLF_VER2">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Jagar">
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">11</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="FIND_WOLF">
+                <data name="prm" type="INTEGER">11</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Jagar</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">-0.038 13.276 -19.587</data>
+                <data name="Eye" type="XYZ">-0.293 63.939 -436.522</data>
+                <data name="Fovy" type="FLOAT">65.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

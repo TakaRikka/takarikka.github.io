@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="MAROS_WHISPER">
+        <staff name="Kakashi">
+            <cut name="MAROS_WHISPER">
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="MAROS_WHISPER">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="MAROS_WHISPER">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="MAROS_WHISPER">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="MAROS_WHISPER">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="STOKER">
+                <data name="Stoker" type="STRING">@PLAYER</data>
+                <data name="EyeGap" type="XYZ">150.000 0.000 -150.000</data>
+                <data name="Target" type="STRING">@STARTER</data>
+                <data name="CtrGap" type="XYZ">0.000 -100.000 0.000</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+            </cut>
+            <cut name="PAUSE">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@TALKPARTNER</data>
+                <data name="Center" type="XYZ">-1.598 -45.634 54.645</data>
+                <data name="Eye" type="XYZ">-120.053 -42.994 17.314</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_DESCRIPTION">
+        <staff name="Kakashi">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">38.000 -52.000 -79.000</data>
+                <data name="Eye" type="XYZ">253.000 -46.000 473.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">STANDARD</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_JUMPGIRI_CLEAR">
+        <staff name="Kakashi">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">71</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">72</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">71</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">71</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">Maro</data>
+                <data name="Centers" type="XYZ">
+                    15.394 -39.032 -8.639
+                    15.421 -39.022 -8.664
+                    15.421 -39.022 -8.664
+                    15.421 -39.022 -8.664
+                </data>
+                <data name="Eyes" type="XYZ">
+                    92.819 31.678 178.774
+                    92.939 31.678 178.711
+                    92.939 31.678 178.711
+                    92.939 31.678 178.711
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    70.000
+                    50.000
+                    50.000
+                    50.000
+                </data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_JUMPGIRI_FAILURE">
+        <staff name="Kakashi">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">61</data>
+                <data name="msgNo" type="INTEGER">5181</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">42</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">63</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="STOKER">
+                <data name="Stoker" type="STRING">Taro</data>
+                <data name="EyeGap" type="XYZ">170.000 -60.000 50.000</data>
+                <data name="Target" type="STRING">Taro</data>
+                <data name="CtrGap" type="XYZ">0.000 -80.000 50.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">1.838 -136.402 236.738</data>
+                <data name="Eye" type="XYZ">2.061 -51.192 524.394</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_KAITENGIRI_CLEAR">
+        <staff name="Kakashi">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">51</data>
+                <data name="msgNo" type="INTEGER">5176</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">51</data>
+                <data name="msgNo" type="INTEGER">5179</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">52</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Besu</data>
+                <data name="Center" type="XYZ">-8.000 -88.000 63.000</data>
+                <data name="Eye" type="XYZ">-39.000 -107.000 161.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">3.000 -58.000 -9.000</data>
+                <data name="Eye" type="XYZ">-7.000 -38.000 126.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Maro</data>
+                <data name="Center" type="XYZ">0.000 -42.000 -3.000</data>
+                <data name="Eye" type="XYZ">-12.000 -42.000 228.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">1.838 -136.402 236.738</data>
+                <data name="Eye" type="XYZ">2.061 -51.192 524.394</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_KAITENGIRI_FAILURE">
+        <staff name="Kakashi">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">41</data>
+                <data name="msgNo" type="INTEGER">5166</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Maro</data>
+                <data name="Center" type="XYZ">-53.000 -39.000 31.000</data>
+                <data name="Eye" type="XYZ">75.000 -49.000 158.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">1.838 -136.402 236.738</data>
+                <data name="Eye" type="XYZ">2.061 -51.192 524.394</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_TATEGIRI_CLEAR">
+        <staff name="Kakashi">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">31</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">22</data>
+                <data name="msgNo" type="INTEGER">5159</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">23</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">-7.460 -52.417 28.899</data>
+                <data name="Eye" type="XYZ">-39.628 -92.858 155.669</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Besu</data>
+                <data name="Center" type="XYZ">-8.000 -88.000 63.000</data>
+                <data name="Eye" type="XYZ">-39.000 -107.000 161.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Maro</data>
+                <data name="Center" type="XYZ">-53.000 -39.000 31.000</data>
+                <data name="Eye" type="XYZ">75.000 -49.000 158.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">1.838 -136.402 236.738</data>
+                <data name="Eye" type="XYZ">2.061 -51.192 524.394</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_TATEGIRI_FAILURE">
+        <staff name="Kakashi">
+            <cut name="SWD_TUTORIAL">
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">30</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">31</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">31</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="STOKER">
+                <data name="Stoker" type="STRING">Taro</data>
+                <data name="EyeGap" type="XYZ">0.000 -20.000 180.000</data>
+                <data name="Target" type="STRING">Maro</data>
+                <data name="CtrGap" type="XYZ">0.000 -40.000 50.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">1.838 -136.402 236.738</data>
+                <data name="Eye" type="XYZ">2.061 -51.192 524.394</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_TATEGIRI_FAILURE2">
+        <staff name="Kakashi">
+            <cut name="SWD_TUTORIAL">
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">30</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">31</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">-0.036 -52.604 -0.035</data>
+                <data name="Eye" type="XYZ">0.082 -29.013 122.745</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">1.838 -136.402 236.738</data>
+                <data name="Eye" type="XYZ">2.061 -51.192 524.394</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_TATEGIRI_SUCCESS">
+        <staff name="Kakashi">
+            <cut name="SWD_TUTORIAL">
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">40</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">41</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">42</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">43</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">41</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+                <data name="prm" type="INTEGER">42</data>
+            </cut>
+            <cut name="SWD_TUTORIAL">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">32.659 -50.308 -0.999</data>
+                <data name="Eye" type="XYZ">196.399 -34.179 -48.376</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">1.838 -136.402 236.738</data>
+                <data name="Eye" type="XYZ">2.061 -51.192 524.394</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_TUKI_CLEAR">
+        <staff name="Kakashi">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">51</data>
+                <data name="msgNo" type="INTEGER">5171</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">52</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Besu</data>
+                <data name="Center" type="XYZ">-8.000 -88.000 63.000</data>
+                <data name="Eye" type="XYZ">-39.000 -107.000 161.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Maro</data>
+                <data name="Center" type="XYZ">-53.000 -39.000 31.000</data>
+                <data name="Eye" type="XYZ">75.000 -49.000 158.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">1.838 -136.402 236.738</data>
+                <data name="Eye" type="XYZ">2.061 -51.192 524.394</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_TUKI_FAILURE">
+        <staff name="Kakashi">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">41</data>
+                <data name="msgNo" type="INTEGER">5165</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">42</data>
+                <data name="msgNo" type="INTEGER">5166</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">42</data>
+                <data name="msgNo" type="INTEGER">5167</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">42</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Besu</data>
+                <data name="Center" type="XYZ">-8.000 -88.000 63.000</data>
+                <data name="Eye" type="XYZ">-39.000 -107.000 161.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Maro</data>
+                <data name="Center" type="XYZ">-53.000 -39.000 31.000</data>
+                <data name="Eye" type="XYZ">75.000 -49.000 158.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">1.838 -136.402 236.738</data>
+                <data name="Eye" type="XYZ">2.061 -51.192 524.394</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_YOKOGIRI_CLEAR">
+        <staff name="Kakashi">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">21</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">22</data>
+                <data name="msgNo" type="INTEGER">5159</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">23</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">-7.460 -52.417 28.899</data>
+                <data name="Eye" type="XYZ">-39.628 -92.858 155.669</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Besu</data>
+                <data name="Center" type="XYZ">-8.000 -88.000 63.000</data>
+                <data name="Eye" type="XYZ">-39.000 -107.000 161.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Maro</data>
+                <data name="Center" type="XYZ">-53.000 -39.000 31.000</data>
+                <data name="Eye" type="XYZ">75.000 -49.000 158.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">1.838 -136.402 236.738</data>
+                <data name="Eye" type="XYZ">2.061 -51.192 524.394</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SWDTUTORIAL_YOKOGIRI_FAILURE">
+        <staff name="Kakashi">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+            <cut name="SWDTUTORIAL">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">-0.036 -52.604 -0.035</data>
+                <data name="Eye" type="XYZ">0.082 -29.013 122.745</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">1.838 -136.402 236.738</data>
+                <data name="Eye" type="XYZ">2.061 -51.192 524.394</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

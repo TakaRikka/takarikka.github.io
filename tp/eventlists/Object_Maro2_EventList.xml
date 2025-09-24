@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="CONTINUE_ARROW_TUTORIAL">
+        <staff name="Maro">
+            <cut name="CONTINUE_ARROW_TUTORIAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDPOS">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">0</data>
+            </cut>
+            <cut name="002n_walk">
+            </cut>
+        </staff>
+    </sequence>
+</event>

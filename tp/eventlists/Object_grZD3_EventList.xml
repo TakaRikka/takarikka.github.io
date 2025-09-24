@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="STONE_SMASH">
+        <staff name="grZ">
+            <cut name="STONE_SMASH">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="STONE_SMASH">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="STONE_SMASH">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="STONE_SMASH">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="STONE_SMASH">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="STONE_SMASH">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+            <cut name="STONE_SMASH">
+                <data name="prm" type="INTEGER">60</data>
+            </cut>
+            <cut name="STONE_SMASH">
+                <data name="prm" type="INTEGER">70</data>
+            </cut>
+            <cut name="STONE_SMASH">
+                <data name="prm" type="INTEGER">75</data>
+            </cut>
+            <cut name="STONE_SMASH">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">grZ</data>
+                <data name="Center" type="XYZ">-4.669 -160.420 0.913</data>
+                <data name="Eye" type="XYZ">-107.753 -230.181 240.427</data>
+                <data name="Fovy" type="FLOAT">66.850</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">grZ</data>
+                <data name="Center" type="XYZ">-4.669 -160.420 0.913</data>
+                <data name="Eye" type="XYZ">-107.753 -230.181 240.427</data>
+                <data name="Fovy" type="FLOAT">66.850</data>
+                <data name="Timer" type="INTEGER">2</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">grZ</data>
+                <data name="Center" type="XYZ">-3.321 -121.893 -94.337</data>
+                <data name="Eye" type="XYZ">-2.794 -111.770 -710.712</data>
+                <data name="Fovy" type="FLOAT">60.111</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDPOS">
+                <data name="CtrCus" type="FLOAT">0.100</data>
+                <data name="Target" type="STRING">grZ</data>
+                <data name="Timer" type="INTEGER">110</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">-50.000 0.000 -500.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="STONE_SMASH_SKIP">
+        <staff name="grZ">
+            <cut name="STONE_SMASH_SKIP">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">-50.000 0.000 -500.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

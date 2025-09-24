@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="SLIDEDOWN">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    160
+                    160
+                    160
+                </data>
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    160
+                    160
+                    160
+                </data>
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="ykM:0">
+            <cut name="SLIDEDOWN">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SLIDEDOWN">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="SLIDEDOWN">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="SLIDEDOWN">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="SLIDEDOWN">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="SLIDEDOWN">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="SLIDEDOWN">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="SLIDEDOWN">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="SLIDEDOWN">
+                <data name="prm" type="INTEGER">6</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykM:0</data>
+                <data name="Center" type="XYZ">231.520 -356.443 18.271</data>
+                <data name="Eye" type="XYZ">574.573 -468.889 877.293</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykM:0</data>
+                <data name="Center" type="XYZ">-162.035 -260.581 75.802</data>
+                <data name="Eye" type="XYZ">-740.045 -38.209 790.474</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykM:0</data>
+                <data name="Center" type="XYZ">-84.141 -192.399 133.089</data>
+                <data name="Eye" type="XYZ">-1356.442 575.912 2248.179</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykM:0</data>
+                <data name="Center" type="XYZ">4.643 -249.750 150.168</data>
+                <data name="Eye" type="XYZ">549.835 -270.099 1032.445</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">ykM:0</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Center" type="XYZ">4.643 -249.750 150.168</data>
+                <data name="Timer" type="INTEGER">108</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">0.043 11.492 20.151</data>
+                <data name="Eye" type="XYZ">1.272 53.483 -427.887</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="002n_walk">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

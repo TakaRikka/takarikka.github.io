@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="CONVERSATION_ABOUT_PACHINKO1">
+        <staff name="Besu">
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">5703</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">5704</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="msgNo" type="INTEGER">5705</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="msgNo" type="INTEGER">5706</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="msgNo" type="INTEGER">5707</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Taro</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CONVERSATION_ABOUT_PACHINKO2">
+        <staff name="Besu">
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="msgNo" type="INTEGER">5709</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">12</data>
+                <data name="msgNo" type="INTEGER">5710</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Taro</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CONVERSATION_ABOUT_PACHINKO3">
+        <staff name="Besu">
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">20</data>
+                <data name="msgNo" type="INTEGER">5712</data>
+                <data name="msgNo2" type="INTEGER">5789</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">21</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_PACHINKO">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Taro</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CONVERSATION_ABOUT_WOODSWD1">
+        <staff name="Besu">
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Taro</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CONVERSATION_ABOUT_WOODSWD2">
+        <staff name="Besu">
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Besu</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

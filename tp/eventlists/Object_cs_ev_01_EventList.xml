@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="SKY_LETTERS_01">
+        <staff name="TagStat">
+            <cut name="WAIT">
+            </cut>
+            <cut name="ST_MOVE">
+            </cut>
+            <cut name="ITEM">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+                <data name="angle" type="INTEGER">-6317</data>
+                <data name="pos" type="XYZ">15165.869 896.030 59596.914</data>
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="064grsit">
+            </cut>
+            <cut name="011get_item">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="011get_item">
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                    255
+                </data>
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                    255
+                </data>
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">50</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">15119.436 946.757 59648.410</data>
+                <data name="Eye" type="XYZ">15152.704 974.293 60141.969</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">15119.436 946.757 59648.410</data>
+                <data name="Eye" type="XYZ">15152.704 974.293 60141.969</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">15121.741 978.544 59643.355</data>
+                <data name="Eye" type="XYZ">15025.500 1002.992 59856.598</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">120</data>
+            </cut>
+            <cut name="GETITEM">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

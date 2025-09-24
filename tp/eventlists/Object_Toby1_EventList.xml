@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="CONVERSATION_ABOUT_SCANNON">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Toby:0">
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">6</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">5191</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">20</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">6</data>
+                <data name="msgNo" type="INTEGER">5195</data>
+                <data name="send" type="INTEGER">1</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">8</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">20</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_SCANNON">
+                <data name="prm" type="INTEGER">9</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Toby:0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 600.000 0.000</data>
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">SCannon</data>
+                <data name="Center" type="XYZ">-612.440 84.366 -559.699</data>
+                <data name="Eye" type="XYZ">-1288.122 84.203 -1045.202</data>
+                <data name="Fovy" type="FLOAT">42.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">SCannon</data>
+                <data name="Center" type="XYZ">-631.117 279.059 -573.777</data>
+                <data name="RelActor" type="STRING">SCannon</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">150</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Toby:0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">0.581 -40.025 1.108</data>
+                <data name="Eye" type="XYZ">-0.571 69.245 -297.923</data>
+                <data name="Fovy" type="FLOAT">61.360</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="002n_walk">
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CONVERSATION_ABOUT_ZRA">
+        <staff name="Toby:0">
+            <cut name="CONVERSATION_ABOUT_ZRA">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="msgNo" type="INTEGER">5224</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_ZRA">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Toby:0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="REPAIR_SCANNON">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Toby:0">
+            <cut name="REPAIR_SCANNON">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="REPAIR_SCANNON">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="REPAIR_SCANNON">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">300</data>
+            </cut>
+        </staff>
+        <staff name="Toby:1">
+            <cut name="REPAIR_SCANNON">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="REPAIR_SCANNON">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">SCannon</data>
+                <data name="Center" type="XYZ">279.246 491.930 -350.006</data>
+                <data name="Eye" type="XYZ">1167.896 293.254 -1309.870</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SCANNON">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Toby:2">
+            <cut name="SCANNON">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SCANNON">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="SCANNON">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="SCANNON">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="SCANNON">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="SCANNON">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="SCANNON">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-103221.562 -17750.516 53422.645</data>
+                <data name="Eye" type="XYZ">-103375.828 -17988.428 53318.535</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-103125.453 -17988.428 53487.500</data>
+                <data name="Eye" type="XYZ">-103375.828 -17988.428 53318.535</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">300</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Speaker" type="STRING">Toby:2</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">-0.030 -35.835 0.979</data>
+                <data name="Eye" type="XYZ">-0.796 67.680 -319.241</data>
+                <data name="Fovy" type="FLOAT">61.057</data>
+                <data name="Trim" type="STRING">STANDARD</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

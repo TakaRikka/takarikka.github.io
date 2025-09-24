@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="SURPRISE">
+        <staff name="Besu">
+            <cut name="SURPRISE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SURPRISE">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TAG_PUSH6">
+        <staff name="Besu">
+            <cut name="TAG_PUSH6">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TAG_PUSH6">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="TAG_PUSH6">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

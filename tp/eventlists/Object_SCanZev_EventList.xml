@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="SKY_CANNON_FIRE_FIRST">
+        <staff name="SCannon">
+            <cut name="LINK_IN">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-200.000 380.000 -750.000</data>
+                <data name="Eye" type="XYZ">-350.000 330.000 -950.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SKY_CANNON_FIRE_SECOND">
+        <staff name="SCannon">
+            <cut name="SET">
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="MOVE">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="FIRE">
+            </cut>
+            <cut name="FINISH">
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-850.000 280.000 750.000</data>
+                <data name="Eye" type="XYZ">-1500.000 21.000 1000.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="Center" type="XYZ">-750.000 270.000 1000.000</data>
+                <data name="Eye" type="XYZ">-850.000 110.000 1100.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">50</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="StartBank" type="FLOAT">15.000</data>
+                <data name="StartCenter" type="XYZ">-1167.000 517.000 200.000</data>
+                <data name="StartEye" type="XYZ">-1469.000 332.000 5.000</data>
+                <data name="StartFovy" type="FLOAT">60.000</data>
+                <data name="Center" type="XYZ">-900.000 517.000 -500.000</data>
+                <data name="Eye" type="XYZ">-1200.000 432.000 -704.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">120</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="StartCenter" type="XYZ">210.000 2000.000 -300.000</data>
+                <data name="StartEye" type="XYZ">180.000 1800.000 -500.000</data>
+                <data name="StartFovy" type="FLOAT">75.000</data>
+                <data name="Center" type="XYZ">330.000 12000.000 13000.000</data>
+                <data name="Eye" type="XYZ">270.000 11000.000 12000.000</data>
+                <data name="Fovy" type="FLOAT">75.000</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SKY_CANNON_FIRE_TKS">
+        <staff name="Tks">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_RUN">
+            </cut>
+            <cut name="0003_JUMP">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="StartCenter" type="XYZ">-102270.328 -18090.406 53520.582</data>
+                <data name="StartEye" type="XYZ">-102420.125 -18140.000 53320.332</data>
+                <data name="Center" type="XYZ">-102176.430 -18178.162 53255.145</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">45</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">SINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Tks</data>
+                <data name="RelUseMask" type="STRING">xxoo</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -50.000 100.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">SINESCO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-102062.688 -18204.760 53697.488</data>
+                <data name="Eye" type="XYZ">-102730.438 -18302.391 53257.309</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">SINESCO</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SKY_CANNON_WARP_END">
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="045warp">
+                <data name="prm0" type="INTEGER">1</data>
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="050mride">
+            </cut>
+        </staff>
+        <staff name="Midna">
+            <cut name="16winit">
+                <data name="angle" type="INTEGER">-31601</data>
+                <data name="pos" type="XYZ">-101987.703 -18470.000 55863.812</data>
+            </cut>
+            <cut name="11wpin_wait">
+            </cut>
+            <cut name="12wpin_fall">
+            </cut>
+            <cut name="13wride">
+            </cut>
+            <cut name="01wait">
+            </cut>
+        </staff>
+        <staff name="SCannon">
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">160</data>
+            </cut>
+            <cut name="MOVE">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">250</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="StartBank" type="FLOAT">0.000</data>
+                <data name="StartCenter" type="XYZ">-100.000 80.000 1400.000</data>
+                <data name="StartEye" type="XYZ">-200.000 21.000 1700.000</data>
+                <data name="StartFovy" type="FLOAT">60.000</data>
+                <data name="Center" type="XYZ">-100.000 195.000 1400.000</data>
+                <data name="Eye" type="XYZ">-200.000 21.000 1700.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">170</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="Center" type="XYZ">-100.000 180.000 1400.000</data>
+                <data name="Eye" type="XYZ">-200.000 20.000 2000.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">90</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

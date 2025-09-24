@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="REFLECT_EXPLAIN">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Kn">
+            <cut name="REFLECT_EXPLAIN">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="REFLECT_EXPLAIN">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="REFLECT_EXPLAIN">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="REFLECT_EXPLAIN">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Kn</data>
+                <data name="RelUseMask" type="STRING">xxnn</data>
+                <data name="Center" type="XYZ">-2.652 -71.614 -22.928</data>
+                <data name="Eye" type="XYZ">76.380 -38.422 179.224</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="Mode" type="INTEGER">28</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="008e_talk">
+            </cut>
+            <cut name="008e_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SECOND_SKILL_EXPLAIN">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+        </staff>
+        <staff name="Kn">
+            <cut name="SECOND_SKILL_EXPLAIN">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SECOND_SKILL_EXPLAIN">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="SECOND_SKILL_EXPLAIN">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="SECOND_SKILL_EXPLAIN">
+                <data name="prm" type="INTEGER">6</data>
+            </cut>
+            <cut name="SECOND_SKILL_EXPLAIN">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="SECOND_SKILL_EXPLAIN">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="SECOND_SKILL_EXPLAIN">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="SECOND_SKILL_EXPLAIN">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="SECOND_SKILL_EXPLAIN">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="STYLE">
+                <data name="Name" type="STRING">LL01</data>
+                <data name="Target" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Kn</data>
+                <data name="RelUseMask" type="STRING">xxnn</data>
+                <data name="Center" type="XYZ">22.211 -95.476 15.909</data>
+                <data name="Eye" type="XYZ">158.652 -94.383 187.929</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="ROLLING">
+                <data name="Center" type="XYZ">0.000 -100.000 167.500</data>
+                <data name="Eye" type="XYZ">0.000 -100.000 -310.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Roll" type="FLOAT">2.000</data>
+                <data name="Timer" type="INTEGER">135</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="008e_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="008e_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="076sready">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SECOND_SKILL_GET">
+        <staff name="Kn">
+            <cut name="SECOND_SKILL_GET">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SECOND_SKILL_GET">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="SECOND_SKILL_GET">
+                <data name="prm" type="INTEGER">12</data>
+            </cut>
+            <cut name="SECOND_SKILL_GET">
+                <data name="prm" type="INTEGER">15</data>
+            </cut>
+            <cut name="SECOND_SKILL_GET">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="SECOND_SKILL_GET">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Kn</data>
+                <data name="RelUseMask" type="STRING">xxnn</data>
+                <data name="Center" type="XYZ">-2.652 -71.614 -22.928</data>
+                <data name="Eye" type="XYZ">76.380 -38.422 179.224</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">-3.498 -26.994 27.988</data>
+                <data name="Eye" type="XYZ">-87.405 -18.064 130.080</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">-3.498 -26.994 27.988</data>
+                <data name="Eye" type="XYZ">-87.405 -18.064 130.080</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Timer" type="INTEGER">2</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="008e_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="012unequip">
+                <data name="prm0" type="INTEGER">1</data>
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="060nod">
+            </cut>
+            <cut name="075sattack">
+            </cut>
+            <cut name="030sunequip">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="030sunequip">
+                <data name="prm0" type="INTEGER">0</data>
+            </cut>
+            <cut name="008e_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

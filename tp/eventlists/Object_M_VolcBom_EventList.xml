@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="PORTAL_WARP_BIGVOLC">
+        <staff name="BigVolc">
+            <cut name="WAIT">
+            </cut>
+            <cut name="BEAM">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FLY">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="004init_wait">
+                <data name="angle" type="INTEGER">-8192</data>
+                <data name="pos" type="XYZ">2300.000 -1000.000 -2400.000</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="045warp">
+                <data name="prm0" type="INTEGER">0</data>
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Midna">
+            <cut name="16winit">
+                <data name="angle" type="INTEGER">-8192</data>
+                <data name="pos" type="XYZ">550.000 -250.000 -1250.000</data>
+            </cut>
+            <cut name="19wgready">
+            </cut>
+            <cut name="20wgwait">
+            </cut>
+            <cut name="21wgup">
+            </cut>
+            <cut name="16winit">
+                <data name="angle" type="INTEGER">-8192</data>
+                <data name="pos" type="XYZ">2300.000 -1000.000 -2400.000</data>
+            </cut>
+            <cut name="13wride">
+            </cut>
+            <cut name="05sreturn">
+                <data name="fprm0" type="FLOAT">1.000</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">1677.300 572.900 -15.800</data>
+                <data name="Eye" type="XYZ">1741.400 699.600 312.200</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">120</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">404.000 -124.500 -1359.400</data>
+                <data name="Eye" type="XYZ">718.000 -117.200 -1189.100</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">656.300 -70.000 -1233.200</data>
+                <data name="Eye" type="XYZ">969.000 -116.900 -1097.800</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-523.400 546.800 180.300</data>
+                <data name="Eye" type="XYZ">-778.700 637.900 413.200</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">6.400 865.100 796.600</data>
+                <data name="Eye" type="XYZ">-158.900 637.900 1017.500</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">160</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">2209.800 -923.000 -2365.600</data>
+                <data name="Eye" type="XYZ">1853.000 -926.000 -2341.200</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">600</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="dummy">
+            </cut>
+        </staff>
+    </sequence>
+</event>

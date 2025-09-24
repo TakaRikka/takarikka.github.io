@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="DEFAULT_MBS_KNOB_OPEN_B">
+        <staff name="SHUTTER_DOOR">
+            <cut name="SETANGLE">
+            </cut>
+            <cut name="UNLOCK">
+            </cut>
+            <cut name="ADJUSTMENT">
+            </cut>
+            <cut name="OPEN_PUSH">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="005wait_turn">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="035door">
+                <data name="prm0" type="INTEGER">0</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">0</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="DEFAULT_MBS_KNOB_OPEN_F">
+        <staff name="SHUTTER_DOOR">
+            <cut name="SETANGLE">
+            </cut>
+            <cut name="UNLOCK">
+            </cut>
+            <cut name="ADJUSTMENT">
+            </cut>
+            <cut name="OPEN_PULL">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="005wait_turn">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="035door">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">0</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

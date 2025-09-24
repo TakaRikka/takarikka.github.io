@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="TEACH_ELV">
+        <staff name="grA_Elv">
+            <cut name="TEACH_ELV">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TEACH_ELV">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="TEACH_ELV">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="TEACH_ELV">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="TEACH_ELV">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="CURRENT">
+            </cut>
+            <cut name="FIXEDPOS">
+                <data name="Target" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">-</data>
+                <data name="CtrGap" type="XYZ">0.000 -120.000 0.000</data>
+                <data name="Eye" type="XYZ">-27.960 -61.398 4754.493</data>
+                <data name="Radius" type="FLOAT">400.000</data>
+                <data name="StartRadius" type="FLOAT">400.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 -40.000 0.000</data>
+                <data name="Eye" type="XYZ">-140.000 22.000 316.000</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="Timer" type="INTEGER">50</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+                <data name="angle" type="INTEGER">-20878</data>
+                <data name="pos" type="XYZ">-27.960 -181.398 4754.493</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

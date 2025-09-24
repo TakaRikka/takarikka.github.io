@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="PERU_APPEAR">
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">3</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">52</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">3035.707 -603.098 5811.695</data>
+                <data name="Eye" type="XYZ">2817.622 -814.943 6065.103</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDPOS">
+                <data name="Target" type="STRING">Peru</data>
+                <data name="CtrCus" type="FLOAT">0.300</data>
+                <data name="Timer" type="INTEGER">70</data>
+                <data name="CtrGap" type="XYZ">0.000 20.000 0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">3622.781 -862.267 6051.900</data>
+                <data name="Eye" type="XYZ">3049.349 -874.034 6051.900</data>
+                <data name="Fovy" type="FLOAT">61.069</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">3026.227 -803.095 6065.223</data>
+                <data name="Eye" type="XYZ">2800.917 -282.792 6437.317</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Bank" type="FLOAT">0.099</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">3086.148 -814.379 5906.498</data>
+                <data name="Eye" type="XYZ">2750.401 -863.944 6234.733</data>
+                <data name="Fovy" type="FLOAT">61.069</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDPOS">
+                <data name="Target" type="STRING">Peru</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Eye" type="XYZ">2622.886 -739.138 6002.804</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="SAVE">
+                <data name="Slot" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">2702.951 -736.219 6010.334</data>
+                <data name="Eye" type="XYZ">2826.605 -864.909 6243.067</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="LOAD">
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">2967.016 -872.226 6113.312</data>
+                <data name="Eye" type="XYZ">2686.417 -855.126 6275.269</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">3414.094 -848.903 5931.462</data>
+                <data name="Eye" type="XYZ">2963.014 -874.202 6093.594</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">3100.714 -559.025 5773.893</data>
+                <data name="Eye" type="XYZ">2985.285 -888.768 6103.049</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">3004.876 -691.806 5929.977</data>
+                <data name="Eye" type="XYZ">2783.787 -888.507 6307.904</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Bank" type="FLOAT">0.099</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">3026.227 -803.095 6065.223</data>
+                <data name="Eye" type="XYZ">2800.917 -282.792 6437.317</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Bank" type="FLOAT">0.099</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+                <data name="angle" type="INTEGER">15845</data>
+                <data name="pos" type="XYZ">2766.500 -900.000 6147.100</data>
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Peru">
+            <cut name="PERU_APPEAR">
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">10</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">20</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">30</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">40</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">50</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">70</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">80</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">90</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">100</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">110</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">120</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">130</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">140</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">150</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">160</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">170</data>
+            </cut>
+            <cut name="PERU_APPEAR">
+                <data name="cut_id" type="INTEGER">180</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="PERU_APPEAR_SKIP">
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+                <data name="angle" type="INTEGER">15845</data>
+                <data name="pos" type="XYZ">2766.500 -900.000 6147.100</data>
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Peru">
+            <cut name="PERU_APPEAR_SKIP">
+            </cut>
+            <cut name="PERU_APPEAR_SKIP">
+                <data name="cut_id" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

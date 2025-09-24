@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="REVIVE_MASTER_SWORD">
+        <staff name="lbsw">
+            <cut name="INIT">
+            </cut>
+            <cut name="LINK_INIT">
+            </cut>
+            <cut name="EQUIP_SWD">
+            </cut>
+            <cut name="SOUND">
+            </cut>
+            <cut name="SCALING">
+            </cut>
+            <cut name="ON">
+            </cut>
+            <cut name="ON_ALL_B">
+            </cut>
+            <cut name="ST_CUT2">
+            </cut>
+            <cut name="DEL_BALL">
+            </cut>
+            <cut name="MESSAGE">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="002n_walk">
+                <data name="pos" type="XYZ">262.500 -188.900 11012.500</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="088crrevive">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+            </cut>
+            <cut name="ROLLING">
+                <data name="Eye" type="XYZ">542.500 685.000 737.800</data>
+                <data name="Center" type="XYZ">64.400 83.100 98.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Roll" type="FLOAT">-0.200</data>
+                <data name="Timer" type="INTEGER">140</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">1017.100 -357.400 10809.900</data>
+                <data name="Eye" type="XYZ">113.000 -68.400 11125.100</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="Timer" type="INTEGER">120</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">709.500 8.700 10286.600</data>
+                <data name="Eye" type="XYZ">193.800 -59.500 11140.800</data>
+                <data name="Fovy" type="FLOAT">30.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">419.400 32.200 10730.200</data>
+                <data name="Eye" type="XYZ">-33.400 -184.200 11595.200</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">150</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+    </sequence>
+</event>

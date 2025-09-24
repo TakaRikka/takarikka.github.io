@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="THE_INTRODUCTION">
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="002n_walk">
+                <data name="pos" type="XYZ">3273.737 -1150.000 3392.678</data>
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+        <staff name="The">
+            <cut name="0001_TALK">
+            </cut>
+            <cut name="0002_TALK">
+            </cut>
+            <cut name="0003_TALK">
+            </cut>
+            <cut name="0004_TALK">
+            </cut>
+            <cut name="0005_TALK">
+            </cut>
+        </staff>
+        <staff name="Ash">
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Shad">
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Rafrel">
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="MoiR">
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="THE_INTRODUCTION">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">The</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">The</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">3136.873 -988.210 2925.649</data>
+                <data name="Eye" type="XYZ">3134.557 -912.845 3160.168</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">The</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

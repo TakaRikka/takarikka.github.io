@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="GO_INTO_BOSSROOM1">
+        <staff name="ykW">
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="skip" type="INTEGER">1</data>
+            </cut>
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">150</data>
+            </cut>
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="WAIT">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 25.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 180.000 700.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="WAIT">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="031lwait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="002n_walk">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GO_INTO_BOSSROOM1@">
+        <staff name="ykW">
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">99</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GO_INTO_BOSSROOM2">
+        <staff name="ykW">
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">30</data>
+                <data name="skip" type="INTEGER">1</data>
+            </cut>
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">150</data>
+            </cut>
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="RelActor" type="STRING">ykW</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="WideMode" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="WAIT">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 25.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 180.000 700.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="WAIT">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+            <cut name="031lwait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="002n_walk">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GO_INTO_BOSSROOM2@">
+        <staff name="ykW">
+            <cut name="GO_INTO_BOSSROOM">
+                <data name="prm" type="INTEGER">99</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="LV5DUNGEON_CLEAR">
+        <staff name="ykW">
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">12</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="msgNo" type="INTEGER">9045</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">22</data>
+                <data name="send" type="INTEGER">1</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="msgNo" type="INTEGER">9054</data>
+                <data name="send" type="INTEGER">1</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">22</data>
+                <data name="msgNo" type="INTEGER">9047</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">22</data>
+                <data name="msgNo" type="INTEGER">9047</data>
+                <data name="send" type="INTEGER">2</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">6</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">22</data>
+                <data name="send" type="INTEGER">2</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">7</data>
+                <data name="timer" type="INTEGER">90</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">20</data>
+                <data name="msgNo" type="INTEGER">9049</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">24</data>
+                <data name="msgNo" type="INTEGER">9049</data>
+                <data name="send" type="INTEGER">2</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">21</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">16</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">8</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">13</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">11</data>
+                <data name="timer" type="INTEGER">110</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">15</data>
+                <data name="timer" type="INTEGER">150</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">14</data>
+                <data name="timer" type="INTEGER">16</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">17</data>
+            </cut>
+        </staff>
+        <staff name="ykM">
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">13</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">12</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">21</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">6</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">31</data>
+            </cut>
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">8</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-154.825 56.531 -160.806</data>
+                <data name="Eye" type="XYZ">-55.000 255.000 240.000</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="Timer" type="INTEGER">4</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">31.161 -209.236 625.728</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="RelActor" type="STRING">ykM</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">15</data>
+                <data name="TransType" type="INTEGER">4</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">15</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">31.161 -209.236 625.728</data>
+                <data name="Fovy" type="FLOAT">18.000</data>
+                <data name="RelActor" type="STRING">ykM</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">15</data>
+                <data name="TransType" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">31.161 -209.236 625.728</data>
+                <data name="Fovy" type="FLOAT">13.000</data>
+                <data name="RelActor" type="STRING">ykM</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">8</data>
+                <data name="TransType" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">31.161 -209.236 625.728</data>
+                <data name="Fovy" type="FLOAT">18.000</data>
+                <data name="RelActor" type="STRING">ykM</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">7</data>
+                <data name="TransType" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">31.161 -209.236 625.728</data>
+                <data name="Fovy" type="FLOAT">14.000</data>
+                <data name="RelActor" type="STRING">ykM</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">6</data>
+                <data name="TransType" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">31.161 -209.236 625.728</data>
+                <data name="Fovy" type="FLOAT">18.000</data>
+                <data name="RelActor" type="STRING">ykM</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">5</data>
+                <data name="TransType" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">31.161 -209.236 625.728</data>
+                <data name="Fovy" type="FLOAT">15.000</data>
+                <data name="RelActor" type="STRING">ykM</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">4</data>
+                <data name="TransType" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">31.161 -209.236 625.728</data>
+                <data name="Fovy" type="FLOAT">18.000</data>
+                <data name="RelActor" type="STRING">ykM</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">3</data>
+                <data name="TransType" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="FIXEDPOS">
+                <data name="CtrGap" type="XYZ">0.000 -250.000 0.000</data>
+                <data name="Eye" type="XYZ">1252.466 18.764 551.592</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="RelActor" type="STRING">ykW</data>
+                <data name="Target" type="STRING">ykM</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykW</data>
+                <data name="Center" type="XYZ">115.044 -51.272 43.367</data>
+                <data name="Eye" type="XYZ">-360.657 -11.570 277.915</data>
+                <data name="Fovy" type="FLOAT">67.784</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykW</data>
+                <data name="Center" type="XYZ">10.176 -141.204 0.664</data>
+                <data name="Eye" type="XYZ">-10.617 -123.070 172.548</data>
+                <data name="Fovy" type="FLOAT">67.784</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">ykW</data>
+                <data name="Center" type="XYZ">-172.513 -141.177 110.849</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykW</data>
+                <data name="Center" type="XYZ">41.663 38.166 52.220</data>
+                <data name="Eye" type="XYZ">-151.064 -87.203 -2.506</data>
+                <data name="Fovy" type="FLOAT">67.784</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Timer" type="INTEGER">120</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykW</data>
+                <data name="Center" type="XYZ">5.504 -88.882 -19.101</data>
+                <data name="Eye" type="XYZ">-79.241 33.848 164.269</data>
+                <data name="Fovy" type="FLOAT">67.784</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="Timer" type="INTEGER">120</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykW</data>
+                <data name="Center" type="XYZ">-18.045 -0.811 205.403</data>
+                <data name="Eye" type="XYZ">-315.832 39.797 399.857</data>
+                <data name="Fovy" type="FLOAT">67.784</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykW</data>
+                <data name="Center" type="XYZ">124.954 38.042 90.883</data>
+                <data name="Eye" type="XYZ">-261.829 38.085 284.031</data>
+                <data name="Fovy" type="FLOAT">67.784</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">ykW</data>
+                <data name="Eye" type="XYZ">-239.807 292.143 273.201</data>
+                <data name="RelUseMask" type="STRING">---o</data>
+                <data name="Timer" type="INTEGER">180</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">ykW</data>
+                <data name="Center" type="XYZ">8.741 -98.935 -49.966</data>
+                <data name="Eye" type="XYZ">74.081 -42.590 16.481</data>
+                <data name="Fovy" type="FLOAT">67.784</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Timer" type="INTEGER">300</data>
+                <data name="TransType" type="INTEGER">4</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 30.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="023a_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="prm1" type="INTEGER">0</data>
+            </cut>
+            <cut name="009ldam">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="005wait_turn">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="dummy">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="LV5DUNGEON_CLEAR@">
+        <staff name="ykW">
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">99</data>
+            </cut>
+        </staff>
+        <staff name="ykM">
+            <cut name="LV5DUNGEON_CLEAR">
+                <data name="prm" type="INTEGER">99</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="004init_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SHOW_DOOR">
+        <staff name="ykW">
+            <cut name="SHOW_DOOR">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="SHOW_DOOR">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">9015</data>
+            </cut>
+            <cut name="SHOW_DOOR">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

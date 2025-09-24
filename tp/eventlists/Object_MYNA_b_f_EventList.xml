@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="GAME_FAILURE">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="myna2">
+            <cut name="GAME_FAILURE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GAME_FAILURE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GAME_FAILURE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-77183.930 -18599.787 40794.262</data>
+                <data name="Eye" type="XYZ">-77191.641 -18594.217 40923.660</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-77174.961 -18668.959 40204.352</data>
+                <data name="Eye" type="XYZ">-77215.617 -18663.461 40553.824</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+</event>

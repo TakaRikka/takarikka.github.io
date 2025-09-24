@@ -1,0 +1,1699 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="ATTACK_WARP">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+        </staff>
+        <staff name="GWolf">
+            <cut name="ATTACK_WARP">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="ATTACK_WARP">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="ATTACK_WARP">
+                <data name="prm" type="INTEGER">15</data>
+            </cut>
+            <cut name="ATTACK_WARP">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="ATTACK_WARP">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="ATTACK_WARP">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">GWolf</data>
+                <data name="Centers" type="XYZ">
+                    -0.075 -42.393 5.468
+                    -0.079 -43.437 6.277
+                    -0.078 -42.001 5.004
+                    -0.078 -39.838 3.187
+                    0.586 -37.626 14.283
+                    -3.679 -34.944 30.872
+                    1.635 -36.761 66.603
+                </data>
+                <data name="Eyes" type="XYZ">
+                    38.861 -5.910 142.551
+                    38.791 -6.969 143.376
+                    38.851 -5.468 142.083
+                    38.768 -3.266 140.299
+                    64.041 -6.659 162.712
+                    88.497 -25.046 166.563
+                    103.928 -38.249 177.968
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                </data>
+                <data name="Timer" type="INTEGER">70</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Centers" type="XYZ">
+                    0.559 -28.743 1.440
+                    0.559 -28.743 1.440
+                    6.753 -27.774 1.742
+                    17.103 -32.160 7.287
+                    28.074 -40.553 14.933
+                    33.349 -49.454 27.118
+                </data>
+                <data name="Eyes" type="XYZ">
+                    14.224 -23.942 224.492
+                    14.224 -23.942 224.492
+                    -3.545 -1.137 232.558
+                    -30.549 28.663 234.710
+                    -64.091 40.141 234.479
+                    -78.854 55.024 231.883
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                </data>
+                <data name="Timer" type="INTEGER">70</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">33.947 -34.326 188.036</data>
+                <data name="Eye" type="XYZ">-160.589 -129.246 -344.739</data>
+                <data name="Fovy" type="FLOAT">32.000</data>
+                <data name="Bank" type="FLOAT">3.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">33.947 -34.326 188.036</data>
+                <data name="Eye" type="XYZ">-160.589 -129.246 -344.739</data>
+                <data name="Fovy" type="FLOAT">32.000</data>
+                <data name="Bank" type="FLOAT">3.000</data>
+                <data name="Timer" type="INTEGER">25</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">108.280 121.629 273.804</data>
+                <data name="Eye" type="XYZ">-106.136 -107.235 -208.216</data>
+                <data name="Fovy" type="FLOAT">32.000</data>
+                <data name="Bank" type="FLOAT">-20.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="023a_wait">
+                <data name="prm0" type="INTEGER">1</data>
+                <data name="prm1" type="INTEGER">2</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="ATTACK_WARP_HORSE">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+        </staff>
+        <staff name="GWolf">
+            <cut name="ATTACK_WARP_HORSE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="ATTACK_WARP_HORSE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="ATTACK_WARP_HORSE">
+                <data name="prm" type="INTEGER">15</data>
+            </cut>
+            <cut name="ATTACK_WARP_HORSE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="ATTACK_WARP_HORSE">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="ATTACK_WARP_HORSE">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">GWolf</data>
+                <data name="Centers" type="XYZ">
+                    -0.075 -42.393 5.468
+                    -0.079 -43.437 6.277
+                    -0.078 -42.001 5.004
+                    -0.078 -39.838 3.187
+                    0.586 -37.626 14.283
+                    -3.679 -34.944 30.872
+                    1.635 -36.761 66.603
+                </data>
+                <data name="Eyes" type="XYZ">
+                    38.861 -5.910 142.551
+                    38.791 -6.969 143.376
+                    38.851 -5.468 142.083
+                    38.768 -3.266 140.299
+                    64.041 -6.659 162.712
+                    88.497 -25.046 166.563
+                    103.928 -38.249 177.968
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                </data>
+                <data name="Timer" type="INTEGER">70</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Centers" type="XYZ">
+                    9.469 -28.975 9.538
+                    9.469 -28.975 9.538
+                    14.677 -28.975 4.151
+                    19.156 -31.589 1.555
+                    25.014 -35.043 0.475
+                    25.392 -38.798 1.907
+                </data>
+                <data name="Eyes" type="XYZ">
+                    192.213 -36.267 90.077
+                    192.213 -36.267 90.077
+                    155.918 -25.822 145.454
+                    122.955 7.720 167.728
+                    92.197 16.291 181.471
+                    71.661 36.330 181.156
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                </data>
+                <data name="Timer" type="INTEGER">70</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">367.180 -183.991 84.971</data>
+                <data name="Eye" type="XYZ">548.718 -229.937 183.258</data>
+                <data name="Fovy" type="FLOAT">32.750</data>
+                <data name="Bank" type="FLOAT">18.250</data>
+                <data name="Timer" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">375.219 -186.979 64.847</data>
+                <data name="Eye" type="XYZ">565.737 -228.783 145.867</data>
+                <data name="Fovy" type="FLOAT">32.750</data>
+                <data name="Bank" type="FLOAT">15.000</data>
+                <data name="Timer" type="INTEGER">27</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">32.364 13.914 8.756</data>
+                <data name="Eye" type="XYZ">204.615 -101.953 47.765</data>
+                <data name="Fovy" type="FLOAT">32.750</data>
+                <data name="Bank" type="FLOAT">-35.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="023a_wait">
+                <data name="prm0" type="INTEGER">1</data>
+                <data name="prm1" type="INTEGER">2</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="HOWLING_SESSIONA">
+        <staff name="GWolf">
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">25</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">25</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Centers" type="XYZ">
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    3.800 -10.551 -50.584
+                    9.089 -11.286 -42.996
+                    12.906 -11.760 -37.585
+                    18.172 -12.442 -30.030
+                    23.508 -13.136 -22.433
+                    27.289 -13.633 -17.036
+                    32.606 -14.322 -9.452
+                </data>
+                <data name="Eyes" type="XYZ">
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    118.808 -25.347 113.419
+                    124.154 -26.069 120.958
+                    127.890 -26.517 126.427
+                    133.147 -27.304 134.043
+                    138.560 -28.041 141.514
+                    142.335 -28.367 146.967
+                    147.560 -29.214 154.601
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                </data>
+                <data name="Timer" type="INTEGER">325</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:2</data>
+                <data name="Centers" type="XYZ">
+                    -486.485 522.945 939.851
+                    -466.938 660.650 926.540
+                    -437.645 825.739 910.597
+                    -373.524 1006.984 873.215
+                    -279.517 1110.639 829.523
+                    -194.441 1138.655 777.833
+                    -145.835 1153.168 732.062
+                    -110.620 1155.218 707.825
+                    -79.998 1164.099 687.647
+                    -77.108 1160.260 686.892
+                </data>
+                <data name="Eyes" type="XYZ">
+                    -629.960 456.649 1064.403
+                    -608.233 597.793 1048.455
+                    -577.271 777.535 1022.681
+                    -515.946 979.695 978.314
+                    -438.163 1102.818 956.617
+                    -376.886 1146.272 954.890
+                    -297.856 1167.929 956.103
+                    -160.696 1167.687 967.355
+                    -15.943 1171.756 961.128
+                    55.851 1164.245 952.342
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    65.000
+                    65.000
+                    65.000
+                    64.303
+                    60.975
+                    55.287
+                    51.272
+                    50.000
+                    50.000
+                    50.000
+                </data>
+                <data name="Timer" type="INTEGER">260</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-8979.057 5243.163 43097.441</data>
+                <data name="Eye" type="XYZ">-9505.465 5297.885 43814.234</data>
+                <data name="Fovy" type="FLOAT">1.500</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-4673.965 4827.428 37785.711</data>
+                <data name="Eye" type="XYZ">-5180.269 4881.297 38516.898</data>
+                <data name="Fovy" type="FLOAT">1.500</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">273</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">2.472 -12.993 -45.190</data>
+                <data name="Eye" type="XYZ">208.434 -12.970 191.146</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-254.606 4357.862 31232.572</data>
+                <data name="Eye" type="XYZ">-410.504 4411.692 31508.264</data>
+                <data name="Fovy" type="FLOAT">57.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="Centers" type="XYZ">
+                    -254.606 4357.862 31232.572
+                    -254.606 4357.862 31232.572
+                    -254.606 4357.862 31232.572
+                    -254.606 4357.862 31232.572
+                    -254.606 4357.862 31232.572
+                    -254.606 4357.862 31232.572
+                </data>
+                <data name="Eyes" type="XYZ">
+                    -410.504 4411.692 31508.264
+                    -410.504 4411.692 31508.264
+                    -358.354 4411.692 31531.812
+                    -278.360 4411.693 31548.400
+                    -205.702 4411.693 31545.496
+                    -163.225 4428.011 31532.469
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    57.000
+                    57.000
+                    57.000
+                    57.000
+                    57.000
+                    57.000
+                </data>
+                <data name="Timer" type="INTEGER">170</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="HOWLING_SESSIONB">
+        <staff name="GWolf">
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">25</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Centers" type="XYZ">
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    3.800 -10.551 -50.584
+                    9.089 -11.286 -42.996
+                    12.906 -11.760 -37.585
+                    18.172 -12.442 -30.030
+                    23.508 -13.136 -22.433
+                    27.289 -13.633 -17.036
+                    32.606 -14.322 -9.452
+                </data>
+                <data name="Eyes" type="XYZ">
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    118.808 -25.347 113.419
+                    124.154 -26.069 120.958
+                    127.890 -26.517 126.427
+                    133.147 -27.304 134.043
+                    138.560 -28.041 141.514
+                    142.335 -28.367 146.967
+                    147.560 -29.214 154.601
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                </data>
+                <data name="Timer" type="INTEGER">290</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:4</data>
+                <data name="Center" type="XYZ">467.435 931.244 1231.429</data>
+                <data name="Eye" type="XYZ">264.048 1121.746 459.717</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:4</data>
+                <data name="Center" type="XYZ">-342.196 1292.608 983.640</data>
+                <data name="Eye" type="XYZ">264.048 1121.746 459.717</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">180</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">13348.118 2701.352 -17050.701</data>
+                <data name="Eye" type="XYZ">13582.782 2670.479 -17234.270</data>
+                <data name="Fovy" type="FLOAT">4.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">20072.877 1665.760 -22443.295</data>
+                <data name="Eye" type="XYZ">20711.949 1580.531 -22950.066</data>
+                <data name="Fovy" type="FLOAT">4.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">209</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">2.472 -12.993 -45.190</data>
+                <data name="Eye" type="XYZ">208.434 -12.970 191.146</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-3996.618 4980.658 -3503.622</data>
+                <data name="Eye" type="XYZ">-4390.480 5189.266 -2810.683</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="Centers" type="XYZ">
+                    -3996.618 4980.658 -3503.622
+                    -3996.618 4980.658 -3503.622
+                    -3996.618 4980.658 -3503.622
+                    -3996.618 4980.658 -3503.622
+                    -3996.618 4980.658 -3503.622
+                    -3996.618 4980.658 -3503.622
+                </data>
+                <data name="Eyes" type="XYZ">
+                    -4390.480 5189.266 -2810.683
+                    -4390.480 5189.266 -2810.683
+                    -4541.774 5189.266 -2922.160
+                    -4676.951 5189.266 -3088.362
+                    -4751.281 5189.267 -3247.152
+                    -4751.281 5189.267 -3247.152
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    55.000
+                    55.000
+                    55.000
+                    55.000
+                    55.000
+                    55.000
+                </data>
+                <data name="Timer" type="INTEGER">120</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="HOWLING_SESSIONC">
+        <staff name="GWolf">
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">25</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Centers" type="XYZ">
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    3.800 -10.551 -50.584
+                    9.089 -11.286 -42.996
+                    12.906 -11.760 -37.585
+                    18.172 -12.442 -30.030
+                    23.508 -13.136 -22.433
+                    27.289 -13.633 -17.036
+                    32.606 -14.322 -9.452
+                </data>
+                <data name="Eyes" type="XYZ">
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    118.808 -25.347 113.419
+                    124.154 -26.069 120.958
+                    127.890 -26.517 126.427
+                    133.147 -27.304 134.043
+                    138.560 -28.041 141.514
+                    142.335 -28.367 146.967
+                    147.560 -29.214 154.601
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                </data>
+                <data name="Timer" type="INTEGER">253</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:6</data>
+                <data name="Center" type="XYZ">760.434 1791.443 545.766</data>
+                <data name="Eye" type="XYZ">-49.281 1585.696 738.500</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:6</data>
+                <data name="Center" type="XYZ">364.545 1361.178 639.931</data>
+                <data name="Eye" type="XYZ">-426.807 1085.006 827.861</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">160</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:6</data>
+                <data name="Center" type="XYZ">364.545 1361.178 639.931</data>
+                <data name="Eye" type="XYZ">-426.807 1085.006 827.861</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">28</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-5252.873 2623.421 11270.846</data>
+                <data name="Eye" type="XYZ">-5624.681 2650.257 12044.459</data>
+                <data name="Fovy" type="FLOAT">4.500</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-4823.291 2623.421 11479.042</data>
+                <data name="Eye" type="XYZ">-5147.724 2650.257 12273.688</data>
+                <data name="Fovy" type="FLOAT">4.500</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">209</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">2.472 -12.993 -45.190</data>
+                <data name="Eye" type="XYZ">208.434 -12.970 191.146</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-3660.047 2536.697 8761.080</data>
+                <data name="Eye" type="XYZ">-3822.587 2556.881 9141.063</data>
+                <data name="Fovy" type="FLOAT">8.000</data>
+                <data name="Bank" type="FLOAT">5.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-3660.047 2536.697 8761.080</data>
+                <data name="Eye" type="XYZ">-3822.587 2556.881 9141.063</data>
+                <data name="Fovy" type="FLOAT">8.000</data>
+                <data name="Bank" type="FLOAT">5.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-4272.742 2635.351 9987.025</data>
+                <data name="Eye" type="XYZ">-4433.604 2660.764 10367.412</data>
+                <data name="Fovy" type="FLOAT">8.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-4272.742 2635.351 9987.025</data>
+                <data name="Eye" type="XYZ">-4433.604 2660.764 10367.412</data>
+                <data name="Fovy" type="FLOAT">8.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="HOWLING_SESSIOND">
+        <staff name="GWolf">
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">25</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Centers" type="XYZ">
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    3.800 -10.551 -50.584
+                    9.089 -11.286 -42.996
+                    12.906 -11.760 -37.585
+                    18.172 -12.442 -30.030
+                    23.508 -13.136 -22.433
+                    27.289 -13.633 -17.036
+                    32.606 -14.322 -9.452
+                </data>
+                <data name="Eyes" type="XYZ">
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    118.808 -25.347 113.419
+                    124.154 -26.069 120.958
+                    127.890 -26.517 126.427
+                    133.147 -27.304 134.043
+                    138.560 -28.041 141.514
+                    142.335 -28.367 146.967
+                    147.560 -29.214 154.601
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                </data>
+                <data name="Timer" type="INTEGER">274</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:8</data>
+                <data name="Centers" type="XYZ">
+                    -32.557 1234.360 625.977
+                    -34.152 1194.955 609.318
+                    -34.873 1165.754 596.600
+                    -34.874 1165.759 596.602
+                    -34.874 1165.773 596.609
+                    -34.841 1166.878 596.047
+                    -34.896 1166.494 596.978
+                    -34.896 1166.494 596.978
+                </data>
+                <data name="Eyes" type="XYZ">
+                    -15.546 1694.277 827.182
+                    -46.651 1655.253 810.078
+                    -126.036 1586.589 855.313
+                    -291.352 1453.639 918.760
+                    -392.117 1401.416 859.132
+                    -482.796 1314.653 767.128
+                    -521.985 1279.994 632.447
+                    -534.117 1200.220 565.978
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    44.000
+                    44.000
+                    44.000
+                    44.000
+                    44.000
+                    44.000
+                    44.000
+                    44.000
+                </data>
+                <data name="Timer" type="INTEGER">217</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:7</data>
+                <data name="Center" type="XYZ">-131.793 1184.044 442.080</data>
+                <data name="Eye" type="XYZ">-696.049 1129.989 17.888</data>
+                <data name="Fovy" type="FLOAT">35.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:7</data>
+                <data name="Center" type="XYZ">-89.651 1183.756 380.257</data>
+                <data name="Eye" type="XYZ">-696.049 1129.989 17.888</data>
+                <data name="Fovy" type="FLOAT">35.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">82</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:8</data>
+                <data name="Center" type="XYZ">86.741 1223.254 603.074</data>
+                <data name="Eye" type="XYZ">-411.509 836.607 2038.139</data>
+                <data name="Fovy" type="FLOAT">11.250</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:8</data>
+                <data name="Center" type="XYZ">-24.140 1223.254 569.314</data>
+                <data name="Eye" type="XYZ">-411.509 836.607 2038.139</data>
+                <data name="Fovy" type="FLOAT">11.250</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">2.472 -12.993 -45.190</data>
+                <data name="Eye" type="XYZ">208.434 -12.970 191.146</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-24883.842 2998.582 7262.788</data>
+                <data name="Eye" type="XYZ">-23754.047 2527.166 8240.383</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-24883.842 2998.582 7262.788</data>
+                <data name="Eye" type="XYZ">-23754.047 2527.166 8240.383</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-24883.842 2998.582 7262.788</data>
+                <data name="Eye" type="XYZ">-23754.047 2527.166 8240.383</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-24883.842 2998.582 7262.788</data>
+                <data name="Eye" type="XYZ">-23754.047 2527.166 8240.383</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="HOWLING_SESSIONE">
+        <staff name="GWolf">
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">25</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Centers" type="XYZ">
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    3.800 -10.551 -50.584
+                    9.089 -11.286 -42.996
+                    12.906 -11.760 -37.585
+                    18.172 -12.442 -30.030
+                    23.508 -13.136 -22.433
+                    27.289 -13.633 -17.036
+                    32.606 -14.322 -9.452
+                </data>
+                <data name="Eyes" type="XYZ">
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    118.808 -25.347 113.419
+                    124.154 -26.069 120.958
+                    127.890 -26.517 126.427
+                    133.147 -27.304 134.043
+                    138.560 -28.041 141.514
+                    142.335 -28.367 146.967
+                    147.560 -29.214 154.601
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                </data>
+                <data name="Timer" type="INTEGER">291</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:10</data>
+                <data name="Centers" type="XYZ">
+                    192.182 1164.822 1070.370
+                    192.182 1164.822 1070.370
+                    149.644 1148.223 979.678
+                    132.459 1136.593 906.131
+                    130.942 1120.556 815.800
+                    118.571 1139.532 847.426
+                    80.606 1180.829 891.045
+                    21.249 1202.112 927.185
+                    -36.051 1211.105 946.714
+                    -61.664 1209.623 957.223
+                    -96.513 1240.349 955.485
+                </data>
+                <data name="Eyes" type="XYZ">
+                    575.457 1058.961 856.779
+                    575.457 1058.961 856.779
+                    575.457 1058.960 856.779
+                    575.457 1058.960 856.779
+                    575.457 1058.961 856.779
+                    538.096 1091.766 1011.132
+                    440.666 1205.084 1165.960
+                    280.878 1290.412 1287.125
+                    137.946 1328.458 1345.048
+                    -4.791 1332.678 1388.242
+                    -119.779 1402.386 1373.973
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    40.000
+                    40.000
+                    40.000
+                    40.000
+                    40.000
+                    40.000
+                    40.000
+                    40.000
+                    40.000
+                    40.000
+                    40.000
+                </data>
+                <data name="Timer" type="INTEGER">249</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">24646.158 3539.737 12621.243</data>
+                <data name="Eye" type="XYZ">24750.582 3533.851 12740.577</data>
+                <data name="Fovy" type="FLOAT">2.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">23254.076 3572.820 11426.507</data>
+                <data name="Eye" type="XYZ">23356.889 3566.934 11547.231</data>
+                <data name="Fovy" type="FLOAT">2.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">289</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">2.472 -12.993 -45.190</data>
+                <data name="Eye" type="XYZ">208.434 -12.970 191.146</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">tgake:10</data>
+                <data name="Center" type="XYZ">431.133 774.389 1242.361</data>
+                <data name="Eye" type="XYZ">454.748 760.197 1262.534</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">tgake:10</data>
+                <data name="Center" type="XYZ">431.133 774.389 1242.361</data>
+                <data name="Eye" type="XYZ">454.748 760.197 1262.534</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:10</data>
+                <data name="Center" type="XYZ">431.133 774.389 1242.361</data>
+                <data name="Eye" type="XYZ">454.748 760.197 1262.534</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:10</data>
+                <data name="RelActor" type="STRING">tgake</data>
+                <data name="Center" type="XYZ">421.181 763.029 1262.728</data>
+                <data name="Eye" type="XYZ">454.748 760.197 1262.534</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">tgake:10</data>
+                <data name="Center" type="XYZ">421.181 763.029 1262.728</data>
+                <data name="Eye" type="XYZ">454.748 760.197 1262.534</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="HOWLING_SESSIONF">
+        <staff name="GWolf">
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">25</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="HOWLING_SESSIONA">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Centers" type="XYZ">
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    0.011 -10.058 -55.991
+                    3.800 -10.551 -50.584
+                    9.089 -11.286 -42.996
+                    12.906 -11.760 -37.585
+                    18.172 -12.442 -30.030
+                    23.508 -13.136 -22.433
+                    27.289 -13.633 -17.036
+                    32.606 -14.322 -9.452
+                </data>
+                <data name="Eyes" type="XYZ">
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    115.021 -24.966 107.985
+                    118.808 -25.347 113.419
+                    124.154 -26.069 120.958
+                    127.890 -26.517 126.427
+                    133.147 -27.304 134.043
+                    138.560 -28.041 141.514
+                    142.335 -28.367 146.967
+                    147.560 -29.214 154.601
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                    65.000
+                </data>
+                <data name="Timer" type="INTEGER">333</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:12</data>
+                <data name="Centers" type="XYZ">
+                    -129.446 -514.289 564.041
+                    -116.608 -421.726 512.381
+                    -146.601 52.741 399.192
+                    -51.223 642.458 557.885
+                    -108.686 904.549 817.873
+                    -164.859 1146.882 879.362
+                    -141.608 1194.709 622.233
+                    -121.060 1187.865 548.193
+                    -95.902 1185.069 514.266
+                    -71.026 1182.318 475.049
+                </data>
+                <data name="Eyes" type="XYZ">
+                    34.449 -259.978 950.152
+                    34.449 -259.978 950.152
+                    6.532 216.113 841.157
+                    14.649 664.148 883.107
+                    -108.645 809.281 1158.880
+                    -200.992 1146.145 1175.738
+                    -241.256 1239.813 976.646
+                    -273.398 1210.756 885.658
+                    -295.848 1208.369 825.342
+                    -274.988 1205.234 784.149
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    52.000
+                    52.000
+                    52.000
+                    52.000
+                    52.000
+                    52.000
+                    52.000
+                    52.000
+                    52.000
+                    52.000
+                </data>
+                <data name="Timer" type="INTEGER">279</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">11880.893 2627.676 -11784.016</data>
+                <data name="Eye" type="XYZ">12714.702 2527.839 -12516.049</data>
+                <data name="Fovy" type="FLOAT">5.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">11808.572 2641.497 -11878.011</data>
+                <data name="Eye" type="XYZ">12714.702 2527.839 -12516.049</data>
+                <data name="Fovy" type="FLOAT">20.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">300</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">11808.572 2641.497 -11878.011</data>
+                <data name="Eye" type="XYZ">12714.702 2527.839 -12516.049</data>
+                <data name="Fovy" type="FLOAT">20.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">84</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">2.472 -12.993 -45.190</data>
+                <data name="Eye" type="XYZ">208.434 -12.970 191.146</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">tgake:12</data>
+                <data name="Center" type="XYZ">-18.179 836.664 621.491</data>
+                <data name="Eye" type="XYZ">-238.914 2241.221 937.387</data>
+                <data name="Fovy" type="FLOAT">59.500</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:12</data>
+                <data name="Centers" type="XYZ">
+                    -18.179 836.664 621.491
+                    -18.179 836.664 621.491
+                    -18.177 836.608 621.449
+                    -23.040 836.796 620.680
+                    -13.932 836.721 620.896
+                    -18.179 836.664 621.491
+                </data>
+                <data name="Eyes" type="XYZ">
+                    -238.914 2241.221 937.387
+                    -238.914 2241.221 937.387
+                    -163.644 2240.592 979.873
+                    -70.688 2240.864 1004.218
+                    32.448 2241.080 1003.953
+                    105.145 2240.619 987.875
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    59.500
+                    59.500
+                    59.500
+                    59.500
+                    59.500
+                    59.500
+                </data>
+                <data name="Timer" type="INTEGER">140</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MEET_GWOLFA">
+        <staff name="GWolf">
+            <cut name="MEET_GWOLFA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:1</data>
+                <data name="Centers" type="XYZ">
+                    -16.583 1183.233 655.031
+                    -16.583 1183.233 655.031
+                    -15.841 1184.096 655.527
+                    -20.609 1221.857 657.147
+                    -20.214 1256.515 658.663
+                    -19.481 1255.787 659.533
+                </data>
+                <data name="Eyes" type="XYZ">
+                    250.297 1041.093 1075.951
+                    250.297 1041.093 1075.951
+                    457.970 1194.332 863.560
+                    454.776 1275.782 463.136
+                    119.524 1274.854 160.966
+                    119.524 1274.854 160.966
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    48.000
+                    48.000
+                    48.000
+                    48.000
+                    48.000
+                    48.000
+                </data>
+                <data name="Timer" type="INTEGER">120</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:2</data>
+                <data name="Centers" type="XYZ">
+                    32.520 978.086 1073.061
+                    -44.905 1044.914 955.163
+                    -52.319 1146.195 824.471
+                    -49.741 1145.514 727.543
+                    -34.977 1145.341 743.992
+                    -22.194 1150.626 709.866
+                    -22.194 1150.626 709.866
+                </data>
+                <data name="Eyes" type="XYZ">
+                    -418.758 880.846 1307.460
+                    -441.933 964.203 1278.228
+                    9.122 1114.940 1340.085
+                    446.632 1123.809 850.041
+                    413.311 1225.708 506.189
+                    223.357 1296.555 278.582
+                    223.357 1296.555 278.582
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    60.000
+                    60.000
+                    60.000
+                    60.000
+                    60.000
+                    60.000
+                    60.000
+                </data>
+                <data name="Timer" type="INTEGER">140</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MEET_GWOLFB">
+        <staff name="GWolf">
+            <cut name="MEET_GWOLFA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:3</data>
+                <data name="Centers" type="XYZ">
+                    -508.749 1135.457 612.333
+                    -238.275 1206.399 920.483
+                    -198.868 1215.803 1012.453
+                    -245.519 1249.280 1049.939
+                    -245.519 1249.280 1049.939
+                </data>
+                <data name="Eyes" type="XYZ">
+                    -966.728 876.131 -15.201
+                    -467.825 1078.139 144.316
+                    -258.188 1134.371 198.482
+                    -184.777 1140.102 239.931
+                    -184.777 1140.102 239.931
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    62.000
+                    62.000
+                    62.000
+                    62.000
+                    62.000
+                </data>
+                <data name="Timer" type="INTEGER">100</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:4</data>
+                <data name="Centers" type="XYZ">
+                    186.212 1101.264 632.364
+                    -4.191 1362.441 598.764
+                    -53.183 1445.479 518.076
+                    -314.799 1347.282 648.611
+                    -345.545 1324.736 862.141
+                    -279.304 1231.448 1011.918
+                    -279.304 1231.448 1011.918
+                </data>
+                <data name="Eyes" type="XYZ">
+                    884.389 1018.164 1055.776
+                    780.513 1200.388 769.369
+                    712.047 1268.719 284.833
+                    132.480 1316.879 -37.223
+                    -558.491 1363.282 72.365
+                    -695.031 1434.222 335.437
+                    -695.031 1434.222 335.437
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    64.000
+                    64.000
+                    64.000
+                    64.000
+                    64.000
+                    64.000
+                    60.000
+                </data>
+                <data name="Timer" type="INTEGER">160</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MEET_GWOLFC">
+        <staff name="GWolf">
+            <cut name="MEET_GWOLFA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:5</data>
+                <data name="Centers" type="XYZ">
+                    -50.224 1157.409 535.724
+                    -131.970 1156.912 517.786
+                    -184.066 1157.099 506.607
+                    -180.508 1157.049 507.861
+                    -180.508 1157.049 507.861
+                </data>
+                <data name="Eyes" type="XYZ">
+                    166.537 939.328 -349.422
+                    78.960 1022.541 -205.161
+                    -29.029 1102.740 -77.033
+                    -39.396 1156.859 71.142
+                    -39.396 1156.859 71.142
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                </data>
+                <data name="Timer" type="INTEGER">100</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:6</data>
+                <data name="Centers" type="XYZ">
+                    -113.966 1199.635 729.232
+                    -113.868 1200.671 728.607
+                    -113.668 1202.173 727.325
+                    -112.840 1202.854 726.593
+                    -112.840 1202.854 726.593
+                    -110.789 1210.020 722.983
+                    -110.789 1210.020 722.983
+                </data>
+                <data name="Eyes" type="XYZ">
+                    506.889 1249.001 366.823
+                    449.358 1254.630 175.965
+                    29.287 1265.684 -205.434
+                    -655.969 1276.440 -227.428
+                    -1478.191 1303.219 95.225
+                    -1898.951 1521.029 1153.835
+                    -1898.951 1521.029 1153.835
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                </data>
+                <data name="Timer" type="INTEGER">180</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MEET_GWOLFD">
+        <staff name="GWolf">
+            <cut name="MEET_GWOLFA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:7</data>
+                <data name="Centers" type="XYZ">
+                    -55.765 1185.555 549.442
+                    -55.066 1185.255 549.372
+                    -55.066 1185.255 549.372
+                    -55.065 1185.241 549.365
+                    -55.068 1185.308 549.397
+                </data>
+                <data name="Eyes" type="XYZ">
+                    -507.305 1054.836 1243.927
+                    -283.378 1054.647 1346.215
+                    250.450 1134.874 1329.576
+                    450.013 1114.635 1216.365
+                    450.013 1114.635 1216.365
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                </data>
+                <data name="Timer" type="INTEGER">100</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:8</data>
+                <data name="Centers" type="XYZ">
+                    15.124 1175.698 659.909
+                    15.124 1175.698 659.909
+                    15.124 1175.698 659.909
+                    15.124 1175.698 659.909
+                    15.124 1175.698 659.909
+                    15.124 1175.698 659.909
+                    15.124 1175.698 659.909
+                </data>
+                <data name="Eyes" type="XYZ">
+                    440.335 1035.019 1131.499
+                    440.335 1035.019 1131.499
+                    291.641 1107.295 1244.485
+                    35.878 1219.152 1308.123
+                    -254.306 1272.971 1242.337
+                    -313.148 1272.506 1211.641
+                    -313.148 1272.506 1211.641
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                    45.000
+                </data>
+                <data name="Timer" type="INTEGER">140</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MEET_GWOLFE">
+        <staff name="GWolf">
+            <cut name="MEET_GWOLFA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:9</data>
+                <data name="Centers" type="XYZ">
+                    -480.145 959.483 768.298
+                    -432.361 1033.852 652.069
+                    -382.122 1093.586 555.026
+                    -312.292 1191.054 498.859
+                    -312.292 1191.054 498.859
+                </data>
+                <data name="Eyes" type="XYZ">
+                    -1253.336 962.586 540.964
+                    -1146.828 1076.047 282.363
+                    -919.263 1190.975 -35.006
+                    -786.216 1316.839 -138.985
+                    -786.216 1316.839 -138.985
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    48.000
+                    48.000
+                    48.000
+                    48.000
+                    48.000
+                </data>
+                <data name="Timer" type="INTEGER">100</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:10</data>
+                <data name="Centers" type="XYZ">
+                    -97.441 1168.410 761.763
+                    -97.393 1171.496 761.385
+                    -97.393 1171.496 761.385
+                    -97.393 1171.499 761.386
+                    -97.393 1171.499 761.386
+                    -97.393 1171.499 761.386
+                </data>
+                <data name="Eyes" type="XYZ">
+                    504.395 1154.024 390.531
+                    405.366 1214.656 266.661
+                    264.415 1300.458 168.827
+                    57.250 1300.219 83.876
+                    -155.308 1300.256 69.129
+                    -155.308 1300.256 69.129
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    43.000
+                    43.000
+                    43.000
+                    43.000
+                    43.000
+                    43.000
+                </data>
+                <data name="Timer" type="INTEGER">140</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MEET_GWOLFF">
+        <staff name="GWolf">
+            <cut name="MEET_GWOLFA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:11</data>
+                <data name="Centers" type="XYZ">
+                    58.722 1266.450 417.640
+                    3.455 1253.951 391.685
+                    47.616 1278.736 518.605
+                    -3.388 1306.558 692.895
+                    -3.388 1306.558 692.895
+                </data>
+                <data name="Eyes" type="XYZ">
+                    800.899 928.727 669.451
+                    397.634 1217.364 1146.892
+                    -79.834 1274.316 1361.289
+                    -691.156 1409.448 1185.627
+                    -691.156 1409.448 1185.627
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    48.000
+                    48.000
+                    48.000
+                    48.000
+                    48.000
+                </data>
+                <data name="Timer" type="INTEGER">100</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPLINE">
+                <data name="RelActor" type="STRING">tgake:12</data>
+                <data name="Centers" type="XYZ">
+                    -332.920 1182.044 850.171
+                    -208.865 1086.618 710.549
+                    -264.798 1043.514 742.979
+                    -385.053 1036.640 718.230
+                    -478.137 1096.108 590.651
+                    -357.131 1188.166 419.758
+                    -357.131 1188.166 419.758
+                </data>
+                <data name="Eyes" type="XYZ">
+                    430.167 1347.876 715.044
+                    500.285 1144.857 1085.366
+                    92.986 804.483 1422.168
+                    -611.275 723.078 1419.227
+                    -751.108 1039.574 1004.073
+                    -737.553 1213.801 857.187
+                    -737.553 1213.801 857.187
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    67.000
+                    67.000
+                    67.000
+                    67.000
+                    67.000
+                    67.000
+                    67.000
+                </data>
+                <data name="Timer" type="INTEGER">160</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

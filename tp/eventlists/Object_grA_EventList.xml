@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="GRA_FOUNDPLAYER">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="WIPE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+        </staff>
+        <staff name="Obj_grA">
+            <cut name="FIND">
+            </cut>
+            <cut name="FIND">
+                <data name="Step" type="INTEGER">2</data>
+            </cut>
+            <cut name="FIND">
+                <data name="Step" type="INTEGER">6</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="008e_talk">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">STANDARD</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">Link</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">STANDARD</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GRA_THROWN">
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 -73.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -71.000 264.000</data>
+                <data name="StartCenter" type="XYZ">0.000 -73.000 0.000</data>
+                <data name="StartEye" type="XYZ">0.000 -71.000 164.000</data>
+                <data name="Fovy" type="FLOAT">70.000</data>
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

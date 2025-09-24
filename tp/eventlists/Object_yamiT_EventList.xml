@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="STOPPER">
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">221.542 924.734 6260.856</data>
+                <data name="Eye" type="XYZ">269.598 915.714 6505.641</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">282.800 800.000 6336.717</data>
+                <data name="prm0" type="INTEGER">0</data>
+                <data name="angle" type="INTEGER">-28052</data>
+            </cut>
+        </staff>
+        <staff name="yamiT:1">
+            <cut name="STOPPER">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

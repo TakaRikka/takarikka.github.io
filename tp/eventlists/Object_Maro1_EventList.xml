@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="SURPRISE">
+        <staff name="Maro">
+            <cut name="SURPRISE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SURPRISE">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TAG_PUSH5">
+        <staff name="Maro">
+            <cut name="TAG_PUSH5">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TAG_PUSH5">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="TAG_PUSH5">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TALK_TO_KAKASHI">
+        <staff name="Maro">
+            <cut name="TALK_TO_KAKASHI">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TALK_TO_KAKASHI">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="TALK_TO_KAKASHI">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Maro</data>
+                <data name="Center" type="XYZ">-8.779 -32.708 63.317</data>
+                <data name="Eye" type="XYZ">-135.996 -73.804 63.224</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="008e_talk">
+            </cut>
+        </staff>
+    </sequence>
+</event>

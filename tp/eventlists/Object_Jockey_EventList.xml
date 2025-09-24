@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="ANNULATION_FIELD_RACE">
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="Jockey">
+            <cut name="0001_READY_GO">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="CURRENT">
+            </cut>
+        </staff>
+    </sequence>
+</event>

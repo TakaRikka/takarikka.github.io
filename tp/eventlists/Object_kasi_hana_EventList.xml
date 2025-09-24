@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="KASIMASI_APPEAR">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="kasi_hana">
+            <cut name="KASIMASI_APPEAR">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="KASIMASI_APPEAR">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="KASIMASI_APPEAR">
+                <data name="cutId" type="INTEGER">21</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="KASIMASI_CHEER">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-3111.383 132.744 1487.803</data>
+                <data name="Eye" type="XYZ">-3425.108 296.327 1740.872</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="kasi_hana">
+            <cut name="KASIMASI_CHEER">
+            </cut>
+            <cut name="KASIMASI_CHEER">
+                <data name="cutId" type="INTEGER">10</data>
+                <data name="mesNo1" type="INTEGER">6502</data>
+                <data name="mesNo2" type="INTEGER">6505</data>
+                <data name="mesNo3" type="INTEGER">6508</data>
+            </cut>
+            <cut name="KASIMASI_CHEER">
+                <data name="cutId" type="INTEGER">20</data>
+                <data name="mesNo1" type="INTEGER">6503</data>
+                <data name="mesNo2" type="INTEGER">6506</data>
+                <data name="mesNo3" type="INTEGER">6509</data>
+            </cut>
+            <cut name="KASIMASI_CHEER">
+                <data name="cutId" type="INTEGER">30</data>
+                <data name="mesNo1" type="INTEGER">-1</data>
+                <data name="mesNo2" type="INTEGER">-1</data>
+                <data name="mesNo3" type="INTEGER">-1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="KASIMASI_CHEER2">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-3111.383 132.744 1487.803</data>
+                <data name="Eye" type="XYZ">-3425.108 296.327 1740.872</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="kasi_hana">
+            <cut name="KASIMASI_CHEER2">
+            </cut>
+            <cut name="KASIMASI_CHEER2">
+                <data name="cutId" type="INTEGER">10</data>
+                <data name="mesNo1" type="INTEGER">6508</data>
+            </cut>
+            <cut name="KASIMASI_CHEER2">
+                <data name="cutId" type="INTEGER">20</data>
+                <data name="mesNo1" type="INTEGER">6509</data>
+            </cut>
+            <cut name="KASIMASI_CHEER2">
+                <data name="cutId" type="INTEGER">30</data>
+                <data name="mesNo1" type="INTEGER">-1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="KASIMASI_HEART">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="kasi_hana">
+            <cut name="KASIMASI_HEART">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="KASIMASI_HEART">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="KASIMASI_HEART">
+                <data name="cutId" type="INTEGER">21</data>
+            </cut>
+            <cut name="KASIMASI_HEART">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="KASIMASI_HEART">
+                <data name="cutId" type="INTEGER">40</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="KASIMASI_TALK">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="kasi_hana">
+            <cut name="KASIMASI_TALK">
+                <data name="cutId" type="INTEGER">10</data>
+                <data name="mesNo1" type="INTEGER">6511</data>
+                <data name="mesNo2" type="INTEGER">6514</data>
+            </cut>
+            <cut name="KASIMASI_TALK">
+                <data name="cutId" type="INTEGER">20</data>
+                <data name="mesNo1" type="INTEGER">6512</data>
+                <data name="mesNo2" type="INTEGER">6515</data>
+            </cut>
+            <cut name="KASIMASI_TALK">
+                <data name="cutId" type="INTEGER">30</data>
+                <data name="mesNo1" type="INTEGER">-1</data>
+                <data name="mesNo2" type="INTEGER">-1</data>
+            </cut>
+            <cut name="KASIMASI_TALK">
+                <data name="cutId" type="INTEGER">31</data>
+                <data name="mesNo1" type="INTEGER">-1</data>
+                <data name="mesNo2" type="INTEGER">-1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="DEFAULT_KNOB_DOOR_B">
+        <staff name="SHUTTER_DOOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="MESSAGE">
+            </cut>
+            <cut name="UNLOCK">
+            </cut>
+            <cut name="ADJUSTMENT2">
+            </cut>
+            <cut name="OPEN_PUSH">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="005wait_turn">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="035door">
+                <data name="prm0" type="INTEGER">0</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">10.000 68.000 -240.000</data>
+                <data name="Eye" type="XYZ">100.000 195.000 -517.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+            </cut>
+            <cut name="BSPTRANS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Center" type="XYZ">0.000 10.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 70.000 -130.000</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="Timer" type="INTEGER">25</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Use1" type="STRING">xxoxxx</data>
+                <data name="Set1" type="FLOAT">
+                    0.000
+                    0.000
+                    1.000
+                    1.000
+                    1.000
+                </data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="DEFAULT_KNOB_DOOR_B_STOP">
+        <staff name="SHUTTER_DOOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="MESSAGE">
+            </cut>
+            <cut name="UNLOCK">
+            </cut>
+            <cut name="ADJUSTMENT2">
+            </cut>
+            <cut name="OPEN_PUSH">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="STOP_CLOSE">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="005wait_turn">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="035door">
+                <data name="prm0" type="INTEGER">0</data>
+            </cut>
+            <cut name="025tback">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">37.000 68.000 -180.000</data>
+                <data name="Eye" type="XYZ">125.000 195.000 -457.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Timer" type="INTEGER">
+                </data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">0</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="DEFAULT_KNOB_DOOR_F">
+        <staff name="SHUTTER_DOOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="MESSAGE">
+            </cut>
+            <cut name="UNLOCK">
+            </cut>
+            <cut name="ADJUSTMENT2">
+            </cut>
+            <cut name="OPEN_PULL">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="005wait_turn">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="035door">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">10.000 68.000 -240.000</data>
+                <data name="Eye" type="XYZ">100.000 195.000 -517.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Center" type="XYZ">0.000 10.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 70.000 -130.000</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="Timer" type="INTEGER">25</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="DEFAULT_KNOB_DOOR_F_STOP">
+        <staff name="SHUTTER_DOOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="MESSAGE">
+            </cut>
+            <cut name="UNLOCK">
+            </cut>
+            <cut name="ADJUSTMENT2">
+            </cut>
+            <cut name="OPEN_PULL">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="STOP_CLOSE">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="005wait_turn">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="035door">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="025tback">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">37.000 68.000 -180.000</data>
+                <data name="Eye" type="XYZ">125.000 195.000 -457.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Timer" type="INTEGER">
+                </data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">0</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="DEFAULT_KNOB_DOOR_NOTOPEN_B">
+        <staff name="SHUTTER_DOOR">
+            <cut name="SETANGLE">
+            </cut>
+            <cut name="ADJUSTMENT2">
+            </cut>
+            <cut name="NOT_OPEN">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="005wait_turn">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="035door">
+                <data name="prm0" type="INTEGER">6</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">0</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="DEFAULT_KNOB_DOOR_NOTOPEN_F">
+        <staff name="SHUTTER_DOOR">
+            <cut name="SETANGLE">
+            </cut>
+            <cut name="ADJUSTMENT2">
+            </cut>
+            <cut name="NOT_OPEN">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="005wait_turn">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="035door">
+                <data name="prm0" type="INTEGER">7</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">0</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="DEFAULT_KNOB_DOOR_TALK_NOTOPEN_F">
+        <staff name="SHUTTER_DOOR">
+            <cut name="MESSAGE">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 -10.000 0.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Eye" type="XYZ">-100.000 30.000 300.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">0</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

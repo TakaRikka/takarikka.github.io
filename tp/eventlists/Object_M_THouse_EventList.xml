@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="TOBY_HOUSE_FIRE_TO_DESERT">
+        <staff name="thouse">
+            <cut name="WAIT">
+            </cut>
+            <cut name="CLOSE">
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="CHANGE">
+            </cut>
+            <cut name="ROTATE">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="HLIGHT">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Toby:0">
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-70.000 367.000 459.000</data>
+                <data name="Eye" type="XYZ">-212.000 460.000 826.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="WideMode" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Toby:0</data>
+                <data name="Center" type="XYZ">152.507 -57.681 -32.164</data>
+                <data name="Eye" type="XYZ">152.511 -50.695 44.085</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Toby:0</data>
+                <data name="Center" type="XYZ">152.566 -57.540 -32.039</data>
+                <data name="Eye" type="XYZ">152.269 -14.569 440.415</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">AutoMt</data>
+                <data name="Center" type="XYZ">-1.717 159.769 -31.941</data>
+                <data name="Eye" type="XYZ">-1.661 155.956 154.726</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">AutoMt</data>
+                <data name="Center" type="XYZ">-1.153 74.313 74.233</data>
+                <data name="Eye" type="XYZ">-0.975 24.830 254.350</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">AutoMt</data>
+                <data name="Center" type="XYZ">58.523 116.204 22.343</data>
+                <data name="Eye" type="XYZ">276.883 216.268 288.152</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">AutoMt</data>
+                <data name="Center" type="XYZ">58.523 116.204 22.343</data>
+                <data name="Eye" type="XYZ">276.883 216.268 288.152</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">95</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">123.000 1948.000 997.000</data>
+                <data name="Eye" type="XYZ">134.000 1797.000 1367.000</data>
+                <data name="Fovy" type="FLOAT">65.000</data>
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="Timer" type="INTEGER">100</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Stay" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">1209.000 1884.000 1362.000</data>
+                <data name="Eye" type="XYZ">1438.000 1849.000 1687.000</data>
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">0</data>
+                <data name="Center" type="XYZ">207.000 7844.000 -14145.000</data>
+                <data name="Eye" type="XYZ">188.000 7814.000 -13792.000</data>
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="StartCenter" type="XYZ">-381.000 3880.000 -2605.000</data>
+                <data name="StartEye" type="XYZ">-410.000 3756.000 -2247.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TOBY_HOUSE_FIRE_TO_RAKKA">
+        <staff name="thouse">
+            <cut name="WAIT">
+            </cut>
+            <cut name="CLOSE">
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="CHANGE">
+            </cut>
+            <cut name="ROTATE">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="HLIGHT">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Toby:0">
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="TOBY_HOUSE_FIRE">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-70.000 367.000 459.000</data>
+                <data name="Eye" type="XYZ">-212.000 460.000 826.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="WideMode" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Toby:0</data>
+                <data name="Center" type="XYZ">152.507 -57.681 -32.164</data>
+                <data name="Eye" type="XYZ">152.511 -50.695 44.085</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Toby:0</data>
+                <data name="Center" type="XYZ">152.566 -57.540 -32.039</data>
+                <data name="Eye" type="XYZ">152.269 -14.569 440.415</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">AutoMt</data>
+                <data name="Center" type="XYZ">-1.717 159.769 -31.941</data>
+                <data name="Eye" type="XYZ">-1.661 155.956 154.726</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">AutoMt</data>
+                <data name="Center" type="XYZ">-1.153 74.313 74.233</data>
+                <data name="Eye" type="XYZ">-0.975 24.830 254.350</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">AutoMt</data>
+                <data name="Center" type="XYZ">58.523 116.204 22.343</data>
+                <data name="Eye" type="XYZ">276.883 216.268 288.152</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">AutoMt</data>
+                <data name="Center" type="XYZ">58.523 116.204 22.343</data>
+                <data name="Eye" type="XYZ">276.883 216.268 288.152</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">95</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">123.000 1948.000 997.000</data>
+                <data name="Eye" type="XYZ">134.000 1797.000 1367.000</data>
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="Timer" type="INTEGER">100</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Stay" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-706.000 1239.000 1751.000</data>
+                <data name="Eye" type="XYZ">-847.000 1074.000 2085.000</data>
+                <data name="Fovy" type="FLOAT">53.750</data>
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">0</data>
+                <data name="Center" type="XYZ">109.000 10613.000 -9327.000</data>
+                <data name="Eye" type="XYZ">96.000 10359.000 -9023.000</data>
+                <data name="RelActor" type="STRING">@STA</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="StartCenter" type="XYZ">-425.000 3779.000 -2082.000</data>
+                <data name="StartEye" type="XYZ">-440.000 3495.000 -1804.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

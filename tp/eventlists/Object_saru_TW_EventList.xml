@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="YM_LOOK">
+        <staff name="Saru">
+            <cut name="YM_LOOK">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="YM_LOOK">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="YM_LOOK">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="YM_LOOK">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="YM_LOOK">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="YM_LOOK">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="YM_LOOK">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Saru</data>
+                <data name="Center" type="XYZ">-4.981 -93.540 34.535</data>
+                <data name="Eye" type="XYZ">40.026 -62.739 282.709</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Saru</data>
+                <data name="Center" type="XYZ">-73.266 -74.010 95.666</data>
+                <data name="Eye" type="XYZ">-73.803 -18.439 -255.505</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Saru</data>
+                <data name="Center" type="XYZ">-73.266 -74.010 95.666</data>
+                <data name="Eye" type="XYZ">-73.803 -18.439 -255.505</data>
+                <data name="Fovy" type="FLOAT">44.000</data>
+                <data name="Timer" type="INTEGER">200</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="YM_LOOK@">
+        <staff name="Saru">
+            <cut name="YM_LOOK">
+                <data name="prm" type="INTEGER">99</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="RESTOREPOS">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

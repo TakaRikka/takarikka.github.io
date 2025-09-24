@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="FIRST_TALK">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="myna2">
+            <cut name="FIRST_TALK">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIRST_TALK">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="FIRST_TALK">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDPOS">
+                <data name="CtrGap" type="XYZ">200.000 -100.000 0.000</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">o</data>
+                <data name="Eye" type="XYZ">200.000 100.000 -300.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Target" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-0.000 -50.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -50.000 400.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="005wait_turn">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="RIVER_BACK">
+        <staff name="rvback">
+            <cut name="WAIT">
+            </cut>
+            <cut name="SCENE_CHG">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDPOS">
+                <data name="Target" type="STRING">@PLAYER</data>
+            </cut>
+            <cut name="PAUSE">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

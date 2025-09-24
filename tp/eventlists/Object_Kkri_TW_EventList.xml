@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="YM_LOOK">
+        <staff name="Kkri">
+            <cut name="YM_LOOK">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">-10.851 94.451 -132.370</data>
+                <data name="Eye" type="XYZ">309.861 561.444 -228.550</data>
+                <data name="Fovy" type="FLOAT">68.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+</event>

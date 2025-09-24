@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="BOUS_INTRO_SUMO1">
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">-74.285 0.000 1442.637</data>
+                <data name="angle" type="INTEGER">-20640</data>
+            </cut>
+            <cut name="062eaway">
+            </cut>
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">-131.622 0.000 1456.555</data>
+                <data name="angle" type="INTEGER">21845</data>
+            </cut>
+            <cut name="060nod">
+            </cut>
+        </staff>
+        <staff name="BouS">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_TALK">
+            </cut>
+            <cut name="0003_TALK">
+            </cut>
+            <cut name="0004_FACIAL">
+            </cut>
+            <cut name="0005_TALK">
+            </cut>
+            <cut name="0006_TALK">
+            </cut>
+            <cut name="0007_TALK">
+            </cut>
+            <cut name="0008_TALK">
+            </cut>
+            <cut name="0009_TALK">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="StartCenter" type="XYZ">-61.386 531.681 1414.118</data>
+                <data name="StartEye" type="XYZ">-138.287 273.205 1902.804</data>
+                <data name="StartFovy" type="FLOAT">45.000</data>
+                <data name="StartBank" type="FLOAT">0.000</data>
+                <data name="Center" type="XYZ">-53.308 160.538 1362.782</data>
+                <data name="Eye" type="XYZ">-138.287 273.205 1902.804</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">150</data>
+                <data name="TransType" type="INTEGER">0</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">-43.179 112.882 1411.145</data>
+                <data name="Eye" type="XYZ">-100.958 116.161 1778.321</data>
+                <data name="Fovy" type="FLOAT">43.034</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">0.307 -56.925 -6.776</data>
+                <data name="Eye" type="XYZ">-6.220 -56.796 172.478</data>
+                <data name="Fovy" type="FLOAT">43.084</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">26.726 140.853 1413.843</data>
+                <data name="Eye" type="XYZ">-238.222 141.641 1409.956</data>
+                <data name="Fovy" type="FLOAT">48.084</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">55.926 140.390 1373.733</data>
+                <data name="Eye" type="XYZ">-49.030 140.390 1188.128</data>
+                <data name="Fovy" type="FLOAT">48.084</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">-120.146 140.390 1473.298</data>
+                <data name="Eye" type="XYZ">-225.102 140.390 1287.694</data>
+                <data name="Fovy" type="FLOAT">48.084</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">90</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-50.645 109.720 1415.064</data>
+                <data name="Eye" type="XYZ">-421.281 85.077 1428.823</data>
+                <data name="Fovy" type="FLOAT">43.034</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="BOUS_INTRO_SUMO2">
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="BouS">
+            <cut name="0001_TALK">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="BOUS_INTRO_SUMO3">
+        <staff name="Link">
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="060nod">
+            </cut>
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">-131.622 0.000 1456.555</data>
+                <data name="angle" type="INTEGER">21596</data>
+            </cut>
+        </staff>
+        <staff name="BouS">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_TALK">
+            </cut>
+            <cut name="0003_WALK">
+                <data name="pos" type="XYZ">-65.000 0.000 717.221</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Mode" type="INTEGER">29</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-33.467 74.668 1279.729</data>
+                <data name="Eye" type="XYZ">-224.692 312.875 1853.952</data>
+                <data name="Fovy" type="FLOAT">50.034</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MEETING_AGAIN">
+        <staff name="Bou">
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 -40.000 0.000</data>
+                <data name="RelActor" type="STRING">Bou</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">2.290 -78.626 -34.573</data>
+                <data name="Eye" type="XYZ">-7.370 -50.088 237.922</data>
+                <data name="Fovy" type="FLOAT">44.000</data>
+                <data name="RelActor" type="STRING">Bou</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-23.444 -115.386 131.589</data>
+                <data name="Eye" type="XYZ">-249.200 -131.883 453.486</data>
+                <data name="Fovy" type="FLOAT">43.470</data>
+                <data name="RelActor" type="STRING">Bou</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="002n_walk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MEETING_AGAIN_NEAR">
+        <staff name="Bou">
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Bou</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">2.290 -78.626 -34.573</data>
+                <data name="Eye" type="XYZ">-7.370 -50.088 237.922</data>
+                <data name="Fovy" type="FLOAT">44.000</data>
+                <data name="RelActor" type="STRING">Bou</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MEETING_AGAIN_PLAYER_ON_HORSE">
+        <staff name="Bou">
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 -40.000 0.000</data>
+                <data name="RelActor" type="STRING">Bou</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">2.290 -78.626 -34.573</data>
+                <data name="Eye" type="XYZ">-7.370 -50.088 237.922</data>
+                <data name="Fovy" type="FLOAT">44.000</data>
+                <data name="RelActor" type="STRING">Bou</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Bou</data>
+                <data name="Center" type="XYZ">-23.991 -16.155 131.230</data>
+                <data name="Eye" type="XYZ">-225.692 159.213 419.912</data>
+                <data name="Fovy" type="FLOAT">43.470</data>
+                <data name="RelActor" type="STRING">Bou</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Horse">
+            <cut name="001wait">
+            </cut>
+            <cut name="010swalk">
+            </cut>
+            <cut name="001wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="GET_TASTE">
+        <staff name="ykM">
+            <cut name="GET_TASTE">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">9224</data>
+            </cut>
+            <cut name="GET_TASTE">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="GET_TASTE">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">6</data>
+            </cut>
+            <cut name="GET_TASTE">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="GET_TASTE">
+                <data name="prm" type="INTEGER">6</data>
+            </cut>
+            <cut name="GET_TASTE">
+                <data name="prm" type="INTEGER">7</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="GET_TASTE">
+                <data name="prm" type="INTEGER">8</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykM</data>
+                <data name="Center" type="XYZ">-5.073 -223.190 145.295</data>
+                <data name="Eye" type="XYZ">-20.075 -222.966 483.307</data>
+                <data name="Fovy" type="FLOAT">64.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="LoadPos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GET_TOMATOPUREE">
+        <staff name="ykM">
+            <cut name="GET_TOMATOPUREE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GET_TOMATOPUREE">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="GET_TOMATOPUREE">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">9209</data>
+            </cut>
+            <cut name="GET_TOMATOPUREE">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="GET_TOMATOPUREE">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">6</data>
+            </cut>
+            <cut name="GET_TOMATOPUREE">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="GET_TOMATOPUREE">
+                <data name="prm" type="INTEGER">6</data>
+            </cut>
+            <cut name="GET_TOMATOPUREE">
+                <data name="prm" type="INTEGER">7</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="GET_TOMATOPUREE">
+                <data name="prm" type="INTEGER">8</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ykM</data>
+                <data name="Center" type="XYZ">-5.073 -223.190 145.295</data>
+                <data name="Eye" type="XYZ">-20.075 -222.966 483.307</data>
+                <data name="Fovy" type="FLOAT">64.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="LoadPos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="HUG">
+        <staff name="ykM">
+            <cut name="HUG">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="ykW">
+            <cut name="HUG">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="HUG">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-102.792 328.487 -869.321</data>
+                <data name="Eye" type="XYZ">-102.792 460.170 -1247.025</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">STANDARD</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MEETING_AGAIN">
+        <staff name="ykM">
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">75</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="MEETING_AGAIN">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">2501.474 214.643 420.405</data>
+                <data name="Eye" type="XYZ">1831.400 218.103 647.482</data>
+                <data name="Fovy" type="FLOAT">44.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">3319.498 283.761 470.514</data>
+                <data name="Eye" type="XYZ">2858.110 394.981 710.235</data>
+                <data name="Fovy" type="FLOAT">44.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="RESTOREPOS">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="002n_walk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

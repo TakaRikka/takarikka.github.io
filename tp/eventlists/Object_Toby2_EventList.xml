@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="TALKTO_ONESELF">
+        <staff name="Toby:0">
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">5106</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="msgNo" type="INTEGER">5107</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">8</data>
+                <data name="msgNo" type="INTEGER">5108</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">9</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">12</data>
+                <data name="timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">11</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">12</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">6</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="TALKTO_ONESELF">
+                <data name="prm" type="INTEGER">13</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-107057.570 -23367.582 47134.566</data>
+                <data name="Eye" type="XYZ">-107461.000 -23247.385 47361.117</data>
+                <data name="Fovy" type="FLOAT">55.208</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-94936.078 -20171.855 41233.184</data>
+                <data name="Eye" type="XYZ">-95365.867 -20289.074 41406.543</data>
+                <data name="Fovy" type="FLOAT">34.958</data>
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-95137.508 -20196.092 41816.035</data>
+                <data name="Eye" type="XYZ">-95365.867 -20289.074 41406.543</data>
+                <data name="Fovy" type="FLOAT">34.958</data>
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Toby:0</data>
+                <data name="Center" type="XYZ">10.005 -83.359 -5.638</data>
+                <data name="Eye" type="XYZ">-151.859 112.048 486.800</data>
+                <data name="Fovy" type="FLOAT">16.805</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Toby:0</data>
+                <data name="Center" type="XYZ">627.325 109.011 923.828</data>
+                <data name="Eye" type="XYZ">205.761 127.210 560.952</data>
+                <data name="Fovy" type="FLOAT">12.055</data>
+                <data name="Timer" type="INTEGER">45</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Toby:0</data>
+                <data name="Center" type="XYZ">5948.042 -47.835 5614.283</data>
+                <data name="Eye" type="XYZ">5529.019 -29.976 5251.949</data>
+                <data name="Fovy" type="FLOAT">10.055</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">STANDARD</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="dummy">
+            </cut>
+        </staff>
+    </sequence>
+</event>

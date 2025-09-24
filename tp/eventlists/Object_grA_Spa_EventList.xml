@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="TALK_SPA">
+        <staff name="grA_spa">
+            <cut name="TALK_SPA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TALK_SPA">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="TALK_SPA">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="grM">
+            <cut name="TALK_SPA">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TALK_SPA">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-5918.126 1.583 -2190.962</data>
+                <data name="Eye" type="XYZ">-5222.052 30.839 -2207.983</data>
+                <data name="Fovy" type="FLOAT">44.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

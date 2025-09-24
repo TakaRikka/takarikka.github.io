@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="TKS_SECRET">
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="ObjTks">
+            <cut name="0001_TALK">
+            </cut>
+            <cut name="0002_CHILD">
+            </cut>
+            <cut name="0003_TALK">
+            </cut>
+            <cut name="0004_TALK">
+            </cut>
+            <cut name="0005_TALK">
+            </cut>
+            <cut name="0006_TALK">
+            </cut>
+        </staff>
+        <staff name="Tkc">
+            <cut name="TKS_SECRET">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TKS_SECRET">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">ObjTks</data>
+                <data name="RelUseMask" type="STRING">xxoo</data>
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">2.209 -51.072 -12.632</data>
+                <data name="Eye" type="XYZ">-41.342 8.347 -63.374</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Tkc</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="StartCenter" type="XYZ">0.000 -7.561 0.000</data>
+                <data name="StartEye" type="XYZ">0.000 -7.561 13.068</data>
+                <data name="Center" type="XYZ">0.000 -14.500 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -14.500 35.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">45</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ObjTks</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">-1.088 -59.324 22.733</data>
+                <data name="Eye" type="XYZ">87.493 -18.913 -21.364</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">ObjTks</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">-1.088 -59.324 22.733</data>
+                <data name="Eye" type="XYZ">87.493 -18.913 -21.364</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TKS_WARP">
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="077dwarp">
+            </cut>
+        </staff>
+        <staff name="ObjTks">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_FALL">
+            </cut>
+        </staff>
+        <staff name="Tkc">
+            <cut name="TKS_WARP">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TKS_WARP">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="TKS_WARP">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">xxoo</data>
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">0.000 -25.000 0.000</data>
+                <data name="Eye" type="XYZ">-146.669 45.000 195.831</data>
+                <data name="Fovy" type="FLOAT">70.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelUseMask" type="STRING">xxax</data>
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">0.000 140.000 0.000</data>
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

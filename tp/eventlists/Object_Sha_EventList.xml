@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="ALLGET">
+        <staff name="Sha">
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="GETITEM">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="RESTOREPOS">
+                <data name="Trim" type="STRING">STANDARD</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="NOLOOK">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Sha">
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">6</data>
+            </cut>
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="RESTOREPOS">
+                <data name="Trim" type="STRING">STANDARD</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="PERFORM_AUGURY">
+        <staff name="Sha">
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="msgNo" type="INTEGER">6015</data>
+                <data name="msgNo2" type="INTEGER">6030</data>
+            </cut>
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Sha</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="RETURN">
+        <staff name="Sha">
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="PERFORM_AUGURY">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="CURRENT">
+                <data name="Trim" type="STRING">STANDARD</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Sha</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="APPEAR_HAWKER">
+        <staff name="Hanjo">
+            <cut name="APPEAR_HAWKER">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="APPEAR_HAWKER">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_HAWKER">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="APPEAR_HAWKER">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="APPEAR_HAWKER">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="APPEAR_HAWKER">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_HAWKER">
+                <data name="prm" type="INTEGER">6</data>
+                <data name="timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Hanjo</data>
+                <data name="Center" type="XYZ">22.193 -22.162 -43.704</data>
+                <data name="Eye" type="XYZ">-495.257 -538.093 575.254</data>
+                <data name="Fovy" type="FLOAT">37.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Fovy" type="FLOAT">15.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_HAWKER@">
+        <staff name="Hanjo">
+            <cut name="APPEAR_HAWKER">
+                <data name="prm" type="INTEGER">99</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="RESTOREPOS">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="DIVE">
+        <staff name="Hanjo">
+            <cut name="DIVE">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="DIVE">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="DIVE">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="DIVE">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">1796.151 642.405 424.445</data>
+                <data name="Eye" type="XYZ">697.461 706.018 110.052</data>
+                <data name="Fovy" type="FLOAT">23.000</data>
+                <data name="Timer" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

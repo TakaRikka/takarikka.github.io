@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="ELEVATOR_MOVE">
+        <staff name="dmele">
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="MOVE">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">368.000 261.000 -181.000</data>
+                <data name="Eye" type="XYZ">644.000 259.000 -298.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Timer" type="INTEGER">90</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="ELEVATOR_MOVE2">
+        <staff name="dmele">
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="MOVE">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-150.000 605.000 -540.000</data>
+                <data name="Eye" type="XYZ">-229.000 807.000 -762.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Timer" type="INTEGER">90</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

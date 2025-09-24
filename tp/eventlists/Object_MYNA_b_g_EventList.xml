@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="GAME_GOAL">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="myna2">
+            <cut name="GAME_GOAL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GAME_GOAL">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GAME_GOAL">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -50.000 350.000</data>
+                <data name="Center" type="XYZ">3236.869 388.497 282.478</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">-o</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GAME_GOAL_SUCCESS">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="myna2">
+            <cut name="GAME_GOAL_SUCCESS">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GAME_GOAL_SUCCESS">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GAME_GOAL_SUCCESS">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="GAME_GOAL_SUCCESS">
+                <data name="prm" type="INTEGER">25</data>
+            </cut>
+            <cut name="GAME_GOAL_SUCCESS">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -50.000 350.000</data>
+                <data name="Center" type="XYZ">3236.869 388.497 282.478</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">-o</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GETITEM">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -50.000 350.000</data>
+                <data name="Center" type="XYZ">3236.869 388.497 282.478</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">-o</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+            <cut name="011get_item">
+                <data name="prm0" type="INTEGER">256</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

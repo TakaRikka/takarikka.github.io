@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="NOW_DOOR_IN">
+        <staff name="smgdoor">
+            <cut name="WAIT">
+            </cut>
+            <cut name="SETGOAL">
+            </cut>
+            <cut name="OPEN">
+            </cut>
+            <cut name="COLOR_CHG">
+            </cut>
+            <cut name="SCENE_CHG">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">35</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">50</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">75</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">0.000 442.000 679.000</data>
+                <data name="Eye" type="XYZ">0.000 620.000 1051.000</data>
+                <data name="Fovy" type="FLOAT">63.000</data>
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Timer" type="INTEGER">50</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-501.000 355.000 -457.000</data>
+                <data name="Eye" type="XYZ">-696.000 448.000 -695.000</data>
+                <data name="Fovy" type="FLOAT">63.000</data>
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 118.000 385.000</data>
+                <data name="Eye" type="XYZ">0.000 67.000 701.000</data>
+                <data name="Fovy" type="FLOAT">63.000</data>
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">100</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 160.000 80.000</data>
+                <data name="Eye" type="XYZ">0.000 118.000 398.000</data>
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">140</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="002n_walk">
+            </cut>
+            <cut name="020laround">
+            </cut>
+        </staff>
+    </sequence>
+</event>

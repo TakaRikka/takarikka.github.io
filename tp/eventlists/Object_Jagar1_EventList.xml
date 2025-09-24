@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="ANGER">
+        <staff name="Jagar">
+            <cut name="ANGER">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="ANGER">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CLIMBUP">
+        <staff name="Jagar">
+            <cut name="CLIMBUP">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CLIMBUP">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Jagar</data>
+                <data name="Center" type="XYZ">0.801 -44.317 -39.981</data>
+                <data name="Eye" type="XYZ">-6.362 -150.964 104.040</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="008e_talk">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="NEED_YOUR_HELP">
+        <staff name="Jagar">
+            <cut name="NEED_YOUR_HELP">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="NEED_YOUR_HELP">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="NEED_YOUR_HELP">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">5507</data>
+                <data name="msgNo2" type="INTEGER">5509</data>
+            </cut>
+            <cut name="NEED_YOUR_HELP">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="msgNo" type="INTEGER">5510</data>
+            </cut>
+            <cut name="NEED_YOUR_HELP">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="msgNo" type="INTEGER">5511</data>
+            </cut>
+            <cut name="NEED_YOUR_HELP">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="msgNo" type="INTEGER">5511</data>
+                <data name="send" type="INTEGER">1</data>
+            </cut>
+            <cut name="NEED_YOUR_HELP">
+                <data name="prm" type="INTEGER">6</data>
+                <data name="msgNo" type="INTEGER">5513</data>
+            </cut>
+            <cut name="NEED_YOUR_HELP">
+                <data name="prm" type="INTEGER">7</data>
+                <data name="msgNo" type="INTEGER">5514</data>
+            </cut>
+            <cut name="NEED_YOUR_HELP">
+                <data name="prm" type="INTEGER">6</data>
+            </cut>
+            <cut name="NEED_YOUR_HELP">
+                <data name="prm" type="INTEGER">8</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Jagar</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDPOS">
+                <data name="Target" type="STRING">Npc_ne</data>
+                <data name="CtrGap" type="XYZ">0.000 -24.000 0.000</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Fovy" type="FLOAT">10.000</data>
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">3.432 -69.884 2.591</data>
+                <data name="Eye" type="XYZ">3.248 -0.637 664.282</data>
+                <data name="Fovy" type="FLOAT">31.975</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Jagar</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="008e_talk">
+            </cut>
+        </staff>
+    </sequence>
+</event>

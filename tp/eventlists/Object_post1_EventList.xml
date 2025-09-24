@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="DELIVER">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Post">
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">8</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">9</data>
+                <data name="timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">12</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Post</data>
+                <data name="Center" type="XYZ">-14.927 -58.758 13.093</data>
+                <data name="Eye" type="XYZ">73.193 -55.533 141.970</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDPOS">
+                <data name="CtrGap" type="XYZ">0.000 -100.000 0.000</data>
+                <data name="Eye" type="XYZ">120.000 -50.000 -185.000</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">o</data>
+                <data name="Target" type="STRING">Post</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Post</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Post</data>
+                <data name="Center" type="XYZ">0.660 -49.789 5.063</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">8</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">-0.010 -49.948 0.977</data>
+                <data name="Eye" type="XYZ">108.063 66.846 -229.334</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="DELIVERTO_PLAYER_ON_HORSE">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Post">
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">8</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">9</data>
+                <data name="timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">12</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Post</data>
+                <data name="Center" type="XYZ">-14.927 -58.758 13.093</data>
+                <data name="Eye" type="XYZ">73.193 -55.533 141.970</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDPOS">
+                <data name="CtrGap" type="XYZ">0.000 -100.000 0.000</data>
+                <data name="Eye" type="XYZ">120.000 -10.000 -185.000</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">o</data>
+                <data name="Target" type="STRING">Post</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Post</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Post</data>
+                <data name="Center" type="XYZ">0.660 -49.789 5.063</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">8</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Horse</data>
+                <data name="Center" type="XYZ">-0.726 -20.830 1.856</data>
+                <data name="Eye" type="XYZ">0.399 63.695 -692.990</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="DELIVERTO_WOLF">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Color" type="INTEGER">
+                    0
+                    0
+                    0
+                </data>
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Post">
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">8</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">12</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">9</data>
+                <data name="timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="DELIVER">
+                <data name="prm" type="INTEGER">12</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Post</data>
+                <data name="Center" type="XYZ">-14.927 -58.758 13.093</data>
+                <data name="Eye" type="XYZ">73.193 -55.533 141.970</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDPOS">
+                <data name="CtrGap" type="XYZ">0.000 -100.000 0.000</data>
+                <data name="Eye" type="XYZ">120.000 -50.000 -185.000</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">o</data>
+                <data name="Target" type="STRING">Post</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Post</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Post</data>
+                <data name="Center" type="XYZ">0.660 -49.789 5.063</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Timer" type="INTEGER">8</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">-0.010 -49.948 0.977</data>
+                <data name="Eye" type="XYZ">108.063 66.846 -229.334</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

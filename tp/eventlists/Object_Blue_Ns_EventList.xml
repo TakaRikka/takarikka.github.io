@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="CHG_YAMI_CHIBI">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Center" type="XYZ">0.000 -120.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -220.000 500.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Blue_NS:1">
+            <cut name="CHG_YAMI_CHIBI">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="CHG_YAMI_CHIBI">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="CHG_YAMI_CHIBI">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CHG_YAMI_DEBU">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Center" type="XYZ">0.000 -100.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -250.000 550.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Blue_NS:1">
+            <cut name="CHG_YAMI_DEBU">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="CHG_YAMI_DEBU">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="CHG_YAMI_DEBU">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CHG_YAMI_NOPPO">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Center" type="XYZ">0.000 -140.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -250.000 570.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Blue_NS:1">
+            <cut name="CHG_YAMI_NOPPO">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="CHG_YAMI_NOPPO">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="CHG_YAMI_NOPPO">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CHG_YAMI_CHIBI_STOPPER">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Center" type="XYZ">0.000 -110.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -210.000 500.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Blue_NS:1">
+            <cut name="CHG_YAMI_CHIBI_STOPPER">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="CHG_YAMI_CHIBI_STOPPER">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="CHG_YAMI_CHIBI_STOPPER">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CHG_YAMI_DEBU_STOPPER">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Center" type="XYZ">0.000 -150.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -250.000 550.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Blue_NS:1">
+            <cut name="CHG_YAMI_DEBU_STOPPER">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="CHG_YAMI_DEBU_STOPPER">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="CHG_YAMI_DEBU_STOPPER">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CHG_YAMI_NOPPO_STOPPER">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Center" type="XYZ">0.000 -170.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -250.000 600.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Blue_NS:1">
+            <cut name="CHG_YAMI_NOPPO_STOPPER">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="CHG_YAMI_NOPPO_STOPPER">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="CHG_YAMI_NOPPO_STOPPER">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

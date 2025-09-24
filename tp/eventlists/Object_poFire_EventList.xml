@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="POFIRE_ON_POCANDLE">
+        <staff name="pofire">
+            <cut name="MOVE_END">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDPOS">
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Eye" type="XYZ">21.000 640.000 3700.000</data>
+                <data name="Target" type="STRING">@STARTER</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

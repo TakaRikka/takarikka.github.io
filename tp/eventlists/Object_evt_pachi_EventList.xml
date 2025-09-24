@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="HIT_KAKASI_BODY">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">824.129 856.481 -1750.465</data>
+                <data name="Eye" type="XYZ">894.916 903.411 -2040.360</data>
+                <data name="Fovy" type="FLOAT">61.623</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">873.399 800.000 -2240.328</data>
+                <data name="angle" type="INTEGER">16384</data>
+            </cut>
+        </staff>
+        <staff name="PA_Taro">
+            <cut name="HIT_KAKASI_BODY">
+            </cut>
+            <cut name="HIT_KAKASI_BODY">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="HIT_KAKASI_BODY">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="HIT_KAKASI_BODY">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="PA_Maro">
+            <cut name="HIT_KAKASI_BODY">
+            </cut>
+            <cut name="HIT_KAKASI_BODY">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="HIT_KAKASI_BODY">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="HIT_KAKASI_BODY">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="PA_Besu">
+            <cut name="HIT_KAKASI_BODY">
+            </cut>
+            <cut name="HIT_KAKASI_BODY">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="HIT_KAKASI_BODY">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="HIT_KAKASI_BODY">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TUTRIAL_BEGIN">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">1204.177 1061.724 -2737.264</data>
+                <data name="Eye" type="XYZ">904.224 1025.983 -2737.264</data>
+                <data name="Fovy" type="FLOAT">61.623</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">1204.177 1061.724 -1571.149</data>
+                <data name="Eye" type="XYZ">904.224 1025.983 -1571.149</data>
+                <data name="Timer" type="INTEGER">160</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">824.129 856.481 -1750.465</data>
+                <data name="Eye" type="XYZ">894.916 903.411 -2040.360</data>
+                <data name="Fovy" type="FLOAT">61.623</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">1076.886 907.161 -2236.845</data>
+                <data name="Eye" type="XYZ">696.068 1029.534 -2235.348</data>
+                <data name="Fovy" type="FLOAT">61.430</data>
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="PA_Taro">
+            <cut name="TUTRIAL_BEGIN">
+            </cut>
+            <cut name="TUTRIAL_BEGIN">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="PA_Maro">
+            <cut name="TUTRIAL_BEGIN">
+            </cut>
+            <cut name="TUTRIAL_BEGIN">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="PA_Besu">
+            <cut name="TUTRIAL_BEGIN">
+            </cut>
+            <cut name="TUTRIAL_BEGIN">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TUTRIAL_BEGIN_SKIP">
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.025</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.025</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">1076.886 907.161 -2236.845</data>
+                <data name="Eye" type="XYZ">696.068 1029.534 -2235.348</data>
+                <data name="Fovy" type="FLOAT">61.430</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">873.399 800.000 -2240.328</data>
+                <data name="angle" type="INTEGER">16384</data>
+            </cut>
+        </staff>
+        <staff name="PA_Taro">
+            <cut name="TUTRIAL_BEGIN_SKIP">
+            </cut>
+            <cut name="TUTRIAL_BEGIN_SKIP">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="PA_Maro">
+            <cut name="TUTRIAL_BEGIN_SKIP">
+            </cut>
+            <cut name="TUTRIAL_BEGIN_SKIP">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="PA_Besu">
+            <cut name="TUTRIAL_BEGIN_SKIP">
+            </cut>
+            <cut name="TUTRIAL_BEGIN_SKIP">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TUTRIAL_CAUTION">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.025</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.025</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">1076.886 907.161 -2236.845</data>
+                <data name="Eye" type="XYZ">696.068 1029.534 -2235.348</data>
+                <data name="Fovy" type="FLOAT">61.430</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">873.399 800.000 -2240.328</data>
+                <data name="angle" type="INTEGER">16384</data>
+            </cut>
+        </staff>
+        <staff name="PA_Taro">
+            <cut name="TUTRIAL_CAUTION">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_CAUTION">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="PA_Maro">
+            <cut name="TUTRIAL_CAUTION">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_CAUTION">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="PA_Besu">
+            <cut name="TUTRIAL_CAUTION">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_CAUTION">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TUTRIAL_CLEAR">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="Wipe" type="INTEGER">1</data>
+                <data name="ID" type="INTEGER">11</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">824.129 856.481 -1750.465</data>
+                <data name="Eye" type="XYZ">894.916 903.411 -2040.360</data>
+                <data name="Fovy" type="FLOAT">61.623</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="PA_Taro">
+            <cut name="TUTRIAL_CLEAR">
+            </cut>
+            <cut name="TUTRIAL_CLEAR">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_CLEAR">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="TUTRIAL_CLEAR">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="PA_Maro">
+            <cut name="TUTRIAL_CLEAR">
+            </cut>
+            <cut name="TUTRIAL_CLEAR">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_CLEAR">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="TUTRIAL_CLEAR">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="PA_Besu">
+            <cut name="TUTRIAL_CLEAR">
+            </cut>
+            <cut name="TUTRIAL_CLEAR">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_CLEAR">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="TUTRIAL_CLEAR">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TUTRIAL_CONTINUE">
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.025</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.025</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">1076.886 907.161 -2236.845</data>
+                <data name="Eye" type="XYZ">696.068 1029.534 -2235.348</data>
+                <data name="Fovy" type="FLOAT">61.430</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">873.399 800.000 -2240.328</data>
+                <data name="angle" type="INTEGER">16384</data>
+            </cut>
+        </staff>
+        <staff name="PA_Taro">
+            <cut name="TUTRIAL_CONTINUE">
+            </cut>
+            <cut name="TUTRIAL_CONTINUE">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="TUTRIAL_CONTINUE">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="PA_Maro">
+            <cut name="TUTRIAL_CONTINUE">
+            </cut>
+            <cut name="TUTRIAL_CONTINUE">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="PA_Besu">
+            <cut name="TUTRIAL_CONTINUE">
+            </cut>
+            <cut name="TUTRIAL_CONTINUE">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TUTRIAL_GIVEUP">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="Wipe" type="INTEGER">1</data>
+                <data name="ID" type="INTEGER">11</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="PA_Taro">
+            <cut name="TUTRIAL_GIVEUP">
+            </cut>
+            <cut name="TUTRIAL_GIVEUP">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_GIVEUP">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="TUTRIAL_GIVEUP">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="PA_Maro">
+            <cut name="TUTRIAL_GIVEUP">
+            </cut>
+            <cut name="TUTRIAL_GIVEUP">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_GIVEUP">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="TUTRIAL_GIVEUP">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="PA_Besu">
+            <cut name="TUTRIAL_GIVEUP">
+            </cut>
+            <cut name="TUTRIAL_GIVEUP">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_GIVEUP">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="TUTRIAL_GIVEUP">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TUTRIAL_SELECT_GIVEUP">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">PA_Maro</data>
+                <data name="Eye" type="XYZ">50.000 0.000 230.000</data>
+                <data name="Center" type="XYZ">0.000 -20.000 0.000</data>
+                <data name="Timer" type="INTEGER">5</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-1713.375 821.595 -3503.123</data>
+                <data name="angle" type="INTEGER">16384</data>
+            </cut>
+        </staff>
+        <staff name="PA_Taro">
+            <cut name="TUTRIAL_SELECT_GIVEUP">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="TUTRIAL_SELECT_GIVEUP">
+                <data name="cutId" type="INTEGER">11</data>
+            </cut>
+            <cut name="TUTRIAL_SELECT_GIVEUP">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="PA_Maro">
+            <cut name="TUTRIAL_SELECT_GIVEUP">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="TUTRIAL_SELECT_GIVEUP">
+                <data name="cutId" type="INTEGER">11</data>
+            </cut>
+            <cut name="TUTRIAL_SELECT_GIVEUP">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="PA_Besu">
+            <cut name="TUTRIAL_SELECT_GIVEUP">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="TUTRIAL_SELECT_GIVEUP">
+                <data name="cutId" type="INTEGER">11</data>
+            </cut>
+            <cut name="TUTRIAL_SELECT_GIVEUP">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TUTRIAL_TALK">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 -40.000 0.000</data>
+                <data name="Eye" type="XYZ">100.000 -20.000 250.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="RelActor" type="STRING">PA_Taro</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="Eye" type="XYZ">-100.000 -20.000 250.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="RelActor" type="STRING">PA_Besu</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 -40.000 0.000</data>
+                <data name="Eye" type="XYZ">-130.000 -20.000 220.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="RelActor" type="STRING">PA_Maro</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+        </staff>
+        <staff name="PA_Taro">
+            <cut name="TUTRIAL_TALK">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_TALK">
+                <data name="cutId" type="INTEGER">10</data>
+                <data name="MesNo0" type="INTEGER">5752</data>
+                <data name="MesNo1" type="INTEGER">5780</data>
+                <data name="MesNo2" type="INTEGER">5755</data>
+                <data name="MesNo3" type="INTEGER">5783</data>
+                <data name="MesNo4" type="INTEGER">5758</data>
+            </cut>
+            <cut name="TUTRIAL_TALK">
+                <data name="cutId" type="INTEGER">20</data>
+                <data name="MesNo0" type="INTEGER">5753</data>
+                <data name="MesNo1" type="INTEGER">5781</data>
+                <data name="MesNo2" type="INTEGER">5756</data>
+                <data name="MesNo3" type="INTEGER">5784</data>
+                <data name="MesNo4" type="INTEGER">5759</data>
+            </cut>
+            <cut name="TUTRIAL_TALK">
+                <data name="cutId" type="INTEGER">30</data>
+                <data name="MesNo0" type="INTEGER">-1</data>
+                <data name="MesNo1" type="INTEGER">-1</data>
+                <data name="MesNo2" type="INTEGER">-1</data>
+                <data name="MesNo3" type="INTEGER">-1</data>
+                <data name="MesNo4" type="INTEGER">-1</data>
+            </cut>
+        </staff>
+        <staff name="PA_Maro">
+            <cut name="TUTRIAL_TALK">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_TALK">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="PA_Besu">
+            <cut name="TUTRIAL_TALK">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_TALK">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TUTRIAL_TALK2">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 -40.000 0.000</data>
+                <data name="Eye" type="XYZ">100.000 -20.000 250.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="RelActor" type="STRING">PA_Taro</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="Eye" type="XYZ">-100.000 -20.000 250.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="RelActor" type="STRING">PA_Besu</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 -40.000 0.000</data>
+                <data name="Eye" type="XYZ">130.000 -20.000 220.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="RelActor" type="STRING">PA_Maro</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+        </staff>
+        <staff name="PA_Taro">
+            <cut name="TUTRIAL_TALK2">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_TALK2">
+                <data name="cutId" type="INTEGER">10</data>
+                <data name="MesNo0" type="INTEGER">5752</data>
+                <data name="MesNo1" type="INTEGER">5780</data>
+                <data name="MesNo2" type="INTEGER">5755</data>
+                <data name="MesNo3" type="INTEGER">5783</data>
+                <data name="MesNo4" type="INTEGER">5758</data>
+            </cut>
+            <cut name="TUTRIAL_TALK2">
+                <data name="cutId" type="INTEGER">20</data>
+                <data name="MesNo0" type="INTEGER">5753</data>
+                <data name="MesNo1" type="INTEGER">5781</data>
+                <data name="MesNo2" type="INTEGER">5756</data>
+                <data name="MesNo3" type="INTEGER">5784</data>
+                <data name="MesNo4" type="INTEGER">5759</data>
+            </cut>
+            <cut name="TUTRIAL_TALK2">
+                <data name="cutId" type="INTEGER">30</data>
+                <data name="MesNo0" type="INTEGER">-1</data>
+                <data name="MesNo1" type="INTEGER">-1</data>
+                <data name="MesNo2" type="INTEGER">-1</data>
+                <data name="MesNo3" type="INTEGER">-1</data>
+                <data name="MesNo4" type="INTEGER">-1</data>
+            </cut>
+        </staff>
+        <staff name="PA_Maro">
+            <cut name="TUTRIAL_TALK2">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_TALK2">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="PA_Besu">
+            <cut name="TUTRIAL_TALK2">
+                <data name="cutId" type="INTEGER">5</data>
+            </cut>
+            <cut name="TUTRIAL_TALK2">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

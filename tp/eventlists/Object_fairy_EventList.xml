@@ -1,0 +1,1594 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="APPEAR_10F_01">
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -140.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -140.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Eye" type="XYZ">173.422 -120.000 160.617</data>
+                <data name="Center" type="XYZ">-87.122 -110.000 -144.275</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">287.848 -85.877 62.909</data>
+                <data name="Center" type="XYZ">-72.654 -115.877 -192.411</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">320.000 100.000 -200.000</data>
+                <data name="Center" type="XYZ">152.346 -7.904 -80.401</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -100.000 200.000</data>
+                <data name="Center" type="XYZ">0.000 -125.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">201.556 -11250.000 -2634.007</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">3.195 -11250.000 -3846.289</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_10F_01">
+            </cut>
+            <cut name="APPEAR_10F_01">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_10F_01">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_10F_01">
+                <data name="cutId" type="INTEGER">21</data>
+            </cut>
+            <cut name="APPEAR_10F_01">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_10F_01">
+                <data name="cutId" type="INTEGER">40</data>
+            </cut>
+            <cut name="APPEAR_10F_01">
+                <data name="cutId" type="INTEGER">50</data>
+            </cut>
+            <cut name="APPEAR_10F_01">
+                <data name="cutId" type="INTEGER">60</data>
+            </cut>
+            <cut name="APPEAR_10F_01">
+                <data name="cutId" type="INTEGER">70</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_10F_02">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -140.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -140.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Eye" type="XYZ">0.000 -100.000 200.000</data>
+                <data name="Center" type="XYZ">0.000 -125.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">201.556 -11250.000 -2634.007</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">3.195 -11250.000 -3846.289</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_10F_02">
+            </cut>
+            <cut name="APPEAR_10F_02">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_10F_02">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_10F_02">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_10F_02">
+                <data name="cutId" type="INTEGER">40</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_20F_01">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -140.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -140.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">170.000 0.000 200.000</data>
+                <data name="Center" type="XYZ">0.000 -120.000 -30.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">-470.000 300.000 450.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 200.000</data>
+                <data name="StartEye" type="XYZ">-470.000 300.000 -300.000</data>
+                <data name="StartCenter" type="XYZ">0.000 -50.000 -150.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">65</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">0.000 -150.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -70.000 120.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">50</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-4170.054 -23750.000 -1465.993</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-4091.091 -23750.000 -178.340</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_20F_01">
+            </cut>
+            <cut name="APPEAR_20F_01">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_20F_01">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_20F_01">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_20F_01">
+                <data name="cutId" type="INTEGER">40</data>
+            </cut>
+            <cut name="APPEAR_20F_01">
+                <data name="cutId" type="INTEGER">60</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_20F_02">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -140.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -140.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">170.000 0.000 200.000</data>
+                <data name="Center" type="XYZ">0.000 -120.000 -30.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-4170.054 -23750.000 -1465.993</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-4091.091 -23750.000 -178.340</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_20F_02">
+            </cut>
+            <cut name="APPEAR_20F_02">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_20F_02">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_20F_02">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_20F_02">
+                <data name="cutId" type="INTEGER">40</data>
+            </cut>
+            <cut name="APPEAR_20F_02">
+                <data name="cutId" type="INTEGER">50</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_30F_01">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -80.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -80.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">40.000 -50.000 200.000</data>
+                <data name="Center" type="XYZ">40.000 -50.000 0.000</data>
+                <data name="StartEye" type="XYZ">-100.000 -50.000 200.000</data>
+                <data name="StartCenter" type="XYZ">-100.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">70</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="StartEye" type="XYZ">-10.000 -40.000 250.000</data>
+                <data name="StartCenter" type="XYZ">-10.000 -40.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">128.449 -36250.000 -2634.007</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-22.871 -36250.000 -3800.619</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_30F_01">
+            </cut>
+            <cut name="APPEAR_30F_01">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_30F_01">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_30F_01">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_30F_01">
+                <data name="cutId" type="INTEGER">50</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_30F_02">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -40.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">128.449 -36250.000 -2634.007</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-22.871 -36250.000 -3800.619</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_30F_02">
+            </cut>
+            <cut name="APPEAR_30F_02">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_30F_02">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_30F_02">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_30F_02">
+                <data name="cutId" type="INTEGER">40</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_40F_01">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -80.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -80.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">40.000 -50.000 200.000</data>
+                <data name="Center" type="XYZ">40.000 -50.000 0.000</data>
+                <data name="StartEye" type="XYZ">-100.000 -50.000 200.000</data>
+                <data name="StartCenter" type="XYZ">-100.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">70</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="StartEye" type="XYZ">-10.000 -40.000 250.000</data>
+                <data name="StartCenter" type="XYZ">-10.000 -40.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-4100.711 -48750.000 -1465.993</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-4100.000 -48750.000 -314.901</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_40F_01">
+            </cut>
+            <cut name="APPEAR_40F_01">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_40F_01">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_40F_01">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_40F_01">
+                <data name="cutId" type="INTEGER">50</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_40F_02">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">5</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -40.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-4100.711 -48750.000 -1465.993</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-4100.000 -48750.000 -314.901</data>
+                <data name="angle" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_40F_02">
+            </cut>
+            <cut name="APPEAR_40F_02">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_40F_02">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_40F_02">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_40F_02">
+                <data name="cutId" type="INTEGER">40</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_50F_01">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -80.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -80.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">40.000 -50.000 200.000</data>
+                <data name="Center" type="XYZ">40.000 -50.000 0.000</data>
+                <data name="StartEye" type="XYZ">-100.000 -50.000 200.000</data>
+                <data name="StartCenter" type="XYZ">-100.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">-450.000 -50.000 100.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 100.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">450.000 -50.000 100.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 100.000</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Timer" type="INTEGER">135</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 -30.000 20.000</data>
+                <data name="Eye" type="XYZ">-80.000 -50.000 120.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">-90.000 -40.000 80.000</data>
+                <data name="Center" type="XYZ">0.000 -40.000 35.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">120.000 -40.000 70.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 30.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">183.161 -61250.000 -2634.007</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">0.310 -61250.000 -3676.819</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-7.837 -61250.000 -3557.497</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="011get_item">
+                <data name="prm0" type="INTEGER">256</data>
+                <data name="prm1" type="INTEGER">2</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">0.310 -61250.266 -3676.820</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_50F_01">
+            </cut>
+            <cut name="APPEAR_50F_01">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_50F_01">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_50F_01">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_50F_01">
+                <data name="cutId" type="INTEGER">31</data>
+                <data name="msgNo" type="INTEGER">7521</data>
+            </cut>
+            <cut name="APPEAR_50F_01">
+                <data name="cutId" type="INTEGER">40</data>
+            </cut>
+            <cut name="APPEAR_50F_01">
+                <data name="cutId" type="INTEGER">41</data>
+            </cut>
+            <cut name="APPEAR_50F_01">
+                <data name="cutId" type="INTEGER">42</data>
+            </cut>
+            <cut name="APPEAR_50F_01">
+                <data name="cutId" type="INTEGER">50</data>
+                <data name="msgNo" type="INTEGER">7527</data>
+            </cut>
+            <cut name="APPEAR_50F_01">
+                <data name="cutId" type="INTEGER">51</data>
+                <data name="msgNo" type="INTEGER">7548</data>
+            </cut>
+            <cut name="APPEAR_50F_01">
+                <data name="cutId" type="INTEGER">52</data>
+            </cut>
+            <cut name="APPEAR_50F_01">
+                <data name="cutId" type="INTEGER">60</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_50F_02">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -80.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -80.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">40.000 -50.000 200.000</data>
+                <data name="Center" type="XYZ">40.000 -50.000 0.000</data>
+                <data name="StartEye" type="XYZ">-100.000 -50.000 200.000</data>
+                <data name="StartCenter" type="XYZ">-100.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">-450.000 -50.000 100.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 100.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">450.000 -50.000 100.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 100.000</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Timer" type="INTEGER">135</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">-90.000 -40.000 80.000</data>
+                <data name="Center" type="XYZ">0.000 -40.000 35.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">120.000 -40.000 70.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 30.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">183.161 -61250.000 -2634.007</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">0.310 -61250.266 -3676.820</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_50F_02">
+            </cut>
+            <cut name="APPEAR_50F_02">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_50F_02">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_50F_02">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_50F_02">
+                <data name="cutId" type="INTEGER">31</data>
+                <data name="msgNo" type="INTEGER">7523</data>
+            </cut>
+            <cut name="APPEAR_50F_02">
+                <data name="cutId" type="INTEGER">32</data>
+                <data name="msgNo" type="INTEGER">7528</data>
+            </cut>
+            <cut name="APPEAR_50F_02">
+                <data name="cutId" type="INTEGER">33</data>
+                <data name="msgNo" type="INTEGER">7525</data>
+            </cut>
+            <cut name="APPEAR_50F_02">
+                <data name="cutId" type="INTEGER">34</data>
+            </cut>
+            <cut name="APPEAR_50F_02">
+                <data name="cutId" type="INTEGER">40</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_50F_03">
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">1.000</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -80.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -80.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">40.000 -50.000 200.000</data>
+                <data name="Center" type="XYZ">40.000 -50.000 0.000</data>
+                <data name="StartEye" type="XYZ">-100.000 -50.000 200.000</data>
+                <data name="StartCenter" type="XYZ">-100.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 -30.000 20.000</data>
+                <data name="Eye" type="XYZ">-80.000 -50.000 120.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">120.000 -40.000 70.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 30.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">183.161 -61250.000 -2634.007</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">0.310 -61250.000 -3676.819</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="011get_item">
+                <data name="prm0" type="INTEGER">256</data>
+                <data name="prm1" type="INTEGER">2</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">0.310 -61250.266 -3676.820</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_50F_03">
+            </cut>
+            <cut name="APPEAR_50F_03">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_50F_03">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_50F_03">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_50F_03">
+                <data name="cutId" type="INTEGER">31</data>
+            </cut>
+            <cut name="APPEAR_50F_03">
+                <data name="cutId" type="INTEGER">32</data>
+            </cut>
+            <cut name="APPEAR_50F_03">
+                <data name="cutId" type="INTEGER">40</data>
+            </cut>
+            <cut name="APPEAR_50F_03">
+                <data name="cutId" type="INTEGER">50</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_50F_04">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -80.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -80.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">40.000 -50.000 200.000</data>
+                <data name="Center" type="XYZ">40.000 -50.000 0.000</data>
+                <data name="StartEye" type="XYZ">-100.000 -50.000 200.000</data>
+                <data name="StartCenter" type="XYZ">-100.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">-450.000 -50.000 100.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 100.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">450.000 -50.000 100.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 100.000</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Timer" type="INTEGER">135</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">-90.000 -40.000 80.000</data>
+                <data name="Center" type="XYZ">0.000 -40.000 35.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">120.000 -40.000 70.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 30.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">183.161 -61250.000 -2634.007</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">0.310 -61250.000 -3676.819</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">0.310 -61250.266 -3676.820</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_50F_04">
+            </cut>
+            <cut name="APPEAR_50F_04">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_50F_04">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_50F_04">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_50F_04">
+                <data name="cutId" type="INTEGER">31</data>
+                <data name="msgNo" type="INTEGER">7546</data>
+            </cut>
+            <cut name="APPEAR_50F_04">
+                <data name="cutId" type="INTEGER">40</data>
+                <data name="msgNo" type="INTEGER">7547</data>
+            </cut>
+            <cut name="APPEAR_50F_04">
+                <data name="cutId" type="INTEGER">41</data>
+                <data name="msgNo" type="INTEGER">7527</data>
+            </cut>
+            <cut name="APPEAR_50F_04">
+                <data name="cutId" type="INTEGER">42</data>
+                <data name="msgNo" type="INTEGER">7548</data>
+            </cut>
+            <cut name="APPEAR_50F_04">
+                <data name="cutId" type="INTEGER">43</data>
+            </cut>
+            <cut name="APPEAR_50F_04">
+                <data name="cutId" type="INTEGER">50</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="APPEAR_50F_05">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -80.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -80.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">40.000 -50.000 200.000</data>
+                <data name="Center" type="XYZ">40.000 -50.000 0.000</data>
+                <data name="StartEye" type="XYZ">-100.000 -50.000 200.000</data>
+                <data name="StartCenter" type="XYZ">-100.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">-450.000 -50.000 100.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 100.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Eye" type="XYZ">450.000 -50.000 100.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 100.000</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Timer" type="INTEGER">135</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 -30.000 20.000</data>
+                <data name="Eye" type="XYZ">-80.000 -50.000 120.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">120.000 -40.000 70.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 30.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">183.161 -61250.000 -2634.007</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">0.310 -61250.000 -3676.819</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">-7.837 -61250.000 -3557.497</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="011get_item">
+                <data name="prm0" type="INTEGER">256</data>
+                <data name="prm1" type="INTEGER">2</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="prm0" type="INTEGER">2</data>
+                <data name="pos" type="XYZ">0.310 -61250.266 -3676.820</data>
+                <data name="angle" type="INTEGER">-32768</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="APPEAR_50F_05">
+            </cut>
+            <cut name="APPEAR_50F_05">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="APPEAR_50F_05">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="APPEAR_50F_05">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+            <cut name="APPEAR_50F_05">
+                <data name="cutId" type="INTEGER">31</data>
+                <data name="msgNo" type="INTEGER">7521</data>
+            </cut>
+            <cut name="APPEAR_50F_05">
+                <data name="cutId" type="INTEGER">40</data>
+            </cut>
+            <cut name="APPEAR_50F_05">
+                <data name="cutId" type="INTEGER">41</data>
+            </cut>
+            <cut name="APPEAR_50F_05">
+                <data name="cutId" type="INTEGER">42</data>
+            </cut>
+            <cut name="APPEAR_50F_05">
+                <data name="cutId" type="INTEGER">50</data>
+                <data name="msgNo" type="INTEGER">7525</data>
+            </cut>
+            <cut name="APPEAR_50F_05">
+                <data name="cutId" type="INTEGER">51</data>
+            </cut>
+            <cut name="APPEAR_50F_05">
+                <data name="cutId" type="INTEGER">60</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="RETURN_CANCEL">
+        <staff name="DIRECTOR">
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="RETURN_CANCEL">
+            </cut>
+            <cut name="RETURN_CANCEL">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SELECT_RETURN1">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -120.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -125.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Eye" type="XYZ">0.000 -100.000 200.000</data>
+                <data name="Center" type="XYZ">0.000 -125.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="SELECT_RETURN1">
+            </cut>
+            <cut name="SELECT_RETURN1">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="SELECT_RETURN1">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="SELECT_RETURN1">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SELECT_RETURN2">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="SELECT_RETURN2">
+            </cut>
+            <cut name="SELECT_RETURN2">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="SELECT_RETURN2">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SELECT_RETURN3">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.020</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Eye" type="XYZ">0.000 -40.000 400.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Eye" type="XYZ">0.000 -20.000 120.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Fairy">
+            <cut name="SELECT_RETURN3">
+            </cut>
+            <cut name="SELECT_RETURN3">
+                <data name="cutId" type="INTEGER">10</data>
+            </cut>
+            <cut name="SELECT_RETURN3">
+                <data name="cutId" type="INTEGER">20</data>
+            </cut>
+            <cut name="SELECT_RETURN3">
+                <data name="cutId" type="INTEGER">30</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

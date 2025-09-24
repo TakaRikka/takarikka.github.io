@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="KOKI_GATE_OPEN00">
+        <staff name="K_GATE">
+            <cut name="WAIT">
+            </cut>
+            <cut name="ADJUSTMENT">
+            </cut>
+            <cut name="UNLOCK">
+            </cut>
+            <cut name="OPEN">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Center" type="XYZ">-71.000 36.000 162.000</data>
+                <data name="Eye" type="XYZ">-208.000 170.000 455.000</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="RelActor" type="STRING">@TARGET</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="PAUSE">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

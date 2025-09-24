@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="RAFREL_APPEAR">
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">-116187.984 -13860.000 58435.340</data>
+                <data name="angle" type="INTEGER">-13095</data>
+            </cut>
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">-116364.859 -13860.000 58453.754</data>
+                <data name="angle" type="INTEGER">-10384</data>
+            </cut>
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="011get_item">
+                <data name="prm0" type="INTEGER">256</data>
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="011get_item">
+                <data name="prm0" type="INTEGER">256</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+        <staff name="Rafrel">
+            <cut name="0001_TALK">
+            </cut>
+            <cut name="0002_TURN">
+            </cut>
+            <cut name="0003_TALK">
+            </cut>
+            <cut name="0004_HOOD">
+            </cut>
+            <cut name="0005_TALK">
+            </cut>
+            <cut name="0006_TALK">
+            </cut>
+            <cut name="0007_TALK">
+            </cut>
+            <cut name="0008_TALK">
+            </cut>
+            <cut name="0009_TALK">
+            </cut>
+            <cut name="0010_GET">
+            </cut>
+            <cut name="0011_TALK">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Rafrel</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">0.000 -120.509 0.000</data>
+                <data name="Eye" type="XYZ">-225.010 -148.486 -275.951</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Rafrel</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">28.267 -149.167 -162.167</data>
+                <data name="Eye" type="XYZ">-168.988 -147.818 214.665</data>
+                <data name="Fovy" type="FLOAT">44.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Rafrel</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">29.647 -63.026 -93.521</data>
+                <data name="Eye" type="XYZ">-37.969 -49.730 209.624</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Rafrel</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">-4.380 -51.710 86.294</data>
+                <data name="Eye" type="XYZ">-113.573 25.959 -321.294</data>
+                <data name="Fovy" type="FLOAT">15.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Rafrel</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">28.723 -98.872 153.371</data>
+                <data name="Eye" type="XYZ">-127.338 -79.840 504.870</data>
+                <data name="Fovy" type="FLOAT">30.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-116740.391 -13457.001 58436.582</data>
+                <data name="Eye" type="XYZ">-116135.531 -13583.084 58697.102</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">90</data>
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Rafrel</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">-2.365 -67.700 80.581</data>
+                <data name="Eye" type="XYZ">-284.816 -145.844 659.183</data>
+                <data name="Fovy" type="FLOAT">10.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="GETITEM">
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Rafrel</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="RESIST_WIRETAP_RAFREL">
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Ash">
+            <cut name="RESIST_WIRETAP_RAFREL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Rafrel">
+            <cut name="0001_TALK">
+            </cut>
+        </staff>
+        <staff name="Shad">
+            <cut name="RESIST_WIRETAP_RAFREL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">3061.208 -1064.046 2443.075</data>
+                <data name="Eye" type="XYZ">2956.441 -771.671 2670.827</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="CONVERSATION_ABOUT_GORON">
+        <staff name="Lud">
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Kolinb">
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Lud</data>
+                <data name="Center" type="XYZ">14.966 -60.267 88.567</data>
+                <data name="Eye" type="XYZ">-104.822 -27.384 -151.815</data>
+                <data name="Fovy" type="FLOAT">40.526</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="031lwait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GO_AHEAD">
+        <staff name="Lud">
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Kolin">
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Kolinb">
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_ABOUT_GORON">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Lud</data>
+                <data name="Center" type="XYZ">14.966 -60.267 88.567</data>
+                <data name="Eye" type="XYZ">-104.822 -27.384 -151.815</data>
+                <data name="Fovy" type="FLOAT">40.526</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="031lwait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="NURSE">
+        <staff name="Lud">
+            <cut name="NURSE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="NURSE">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="NURSE">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="NURSE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="NURSE">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="NURSE">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="Kolinb">
+            <cut name="NURSE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="NURSE">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="NURSE">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kolinb</data>
+                <data name="Center" type="XYZ">-13.211 7.014 -2.385</data>
+                <data name="Eye" type="XYZ">-237.022 21.786 -2.318</data>
+                <data name="Fovy" type="FLOAT">40.537</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

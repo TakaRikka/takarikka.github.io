@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="AFTER_BATTLE">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">7</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">25</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Hoz">
+            <cut name="AFTER_BATTLE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="AFTER_BATTLE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">5424.200 1071.000 -3472.300</data>
+                <data name="Eye" type="XYZ">5390.000 320.400 -3504.300</data>
+                <data name="Timer" type="INTEGER">150</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="AFTER_BLAST">
+        <staff name="Hoz">
+            <cut name="AFTER_BLAST">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="AFTER_BLAST">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="RESTOREPOS">
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="BEFORE_BATTLE">
+        <staff name="Hoz">
+            <cut name="BEFORE_BATTLE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="BEFORE_BATTLE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="Center" type="XYZ">0.000 -60.000 -10.000</data>
+                <data name="Eye" type="XYZ">27.500 -125.000 220.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 -18.000 1.300</data>
+                <data name="Eye" type="XYZ">-27.500 48.745 -392.077</data>
+                <data name="Fovy" type="FLOAT">62.700</data>
+                <data name="Timer" type="INTEGER">15</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="BEFORE_BLAST">
+        <staff name="Hoz">
+            <cut name="BEFORE_BLAST">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="BEFORE_BLAST">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="RESTOREPOS">
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="BOAT_RACE">
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Hoz">
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 80.000 -270.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 80.000 -270.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="BOAT_RACE_RETURN">
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">1.000</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Hoz">
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="BOAT_RACE">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 80.000 -270.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 80.000 -270.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="RelUseMask" type="STRING">--oo</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TALK_BREAK">
+        <staff name="Hoz">
+            <cut name="TALK_BREAK">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TALK_BREAK">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="Y_MUSHI">
+        <staff name="PACKAGE">
+            <cut name="PLAY">
+                <data name="FileName" type="STRING">y_mushi.stb</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="STBWAIT">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Hoz">
+            <cut name="Y_MUSHI">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="Y_MUSHI">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="TABLE_MAP">
+        <staff name="Table">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Table</data>
+                <data name="RelUseMask" type="STRING">xxoo</data>
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 150.000 0.500</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

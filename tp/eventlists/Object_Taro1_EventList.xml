@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="CACARICO_CONVERSATION">
+        <staff name="Taro">
+            <cut name="CACARICO_CONVERSATION">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="CACARICO_CONVERSATION">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">5052</data>
+            </cut>
+            <cut name="CACARICO_CONVERSATION">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">5053</data>
+            </cut>
+            <cut name="CACARICO_CONVERSATION">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">5054</data>
+            </cut>
+            <cut name="CACARICO_CONVERSATION">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="CACARICO_CONVERSATION">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CACARICO_CONVERSATION">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="CACARICO_CONVERSATION">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CACARICO_CONVERSATION">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Kolin">
+            <cut name="CACARICO_CONVERSATION">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CACARICO_CONVERSATION">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Taro</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CONVERSATION_WITH_MARO1">
+        <staff name="Taro:1">
+            <cut name="CONVERSATION_WITH_MARO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CONVERSATION_WITH_MARO">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">5211</data>
+                <data name="msgNo2" type="INTEGER">5214</data>
+            </cut>
+            <cut name="CONVERSATION_WITH_MARO">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">5212</data>
+                <data name="msgNo2" type="INTEGER">5215</data>
+            </cut>
+            <cut name="CONVERSATION_WITH_MARO">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="CONVERSATION_WITH_MARO">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Maro:1">
+            <cut name="CONVERSATION_WITH_MARO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Taro:1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CONVERSATION_WITH_MARO2">
+        <staff name="Taro:1">
+            <cut name="CONVERSATION_WITH_MARO">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="msgNo" type="INTEGER">5217</data>
+            </cut>
+            <cut name="CONVERSATION_WITH_MARO">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="CONVERSATION_WITH_MARO">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Maro:1">
+            <cut name="CONVERSATION_WITH_MARO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Taro:1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="FIND_MONKEY">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">90</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">6</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+        </staff>
+        <staff name="Saru">
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">90</data>
+            </cut>
+            <cut name="FIND_MONKEY">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">-26.895 -32.492 119.770</data>
+                <data name="Eye" type="XYZ">108.199 23.919 230.768</data>
+                <data name="Fovy" type="FLOAT">60.132</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">-2.579 -52.546 -0.446</data>
+                <data name="Eye" type="XYZ">-67.471 -44.586 81.973</data>
+                <data name="Fovy" type="FLOAT">60.132</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Center" type="XYZ">-41.065 4.882 380.623</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Fovy" type="FLOAT">21.132</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">130.955 -75.088 119.908</data>
+                <data name="Eye" type="XYZ">297.909 -56.050 -137.386</data>
+                <data name="Fovy" type="FLOAT">60.132</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">931.405 901.631 -1910.142</data>
+                <data name="Eye" type="XYZ">744.767 1017.517 -1733.706</data>
+                <data name="Fovy" type="FLOAT">61.967</data>
+                <data name="Trim" type="STRING">STANDARD</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GATHER_IN_CACARICO">
+        <staff name="Taro">
+            <cut name="GATHER_IN_CACARICO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GATHER_IN_CACARICO">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">5052</data>
+            </cut>
+            <cut name="GATHER_IN_CACARICO">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">5053</data>
+            </cut>
+            <cut name="GATHER_IN_CACARICO">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="msgNo" type="INTEGER">5054</data>
+            </cut>
+            <cut name="GATHER_IN_CACARICO">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="GATHER_IN_CACARICO">
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="GATHER_IN_CACARICO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GATHER_IN_CACARICO">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Besu">
+            <cut name="GATHER_IN_CACARICO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GATHER_IN_CACARICO">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Kolin">
+            <cut name="GATHER_IN_CACARICO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GATHER_IN_CACARICO">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">Taro</data>
+            </cut>
+            <cut name="WAIT">
+                <data name="WaitAnyKey" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GET_WOODSWD">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.010</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Kakashi">
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Taro:0">
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">11</data>
+                <data name="msgNo" type="INTEGER">5791</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">14</data>
+                <data name="msgNo" type="INTEGER">5792</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">15</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">12</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">13</data>
+            </cut>
+        </staff>
+        <staff name="Taro:1">
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">21</data>
+            </cut>
+        </staff>
+        <staff name="Maro:0">
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+        </staff>
+        <staff name="Maro:1">
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+        </staff>
+        <staff name="Besu:0">
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Besu:1">
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+        </staff>
+        <staff name="Kolin">
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">60</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">40</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="msgNo" type="INTEGER">6126</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">7</data>
+                <data name="msgNo" type="INTEGER">6127</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="timer" type="INTEGER">90</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">120</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">6</data>
+            </cut>
+            <cut name="GET_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro:0</data>
+                <data name="Center" type="XYZ">-0.335 -67.130 -0.488</data>
+                <data name="Eye" type="XYZ">-78.199 -55.706 110.269</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">2.106 -27.304 83.185</data>
+                <data name="Eye" type="XYZ">-122.245 20.583 -74.954</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kakashi</data>
+                <data name="Center" type="XYZ">-85.606 -55.284 10.867</data>
+                <data name="Eye" type="XYZ">0.000 -36.401 1773.926</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kolin</data>
+                <data name="Center" type="XYZ">2.409 -57.982 13.665</data>
+                <data name="Eye" type="XYZ">-92.129 24.634 199.171</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="SavePos" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="Timer" type="INTEGER">300</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">-0.005 -49.870 1.028</data>
+                <data name="Eye" type="XYZ">33.507 19.005 -268.280</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+                <data name="Trim" type="STRING">STANDARD</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GIVEME_WOODSWD1">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Taro:0">
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="msgNo" type="INTEGER">5714</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="msgNo" type="INTEGER">5715</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">6</data>
+                <data name="msgNo" type="INTEGER">5716</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">6</data>
+                <data name="msgNo" type="INTEGER">5717</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="msgNo" type="INTEGER">5719</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="msgNo" type="INTEGER">5720</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="msgNo" type="INTEGER">5721</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="msgNo" type="INTEGER">5722</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Maro:0">
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Kolin">
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro:0</data>
+                <data name="Center" type="XYZ">49.592 -18.359 75.576</data>
+                <data name="Eye" type="XYZ">132.080 35.596 151.994</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kolin</data>
+                <data name="Center" type="XYZ">297.269 -67.744 -165.141</data>
+                <data name="Eye" type="XYZ">397.897 -69.937 -240.674</data>
+                <data name="Fovy" type="FLOAT">15.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro:0</data>
+                <data name="Center" type="XYZ">42.960 -4.718 93.484</data>
+                <data name="Eye" type="XYZ">107.524 61.636 176.845</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">-0.013 -19.575 1.014</data>
+                <data name="Eye" type="XYZ">166.322 6.273 -339.618</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">STANDARD</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="GIVEME_WOODSWD2">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Taro:0">
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">8</data>
+                <data name="msgNo" type="INTEGER">5729</data>
+                <data name="msgNo2" type="INTEGER">5733</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="msgNo" type="INTEGER">5730</data>
+                <data name="msgNo2" type="INTEGER">5734</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Maro:0">
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Kolin">
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="GIVEME_WOODSWD">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kolin</data>
+                <data name="Center" type="XYZ">297.269 -67.744 -165.141</data>
+                <data name="Eye" type="XYZ">397.897 -69.937 -240.674</data>
+                <data name="Fovy" type="FLOAT">15.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro:0</data>
+                <data name="Center" type="XYZ">42.960 -4.718 93.484</data>
+                <data name="Eye" type="XYZ">107.524 61.636 176.845</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">-0.013 -19.575 1.014</data>
+                <data name="Eye" type="XYZ">166.322 6.273 -339.618</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">STANDARD</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="HAIL">
+        <staff name="Taro">
+            <cut name="HAIL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="HAIL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="HAIL">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="HAIL">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="NOT_GONNA_LET_1">
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">5730</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="msgNo" type="INTEGER">5731</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">4</data>
+                <data name="msgNo" type="INTEGER">5732</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">5</data>
+                <data name="msgNo" type="INTEGER">5733</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">6</data>
+                <data name="msgNo" type="INTEGER">5734</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">7</data>
+                <data name="msgNo" type="INTEGER">5736</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">8</data>
+                <data name="msgNo" type="INTEGER">5737</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">9</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+            </cut>
+        </staff>
+        <staff name="Kolin">
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">49.592 -18.359 75.576</data>
+                <data name="Eye" type="XYZ">132.080 35.596 151.994</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kolin</data>
+                <data name="Center" type="XYZ">297.269 -67.744 -165.141</data>
+                <data name="Eye" type="XYZ">397.897 -69.937 -240.674</data>
+                <data name="Fovy" type="FLOAT">15.000</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">42.960 -4.718 93.484</data>
+                <data name="Eye" type="XYZ">107.524 61.636 176.845</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">-0.013 -19.575 1.014</data>
+                <data name="Eye" type="XYZ">166.322 6.273 -339.618</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+            </cut>
+            <cut name="031lwait">
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="NOT_GONNA_LET_2">
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Taro">
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">20</data>
+                <data name="msgNo" type="INTEGER">5716</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">21</data>
+                <data name="msgNo" type="INTEGER">5717</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">22</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">11</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">21</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+            </cut>
+        </staff>
+        <staff name="Kolin">
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Kolin</data>
+                <data name="Center" type="XYZ">297.269 -67.744 -165.141</data>
+                <data name="Eye" type="XYZ">397.897 -69.937 -240.674</data>
+                <data name="Fovy" type="FLOAT">15.000</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">42.960 -4.718 93.484</data>
+                <data name="Eye" type="XYZ">107.524 61.636 176.845</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">-0.013 -19.575 1.014</data>
+                <data name="Eye" type="XYZ">166.322 6.273 -339.618</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+            </cut>
+            <cut name="031lwait">
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="NOT_GONNA_LET_3">
+        <staff name="Taro">
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">31</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+                <data name="prm" type="INTEGER">31</data>
+            </cut>
+            <cut name="NOT_GONNA_LET">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Taro</data>
+                <data name="Center" type="XYZ">-50.898 -82.641 -18.041</data>
+                <data name="Eye" type="XYZ">8.146 6.140 142.638</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="WaitAnyKey" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+            </cut>
+            <cut name="031lwait">
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TAG_PUSH1">
+        <staff name="Taro">
+            <cut name="TAG_PUSH1">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TAG_PUSH1">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="TAG_PUSH1">
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="TAG_PUSH1">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TAG_PUSH1">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="TAG_PUSH1">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TAG_PUSH4">
+        <staff name="Taro">
+            <cut name="TAG_PUSH4">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TAG_PUSH4">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="TAG_PUSH4">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@TALKPARTNER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

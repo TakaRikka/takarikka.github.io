@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="KICK_OUT">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="grA">
+            <cut name="KICK_OUT">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="KICK_OUT">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="KICK_OUT">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="KICK_OUT">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">15</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">grA</data>
+                <data name="Center" type="XYZ">-0.666 -92.886 -15.223</data>
+                <data name="Eye" type="XYZ">0.000 -102.886 264.678</data>
+                <data name="Fovy" type="FLOAT">45.124</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="KICK_OUT_BREAK">
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="NEXTSTAGE">
+                <data name="ID" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="grA">
+            <cut name="KICK_OUT">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="KICK_OUT">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="KICK_OUT">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="KICK_OUT">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">grA</data>
+                <data name="Center" type="XYZ">3.609 -92.063 -8.210</data>
+                <data name="Eye" type="XYZ">3.432 -172.511 263.223</data>
+                <data name="Fovy" type="FLOAT">45.124</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="NONE_LOOK">
+        <staff name="grA">
+            <cut name="NONE_LOOK">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="NONE_LOOK">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="NONE_LOOK">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">15</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">grA</data>
+                <data name="Center" type="XYZ">-0.666 -92.886 -15.223</data>
+                <data name="Eye" type="XYZ">0.000 -102.886 264.678</data>
+                <data name="Fovy" type="FLOAT">45.124</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="RESTOREPOS">
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+</event>

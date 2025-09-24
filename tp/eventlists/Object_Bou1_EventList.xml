@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="SPEAKTO">
+        <staff name="Bou">
+            <cut name="SPEAKTO">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="SPEAKTO">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="SPEAKTO">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Smoothless" type="INTEGER">1</data>
+                <data name="SavePos" type="INTEGER">0</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="Slot" type="INTEGER">0</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="WILDGOAT">
+        <staff name="Bou">
+            <cut name="WILDGOAT">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="WILDGOAT">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">6555</data>
+                <data name="msgNo2" type="INTEGER">6557</data>
+            </cut>
+            <cut name="WILDGOAT">
+                <data name="prm" type="INTEGER">2</data>
+                <data name="msgNo" type="INTEGER">6556</data>
+                <data name="msgNo2" type="INTEGER">6558</data>
+            </cut>
+            <cut name="WILDGOAT">
+                <data name="prm" type="INTEGER">3</data>
+            </cut>
+            <cut name="WILDGOAT">
+                <data name="prm" type="INTEGER">4</data>
+            </cut>
+            <cut name="WILDGOAT">
+                <data name="prm" type="INTEGER">5</data>
+            </cut>
+            <cut name="WILDGOAT">
+                <data name="prm" type="INTEGER">6</data>
+            </cut>
+            <cut name="WILDGOAT">
+                <data name="prm" type="INTEGER">7</data>
+            </cut>
+            <cut name="WILDGOAT">
+                <data name="prm" type="INTEGER">8</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Smoothless" type="INTEGER">0</data>
+                <data name="Speaker" type="STRING">Bou</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-859.230 437.717 5361.624</data>
+                <data name="Eye" type="XYZ">-572.300 437.717 4500.010</data>
+                <data name="Fovy" type="FLOAT">42.393</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">16</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="Center" type="XYZ">-1778.367 1034.693 8287.374</data>
+                <data name="Eye" type="XYZ">-1672.938 943.409 7928.710</data>
+                <data name="Fovy" type="FLOAT">42.000</data>
+                <data name="Timer" type="INTEGER">16</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Link</data>
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 0.000 155.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">2</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="WILDGOAT_FAILURE">
+        <staff name="Bou">
+            <cut name="WILDGOAT_FAILURE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="WILDGOAT_FAILURE">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+            <cut name="WILDGOAT_FAILURE">
+                <data name="prm" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-891.688 337.351 4026.606</data>
+                <data name="Eye" type="XYZ">-626.063 536.037 5105.898</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">90</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="WILDGOAT_SUCCESS">
+        <staff name="Bou">
+            <cut name="WILDGOAT_SUCCESS">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="WILDGOAT_SUCCESS">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Longitude" type="FLOAT">47.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

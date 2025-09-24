@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="GET_WOOD_STATUE">
+        <staff name="wimage">
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">15</data>
+            </cut>
+            <cut name="MOVE">
+            </cut>
+            <cut name="SETPOS">
+            </cut>
+            <cut name="NOTEND">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="004init_wait">
+                <data name="angle" type="INTEGER">16000</data>
+                <data name="pos" type="XYZ">-51843.000 -6478.000 34670.000</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+            <cut name="002n_walk">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDPOS">
+                <data name="Eye" type="XYZ">-100.000 50.000 300.000</data>
+                <data name="Fovy" type="FLOAT">65.000</data>
+                <data name="RelActor" type="STRING">@STARTER</data>
+                <data name="RelUseMask" type="STRING">o</data>
+                <data name="Target" type="STRING">@STARTER</data>
+                <data name="Timer" type="INTEGER">90</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

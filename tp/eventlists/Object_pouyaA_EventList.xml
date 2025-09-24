@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="HAVE_FAVORTO_ASK1">
+        <staff name="Pouya:0">
+            <cut name="HAVE_FAVORTO_ASK">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="msgNo" type="INTEGER">6254</data>
+            </cut>
+            <cut name="HAVE_FAVORTO_ASK">
+                <data name="prm" type="INTEGER">1</data>
+                <data name="msgNo" type="INTEGER">6256</data>
+            </cut>
+            <cut name="HAVE_FAVORTO_ASK">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Pouya:0</data>
+                <data name="Center" type="XYZ">-15.420 -69.986 -1.039</data>
+                <data name="Eye" type="XYZ">28.247 -58.964 153.021</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Pouya:0</data>
+                <data name="Center" type="XYZ">-59.532 -130.150 64.233</data>
+                <data name="Eye" type="XYZ">170.465 56.920 174.200</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Pouya:0</data>
+                <data name="Center" type="XYZ">240.470 -198.320 88.075</data>
+                <data name="Eye" type="XYZ">-184.091 -196.283 635.036</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="HAVE_FAVORTO_ASK2">
+        <staff name="Pouya">
+            <cut name="HAVE_FAVORTO_ASK">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Pouya</data>
+                <data name="Center" type="XYZ">-0.464 -72.296 -13.977</data>
+                <data name="Eye" type="XYZ">-0.447 -87.652 150.393</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="RETURN_FAVOR_1_01">
+        <staff name="Pouya:0">
+            <cut name="HAVE_FAVORTO_ASK">
+                <data name="prm" type="INTEGER">10</data>
+                <data name="timer" type="INTEGER">20</data>
+                <data name="rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="HAVE_FAVORTO_ASK">
+                <data name="prm" type="INTEGER">3</data>
+                <data name="timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="HAVE_FAVORTO_ASK">
+                <data name="prm" type="INTEGER">11</data>
+                <data name="rate" type="FLOAT">0.010</data>
+            </cut>
+            <cut name="HAVE_FAVORTO_ASK">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="msgNo" type="INTEGER">6263</data>
+            </cut>
+            <cut name="HAVE_FAVORTO_ASK">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Pouya:0</data>
+                <data name="Center" type="XYZ">-0.447 -68.667 13.878</data>
+                <data name="Eye" type="XYZ">-0.355 -89.518 185.210</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Pouya:0</data>
+                <data name="Center" type="XYZ">-15.742 -94.833 1.737</data>
+                <data name="Eye" type="XYZ">-90.449 0.717 158.317</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="RETURN_FAVOR_1_02">
+        <staff name="Pouya">
+            <cut name="RETURN_FAVOR">
+                <data name="prm" type="INTEGER">0</data>
+                <data name="msgNo" type="INTEGER">6265</data>
+            </cut>
+            <cut name="RETURN_FAVOR">
+                <data name="prm" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Pouya</data>
+                <data name="Center" type="XYZ">-59.532 -130.150 64.233</data>
+                <data name="Eye" type="XYZ">170.465 56.920 174.200</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Pouya</data>
+                <data name="Center" type="XYZ">-0.447 -68.667 13.878</data>
+                <data name="Eye" type="XYZ">-0.355 -89.518 185.210</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+                <data name="prm1" type="INTEGER">0</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

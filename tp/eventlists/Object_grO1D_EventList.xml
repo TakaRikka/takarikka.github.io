@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="BOKIN_FINISH">
+        <staff name="grO">
+            <cut name="BOKIN_FINISH">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="BOKIN_FINISH">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="BOKIN_FINISH">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="BOKIN_FINISH">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+        </staff>
+        <staff name="Maro">
+            <cut name="BOKIN_TALK">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="SAVE">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Maro</data>
+                <data name="Center" type="XYZ">-1.889 -61.720 7.294</data>
+                <data name="Eye" type="XYZ">108.093 27.673 171.169</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+            </cut>
+            <cut name="LOAD">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+</event>

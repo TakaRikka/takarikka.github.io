@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="DEFAULT_BS_SHUTTER_L7_F">
+        <staff name="SHUTTER_DOOR">
+            <cut name="PLY_NODISP">
+            </cut>
+            <cut name="SETPOS">
+            </cut>
+            <cut name="UNLOCK">
+            </cut>
+            <cut name="PLY_DISP">
+            </cut>
+            <cut name="SETANGLE">
+            </cut>
+            <cut name="OPEN">
+            </cut>
+            <cut name="SETGOAL">
+            </cut>
+            <cut name="CHG_SCENE">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-30.800 37.000 139.800</data>
+                <data name="Eye" type="XYZ">-145.700 71.400 267.900</data>
+                <data name="Fovy" type="FLOAT">67.000</data>
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 25.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 180.000 700.000</data>
+                <data name="Fovy" type="FLOAT">52.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="003n_dash">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="003n_dash">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="DEFAULT_BS_SHUTTER_L7_F_2">
+        <staff name="SHUTTER_DOOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="SETPOS">
+            </cut>
+            <cut name="SETANGLE">
+            </cut>
+            <cut name="OPEN">
+            </cut>
+            <cut name="SETGOAL">
+            </cut>
+            <cut name="CHG_SCENE">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PARTNER</data>
+                <data name="Center" type="XYZ">0.000 25.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 180.000 700.000</data>
+                <data name="Fovy" type="FLOAT">52.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="Fovy" type="FLOAT">40.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="058lchange">
+            </cut>
+            <cut name="003n_dash">
+            </cut>
+            <cut name="012unequip">
+            </cut>
+            <cut name="003n_dash">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+    </sequence>
+</event>

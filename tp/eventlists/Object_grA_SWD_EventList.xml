@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="CARRY_SPA_WATER">
+        <staff name="grA">
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">30</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">35</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">40</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">45</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">50</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">60</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">65</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">70</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER">
+                <data name="prm" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">grA</data>
+                <data name="Center" type="XYZ">0.000 -65.871 -18.455</data>
+                <data name="Eye" type="XYZ">0.000 -37.110 350.993</data>
+                <data name="Fovy" type="FLOAT">44.750</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">grA</data>
+                <data name="Center" type="XYZ">0.000 -65.871 -18.455</data>
+                <data name="Eye" type="XYZ">0.000 -37.110 350.993</data>
+                <data name="Fovy" type="FLOAT">44.750</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">grA</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">-26355.746 -94.543 9351.807</data>
+                <data name="Fovy" type="FLOAT">44.750</data>
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">100</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">grA</data>
+                <data name="RelUseMask" type="STRING">--o-</data>
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">-26355.746 -94.543 9351.807</data>
+                <data name="Fovy" type="FLOAT">44.750</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">50</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-25099.551 -173.759 9805.635</data>
+                <data name="Eye" type="XYZ">-25446.449 -110.541 9671.439</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">90</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="PAUSE">
+                <data name="Stay" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="CARRY_SPA_WATER_FAILURE">
+        <staff name="grA">
+            <cut name="CARRY_SPA_WATER_FAILURE">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER_FAILURE">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+            <cut name="CARRY_SPA_WATER_FAILURE">
+                <data name="prm" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="TALK">
+                <data name="Listener" type="STRING">@PLAYER</data>
+                <data name="Speaker" type="STRING">@STARTER</data>
+                <data name="Trim" type="STRING">VISTA</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="006n_talk">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="TALK_SPA_WATER">
+        <staff name="grA">
+            <cut name="TALK_SPA_WATER">
+                <data name="prm" type="INTEGER">0</data>
+            </cut>
+            <cut name="TALK_SPA_WATER">
+                <data name="prm" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">grA</data>
+                <data name="Center" type="XYZ">0.000 -65.871 -18.455</data>
+                <data name="Eye" type="XYZ">0.000 -37.110 350.993</data>
+                <data name="Fovy" type="FLOAT">44.750</data>
+                <data name="Trim" type="STRING">VISTA</data>
+                <data name="PlayerHide" type="INTEGER">1</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

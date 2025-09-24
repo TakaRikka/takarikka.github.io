@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="LV6_GATE_APPEAR">
+        <staff name="Link">
+            <cut name="012unequip">
+                <data name="prm0" type="INTEGER">1</data>
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+            <cut name="079msstick">
+            </cut>
+            <cut name="080mspull">
+            </cut>
+            <cut name="012unequip">
+                <data name="prm0" type="INTEGER">0</data>
+                <data name="prm1" type="INTEGER">0</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Tks">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_RUN">
+            </cut>
+        </staff>
+        <staff name="Lv6Gate">
+            <cut name="0001_WAIT">
+            </cut>
+            <cut name="0002_SHOCK">
+            </cut>
+            <cut name="0003_APPEAR">
+            </cut>
+            <cut name="0004_TKS">
+            </cut>
+            <cut name="0005_WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="StartCenter" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="StartEye" type="XYZ">139.685 48.041 105.583</data>
+                <data name="StartFovy" type="FLOAT">65.000</data>
+                <data name="StartBank" type="FLOAT">0.000</data>
+                <data name="Center" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -50.000 275.000</data>
+                <data name="Fovy" type="FLOAT">65.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">120</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">xxoo</data>
+                <data name="Center" type="XYZ">0.000 -48.424 -26.538</data>
+                <data name="Eye" type="XYZ">0.000 -125.489 194.682</data>
+                <data name="Fovy" type="FLOAT">65.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">5</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">oooo</data>
+                <data name="StartCenter" type="XYZ">0.000 -50.000 0.000</data>
+                <data name="StartEye" type="XYZ">0.000 75.351 -251.259</data>
+                <data name="StartFovy" type="FLOAT">60.000</data>
+                <data name="StartBank" type="FLOAT">0.000</data>
+                <data name="Center" type="XYZ">0.000 852.628 1625.770</data>
+                <data name="Eye" type="XYZ">0.000 583.203 1254.484</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">240</data>
+                <data name="TransType" type="INTEGER">1</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">38.781 -15.948 294.207</data>
+                <data name="Eye" type="XYZ">-252.003 -129.023 -185.815</data>
+                <data name="Fovy" type="FLOAT">53.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Trim" type="STRING">CINESCO</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">2</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">60</data>
+            </cut>
+        </staff>
+        <staff name="EFFECT">
+            <cut name="WAIT">
+            </cut>
+            <cut name="SHOCK">
+                <data name="Power" type="INTEGER">8</data>
+                <data name="Type" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="LV6_GATE_APPEAR_SKIP">
+        <staff name="Link">
+            <cut name="014keep">
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="Tks">
+            <cut name="0001_WAIT">
+            </cut>
+        </staff>
+        <staff name="Lv6Gate">
+            <cut name="0005WAIT">
+            </cut>
+            <cut name="0006_APPEAR">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">0.000 -20.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 -20.000 -260.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.050</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.050</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>
