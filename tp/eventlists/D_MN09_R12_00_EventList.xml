@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="MapToolCamera40">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera43">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">43</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="R12_b1">
+        <staff name="PACKAGE">
+            <cut name="PLAY">
+                <data name="FileName" type="STRING">R12_b1.stb</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="STBWAIT">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">44</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="R12_b2">
+        <staff name="PACKAGE">
+            <cut name="PLAY">
+                <data name="FileName" type="STRING">R12_b2.stb</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="STBWAIT">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">45</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="R12_b3">
+        <staff name="PACKAGE">
+            <cut name="PLAY">
+                <data name="FileName" type="STRING">R12_b3.stb</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="STBWAIT">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">46</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+</event>

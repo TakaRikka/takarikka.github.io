@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="demo20_02">
+        <staff name="PACKAGE">
+            <cut name="PLAY">
+                <data name="FileName" type="STRING">demo20_02.stb</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="STBWAIT">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">8</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="hc_1st">
+        <staff name="PACKAGE">
+            <cut name="PLAY">
+                <data name="FileName" type="STRING">hc_1st.stb</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="STBWAIT">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">14</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="demo09_02">
+        <staff name="PACKAGE">
+            <cut name="PLAY">
+                <data name="FileName" type="STRING">demo09_02.stb</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="STBWAIT">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">18</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera22">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">22</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera26">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">26</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera33">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">33</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera40">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">40</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera41">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">41</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+</event>

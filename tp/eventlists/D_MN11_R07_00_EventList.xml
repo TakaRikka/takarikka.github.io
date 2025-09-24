@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="LV5R07BR">
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-3525.000 285.000 85.000</data>
+                <data name="Eye" type="XYZ">-4220.000 375.000 160.000</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPTRANS">
+                <data name="Center" type="XYZ">-3600.000 125.000 330.000</data>
+                <data name="Eye" type="XYZ">-4200.000 465.000 315.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">60</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Base" type="FLOAT">
+                    0.000
+                    0.000
+                    0.000
+                    1.000
+                    1.000
+                </data>
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="LOAD">
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="dummy">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera7">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">7</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera21">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">21</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="LV5R09OP">
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-4275.486 10.630 -7607.062</data>
+                <data name="Eye" type="XYZ">-5344.514 488.825 -7238.490</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPTRANS">
+                <data name="Center" type="XYZ">-3399.225 32.330 -5409.476</data>
+                <data name="Eye" type="XYZ">-4468.253 510.525 -5040.904</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Timer" type="INTEGER">110</data>
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="LV5R09OP$0">
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-3399.225 32.330 -5409.476</data>
+                <data name="Eye" type="XYZ">-4468.253 510.525 -5040.904</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera5">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">5</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+</event>

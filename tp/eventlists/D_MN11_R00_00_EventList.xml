@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="LV5R00OP">
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">1152.000 158.500 2975.500</data>
+                <data name="Eye" type="XYZ">1360.000 676.000 2630.000</data>
+                <data name="Fovy" type="FLOAT">65.000</data>
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPTRANS">
+                <data name="Center" type="XYZ">-68.000 655.000 2300.000</data>
+                <data name="Eye" type="XYZ">100.000 1235.000 2050.000</data>
+                <data name="Fovy" type="FLOAT">65.000</data>
+                <data name="Timer" type="INTEGER">210</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Base" type="FLOAT">
+                    0.000
+                    0.000
+                    0.250
+                    0.500
+                    1.000
+                    1.000
+                    1.000
+                </data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-530.000 880.000 3300.000</data>
+                <data name="Eye" type="XYZ">-235.000 140.000 4275.000</data>
+                <data name="Fovy" type="FLOAT">75.000</data>
+                <data name="Timer" type="INTEGER">40</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPTRANS">
+                <data name="Center" type="XYZ">40.000 205.000 5170.000</data>
+                <data name="Eye" type="XYZ">745.000 180.000 6220.000</data>
+                <data name="Fovy" type="FLOAT">75.000</data>
+                <data name="Timer" type="INTEGER">190</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Set1" type="FLOAT">
+                    0.000
+                    0.000
+                    -0.500
+                    0.000
+                    1.000
+                    1.000
+                </data>
+                <data name="Use1" type="STRING">xxxxox</data>
+                <data name="Set2" type="FLOAT">
+                    0.000
+                    0.000
+                    1.500
+                    1.000
+                    1.000
+                </data>
+                <data name="Use2" type="STRING">xxxoxx</data>
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 -40.000 0.000</data>
+                <data name="Eye" type="XYZ">-30.000 5.000 -400.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="Timer" type="INTEGER">5</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="MESSAGE">
+            <cut name="WAIT">
+            </cut>
+            <cut name="TELOP">
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">0.000 -150.000 6000.000</data>
+                <data name="angle" type="INTEGER">-31768</data>
+            </cut>
+            <cut name="002n_walk">
+                <data name="pos" type="XYZ">0.000 -150.000 5550.000</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">70</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera19">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">19</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+</event>

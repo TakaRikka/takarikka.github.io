@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="LV3R00OP">
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">1.411 1198.477 15460.691</data>
+                <data name="Eye" type="XYZ">-2.573 1464.238 15749.238</data>
+                <data name="Fovy" type="FLOAT">70.000</data>
+                <data name="Timer" type="INTEGER">25</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPTRANS">
+                <data name="Center" type="XYZ">-4.048 1675.728 14184.521</data>
+                <data name="Eye" type="XYZ">-8.754 1620.749 14661.061</data>
+                <data name="Fovy" type="FLOAT">42.000</data>
+                <data name="Timer" type="INTEGER">220</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Use1" type="STRING">xxxxxo</data>
+                <data name="Set1" type="FLOAT">
+                    0.000
+                    0.000
+                    0.000
+                    0.000
+                    1.000
+                    1.000
+                </data>
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">160</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="MESSAGE">
+            <cut name="WAIT">
+            </cut>
+            <cut name="TELOP">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="LV3R00OP$0">
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 10.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 140.000 330.000</data>
+                <data name="Fovy" type="FLOAT">58.000</data>
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="LV3_R00_213b">
+        <staff name="PACKAGE">
+            <cut name="PLAY">
+                <data name="FileName" type="STRING">LV3_R00_213b.stb</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="STBWAIT">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">5</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera38">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">38</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+</event>

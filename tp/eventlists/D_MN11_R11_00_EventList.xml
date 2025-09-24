@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="LV5R11OP">
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-4530.000 1200.000 -8175.000</data>
+                <data name="Eye" type="XYZ">-4530.000 1200.000 -7135.000</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="Timer" type="INTEGER">50</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPTRANS">
+                <data name="Eye" type="XYZ">-5000.000 1855.000 -7500.000</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="Timer" type="INTEGER">100</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">10</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPTRANS">
+                <data name="Center" type="XYZ">-4700.000 1585.000 -6535.000</data>
+                <data name="Eye" type="XYZ">-5000.000 1855.000 -7500.000</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Timer" type="INTEGER">180</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Set2" type="FLOAT">
+                    0.000
+                    0.000
+                    1.000
+                    1.000
+                    1.000
+                    1.000
+                </data>
+                <data name="Use2" type="STRING">xxxxxo</data>
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 -30.000 0.000</data>
+                <data name="Eye" type="XYZ">220.000 30.000 -60.000</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="Timer" type="INTEGER">2</data>
+                <data name="WaitAnyKey" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">-3515.000 950.000 -5415.000</data>
+                <data name="angle" type="INTEGER">-16384</data>
+            </cut>
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="dstop">
+            <cut name="WAIT">
+            </cut>
+            <cut name="STOP_CLOSE">
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera10">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera11">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">11</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+</event>

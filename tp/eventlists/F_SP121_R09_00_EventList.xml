@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="METAMO_WOLF">
+        <staff name="Link">
+            <cut name="027down">
+                <data name="prm0" type="INTEGER">1</data>
+                <data name="prm1" type="INTEGER">180</data>
+            </cut>
+            <cut name="057wchange">
+                <data name="prm1" type="INTEGER">1</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">4</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">300.000 -120.000 0.000</data>
+                <data name="Eye" type="XYZ">300.000 -120.000 250.000</data>
+                <data name="Fovy" type="FLOAT">40.754</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="RelUseMask" type="STRING">xxaa</data>
+                <data name="Center" type="XYZ">300.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">300.000 0.000 0.000</data>
+                <data name="Fovy" type="FLOAT">40.754</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">160</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="RelUseMask" type="STRING">xxaa</data>
+                <data name="Center" type="XYZ">0.000 30.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 30.000 0.000</data>
+                <data name="Fovy" type="FLOAT">40.754</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="BSpCurve" type="INTEGER">1</data>
+                <data name="RelUseMask" type="STRING">xxaa</data>
+                <data name="Center" type="XYZ">-5.000 90.000 -10.000</data>
+                <data name="Eye" type="XYZ">-5.000 90.000 50.000</data>
+                <data name="Fovy" type="FLOAT">40.754</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIXEDFRM">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">xxoo</data>
+                <data name="Center" type="XYZ">0.000 20.000 0.000</data>
+                <data name="Eye" type="XYZ">133.911 1.375 147.549</data>
+                <data name="Fovy" type="FLOAT">40.754</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">25</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">xxox</data>
+                <data name="Center" type="XYZ">0.000 0.000 -30.000</data>
+                <data name="Fovy" type="FLOAT">40.754</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">35</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIXEDFRM">
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">xxoo</data>
+                <data name="Center" type="XYZ">0.000 15.000 -70.000</data>
+                <data name="Eye" type="XYZ">289.738 8.727 -208.367</data>
+                <data name="Fovy" type="FLOAT">40.754</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+                <data name="Timer" type="INTEGER">15</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">1.000</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.010</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="METAMO_WOLF$0">
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+            <cut name="057wchange">
+                <data name="prm0" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="RelUseMask" type="STRING">oo</data>
+                <data name="Center" type="XYZ">0.000 15.000 -70.000</data>
+                <data name="Eye" type="XYZ">289.738 8.727 -208.367</data>
+                <data name="Fovy" type="FLOAT">40.754</data>
+                <data name="Bank" type="FLOAT">0.000</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">0.800</data>
+            </cut>
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.500</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

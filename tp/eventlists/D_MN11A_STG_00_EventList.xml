@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="BOSSCLEAR05">
+        <staff name="DIRECTOR">
+            <cut name="SPECIAL">
+                <data name="Type" type="INTEGER">8</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">45</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">50</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">50</data>
+            </cut>
+        </staff>
+        <staff name="MESSAGE">
+            <cut name="WAIT">
+            </cut>
+            <cut name="SHOW">
+                <data name="No" type="INTEGER">9301</data>
+            </cut>
+            <cut name="SHOW">
+                <data name="No" type="INTEGER">9302</data>
+            </cut>
+            <cut name="SHOW">
+                <data name="No" type="INTEGER">
+                    9303
+                    9304
+                    9305
+                </data>
+            </cut>
+            <cut name="SHOW">
+                <data name="No" type="INTEGER">
+                    9306
+                    9307
+                </data>
+            </cut>
+            <cut name="SHOW">
+                <data name="No" type="INTEGER">9308</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="012unequip">
+                <data name="prm1" type="INTEGER">0</data>
+            </cut>
+            <cut name="047lookup">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+            <cut name="048lupend">
+                <data name="prm0" type="INTEGER">3</data>
+            </cut>
+            <cut name="048lupend">
+                <data name="prm0" type="INTEGER">4</data>
+            </cut>
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">0.000 0.000 0.000</data>
+            </cut>
+            <cut name="001n_wait">
+                <data name="prm0" type="INTEGER">4</data>
+            </cut>
+        </staff>
+        <staff name="Midna">
+            <cut name="01wait">
+            </cut>
+            <cut name="02shadow">
+                <data name="fprm0" type="FLOAT">80.000</data>
+            </cut>
+            <cut name="03fly">
+            </cut>
+            <cut name="07scatch">
+            </cut>
+            <cut name="06swait">
+            </cut>
+            <cut name="14putawy">
+            </cut>
+            <cut name="04fturn">
+                <data name="angle" type="INTEGER">-24395</data>
+            </cut>
+            <cut name="03fly">
+                <data name="pos" type="XYZ">-300.000 0.000 -250.000</data>
+            </cut>
+            <cut name="03fly">
+                <data name="npos" type="XYZ">-550.000 0.000 -250.000</data>
+            </cut>
+            <cut name="08warphole">
+            </cut>
+            <cut name="04fturn">
+                <data name="angle" type="INTEGER">8363</data>
+            </cut>
+            <cut name="04fturn">
+                <data name="angle" type="INTEGER">-24395</data>
+            </cut>
+            <cut name="03fly">
+                <data name="pos" type="XYZ">-550.000 0.000 -250.000</data>
+            </cut>
+            <cut name="04fturn">
+                <data name="angle" type="INTEGER">8363</data>
+            </cut>
+        </staff>
+        <staff name="WARPHOLE">
+            <cut name="WAIT">
+            </cut>
+            <cut name="STONE_FALL">
+            </cut>
+            <cut name="STONE_MIDNA">
+            </cut>
+            <cut name="STONE_PUTAWAY">
+            </cut>
+            <cut name="APPEAR">
+            </cut>
+            <cut name="APPEAR_END">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 -40.000 50.000</data>
+                <data name="Eye" type="XYZ">-110.000 -50.000 240.000</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 -30.000 55.000</data>
+                <data name="Eye" type="XYZ">135.000 5.000 -80.000</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="Timer" type="INTEGER">100</data>
+                <data name="TransType" type="INTEGER">1</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Midna</data>
+                <data name="Center" type="XYZ">0.000 -10.000 62.000</data>
+                <data name="Eye" type="XYZ">-180.000 128.000 -100.000</data>
+                <data name="Fovy" type="FLOAT">62.000</data>
+            </cut>
+            <cut name="BSPTRANS">
+                <data name="RelActor" type="STRING">Midna</data>
+                <data name="Center" type="XYZ">0.000 22.000 0.000</data>
+                <data name="Eye" type="XYZ">-125.000 -30.000 105.000</data>
+                <data name="Fovy" type="FLOAT">65.000</data>
+                <data name="Timer" type="INTEGER">120</data>
+                <data name="Set1" type="FLOAT">
+                    0.000
+                    0.000
+                    1.000
+                    1.000
+                    1.000
+                </data>
+                <data name="Use1" type="STRING">xxxoxx</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+            <cut name="UNIACCELE">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">155.000 -95.000 160.000</data>
+                <data name="Eye" type="XYZ">55.000 105.000 -240.000</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="Timer" type="INTEGER">50</data>
+            </cut>
+        </staff>
+    </sequence>
+</event>

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+
+<event version="2.0">
+    <sequence name="BDUMMY">
+        <staff name="DIRECTOR">
+            <cut name="FADE">
+                <data name="Rate" type="FLOAT">-0.100</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="PAUSE">
+                <data name="Timer" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="dummy">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MAKI_OP">
+        <staff name="CAMERA">
+            <cut name="BSPLINE">
+                <data name="Centers" type="XYZ">
+                    -4476.502 17051.217 -20759.016
+                    -4476.502 17051.217 -20759.016
+                    -4476.502 17051.217 -20759.016
+                    -4476.502 17051.217 -20759.016
+                    -4559.094 16962.664 -20684.096
+                    -4616.237 16889.588 -20608.674
+                    -4664.441 16769.527 -20616.943
+                    -4711.646 16581.178 -20692.344
+                    -4739.988 16496.266 -20758.381
+                    -4725.134 16498.521 -20792.096
+                    -4665.871 16500.818 -20993.977
+                    -4591.436 16589.254 -21117.814
+                    -4591.436 16589.254 -21117.814
+                    -4591.436 16589.254 -21117.814
+                </data>
+                <data name="Eyes" type="XYZ">
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                    -4410.187 16675.088 -20796.717
+                </data>
+                <data name="Fovys" type="FLOAT">
+                    71.000
+                    71.000
+                    71.000
+                    71.000
+                    70.000
+                    68.000
+                    64.000
+                    58.000
+                    55.000
+                    55.000
+                    52.000
+                    46.000
+                    46.000
+                    46.000
+                </data>
+                <data name="Timer" type="INTEGER">470</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-4032.662 15392.070 -20113.154</data>
+                <data name="Eye" type="XYZ">-3668.338 15397.644 -20005.340</data>
+                <data name="Fovy" type="FLOAT">46.000</data>
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">-4036.246 15392.070 -19910.480</data>
+                <data name="Eye" type="XYZ">-3668.338 15397.644 -20005.340</data>
+                <data name="Fovy" type="FLOAT">46.000</data>
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-4036.246 15392.070 -19910.480</data>
+                <data name="Eye" type="XYZ">-3668.338 15397.644 -20005.340</data>
+                <data name="Fovy" type="FLOAT">46.000</data>
+                <data name="Timer" type="INTEGER">10</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="RANCHOP">
+        <staff name="CAMERA">
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-9323.787 14772.592 -26040.797</data>
+                <data name="Eye" type="XYZ">-9402.059 15082.576 -25198.082</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Fovy" type="FLOAT">55.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPTRANS">
+                <data name="Center" type="XYZ">-9254.340 15089.990 -25523.383</data>
+                <data name="Eye" type="XYZ">-9542.243 15113.586 -24676.227</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Timer" type="INTEGER">90</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Base" type="FLOAT">
+                    0.000
+                    0.000
+                    0.100
+                    0.300
+                    0.600
+                    1.000
+                    1.000
+                </data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-4128.339 15368.295 -19750.148</data>
+                <data name="Eye" type="XYZ">-4043.885 15490.146 -19457.033</data>
+                <data name="Timer" type="INTEGER">20</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="BSPTRANS">
+                <data name="Center" type="XYZ">-4859.173 15460.630 -19603.893</data>
+                <data name="Eye" type="XYZ">-4534.543 15468.659 -19554.434</data>
+                <data name="Fovy" type="FLOAT">58.000</data>
+                <data name="Timer" type="INTEGER">190</data>
+                <data name="Use2" type="STRING">ooxxxx</data>
+                <data name="Set2" type="FLOAT">
+                    0.000
+                    0.000
+                    1.000
+                    1.200
+                    1.000
+                    1.000
+                </data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="WAIT">
+                <data name="Timer" type="INTEGER">50</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="Center" type="XYZ">-9206.971 15186.035 -23000.062</data>
+                <data name="Eye" type="XYZ">-9133.220 15146.821 -23909.508</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+                <data name="Timer" type="INTEGER">100</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="Link">
+            <cut name="003n_dash">
+                <data name="pos" type="XYZ">-9242.209 15000.000 -23885.535</data>
+                <data name="stick" type="FLOAT">0.900</data>
+            </cut>
+            <cut name="003n_dash">
+                <data name="pos" type="XYZ">-9256.548 15000.000 -22791.811</data>
+                <data name="stick" type="FLOAT">0.720</data>
+            </cut>
+        </staff>
+        <staff name="Horse">
+            <cut name="005iwait">
+                <data name="ride" type="INTEGER">1</data>
+                <data name="pos" type="XYZ">-9251.832 14419.866 -26916.770</data>
+                <data name="angle" type="INTEGER">300</data>
+            </cut>
+            <cut name="002walk">
+                <data name="ride" type="INTEGER">1</data>
+                <data name="pos" type="XYZ">-9242.209 15000.000 -23885.535</data>
+            </cut>
+            <cut name="010swalk">
+                <data name="ride" type="INTEGER">1</data>
+                <data name="pos" type="XYZ">-9302.516 15000.000 -22272.656</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="WAIT">
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">160</data>
+            </cut>
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">20</data>
+            </cut>
+        </staff>
+        <staff name="MESSAGE">
+            <cut name="WAIT">
+            </cut>
+            <cut name="TELOP">
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="dummy">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="RANCHOP$0">
+        <staff name="Link">
+            <cut name="004init_wait">
+                <data name="pos" type="XYZ">-9256.548 15000.000 -22791.811</data>
+                <data name="angle" type="INTEGER">300</data>
+                <data name="prm0" type="INTEGER">6</data>
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="WAIT">
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">@PLAYER</data>
+                <data name="Center" type="XYZ">0.000 -20.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 60.000 -685.000</data>
+                <data name="Timer" type="INTEGER">1</data>
+                <data name="Fovy" type="FLOAT">60.000</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SAKU1ST">
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">120</data>
+            </cut>
+        </staff>
+        <staff name="Horse">
+            <cut name="007jump">
+            </cut>
+            <cut name="011sdash">
+                <data name="pos" type="XYZ">-9250.000 14400.000 -26600.000</data>
+            </cut>
+            <cut name="001_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDPOS">
+                <data name="Target" type="STRING">Horse</data>
+                <data name="CtrGap" type="XYZ">2.000 -58.000 53.000</data>
+                <data name="Eye" type="XYZ">-9173.849 15441.628 -22000.609</data>
+                <data name="Fovy" type="FLOAT">65.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 400.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 100.000 0.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Timer" type="INTEGER">80</data>
+                <data name="RelUseMask" type="STRING">--aa</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 0.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 0.000 0.000</data>
+                <data name="BGCheck" type="INTEGER">3</data>
+                <data name="Timer" type="INTEGER">80</data>
+                <data name="RelUseMask" type="STRING">--aa</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+                <data name="EventFlag" type="INTEGER">603</data>
+            </cut>
+            <cut name="NEXT">
+                <data name="Stage" type="STRING">F_SP103</data>
+                <data name="Layer" type="INTEGER">4</data>
+                <data name="StartCode" type="INTEGER">5</data>
+                <data name="Hour" type="FLOAT">8.000</data>
+                <data name="RoomNo" type="INTEGER">1</data>
+                <data name="Wipe" type="INTEGER">0</data>
+            </cut>
+        </staff>
+        <staff name="EFFECT">
+            <cut name="SHOCK">
+                <data name="Power" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="SAKUGOE">
+        <staff name="Link">
+            <cut name="001n_wait">
+            </cut>
+        </staff>
+        <staff name="Horse">
+            <cut name="007jump">
+            </cut>
+            <cut name="011sdash">
+                <data name="pos" type="XYZ">-9250.000 14400.000 -26600.000</data>
+            </cut>
+            <cut name="001_wait">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="FIXEDPOS">
+                <data name="Target" type="STRING">Horse</data>
+                <data name="RelActor" type="STRING">Horse</data>
+                <data name="CtrGap" type="XYZ">2.000 -58.000 53.000</data>
+                <data name="Eye" type="XYZ">288.403 -358.038 787.887</data>
+                <data name="Fovy" type="FLOAT">45.000</data>
+                <data name="Timer" type="INTEGER">30</data>
+            </cut>
+            <cut name="FIXEDFRM">
+                <data name="RelActor" type="STRING">Horse</data>
+                <data name="Center" type="XYZ">0.222 185.628 -44.487</data>
+                <data name="Eye" type="XYZ">2.213 242.421 -204.285</data>
+                <data name="Fovy" type="FLOAT">50.000</data>
+            </cut>
+            <cut name="UNITRANS">
+                <data name="Center" type="XYZ">0.000 75.000 0.000</data>
+                <data name="Eye" type="XYZ">0.000 50.000 0.000</data>
+                <data name="Timer" type="INTEGER">100</data>
+                <data name="RelUseMask" type="STRING">--aa</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="WAIT">
+            </cut>
+            <cut name="NEXT">
+                <data name="Stage" type="STRING">F_SP103</data>
+                <data name="Layer" type="INTEGER">8</data>
+                <data name="StartCode" type="INTEGER">25</data>
+                <data name="RoomNo" type="INTEGER">0</data>
+                <data name="Wipe" type="INTEGER">1</data>
+            </cut>
+        </staff>
+        <staff name="TIMEKEEPER">
+            <cut name="COUNTDOWN">
+                <data name="Timer" type="INTEGER">80</data>
+            </cut>
+        </staff>
+        <staff name="EFFECT">
+            <cut name="SHOCK">
+                <data name="Power" type="INTEGER">3</data>
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="demo01">
+        <staff name="PACKAGE">
+            <cut name="PLAY">
+                <data name="FileName" type="STRING">demo01.stb</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="STBWAIT">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">2</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="demo01_05">
+        <staff name="PACKAGE">
+            <cut name="PLAY">
+                <data name="FileName" type="STRING">demo01_05.stb</data>
+            </cut>
+            <cut name="WAIT">
+            </cut>
+        </staff>
+        <staff name="CAMERA">
+            <cut name="STBWAIT">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">5</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+    <sequence name="MapToolCamera7">
+        <staff name="CAMERA">
+            <cut name="MAPTOOL">
+                <data name="BGCheck" type="INTEGER">3</data>
+            </cut>
+        </staff>
+        <staff name="DIRECTOR">
+            <cut name="MAPTOOL">
+                <data name="ID" type="INTEGER">7</data>
+            </cut>
+        </staff>
+        <staff name="ALL">
+            <cut name="DUMMY">
+            </cut>
+        </staff>
+    </sequence>
+</event>
